@@ -1,0 +1,25 @@
+<div class="page-wrapper">
+    <div>
+        <molla-header [containerClass]="containerClass"></molla-header>
+
+        <div class="slider" *ngIf="current==='/'">
+            <div class="intro">
+                <div class="content">
+                    <h4><i>Noua Colecție 2025</i></h4>
+                    <h5>Echipament Montan</h5>
+                </div>
+                <div class="action">
+                    <a routerLink="/shop/sidebar/list">descoperă acum</a>
+                </div>
+            </div>
+
+            <img src="assets/images/home/slider/back-3.jpg" alt="Header Image" width="1903" height="1200">
+        </div>
+    </div>
+
+    <div [@routeAnimations]="prepareRoute(outlet)">
+        <router-outlet #outlet="outlet"></router-outlet>
+    </div>
+
+    <molla-footer [containerClass]="containerClass" [isBottomSticky]="isBottomSticky"></molla-footer>
+</div>

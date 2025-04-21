@@ -1,0 +1,31 @@
+<section class="featured-products">
+    <div class="container">
+        <div class="heading" contentAnim aniName="blurIn">
+            <p class="heading-cat">Featured Products </p>
+            <h3 class="heading-title">Featured Products</h3>
+        </div>
+        <div class="row" *ngIf="!loaded else loadedBlock">
+            <div class="col-lg-7 col-md-7 products">
+                <div class="col-6" *ngFor="let item of [1,2,3,4]">
+                    <div class="skel-pro"></div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-8 col-12 mb-2">
+                <div class="skel-pro"></div>
+            </div>
+        </div>
+        <ng-template #loadedBlock>
+            <div class="row">
+                <div class="col-lg-7 col-md-7 products">
+                    <div class="col-6" *ngFor="let product of products | slice: 0: 4">
+                        <product-twelve [product]="product"></product-twelve>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-8 col-12 mb-2">
+                    <product-twelve [product]="products[5]" adClass="product-lg" countDownType="1">
+                    </product-twelve>
+                </div>
+            </div>
+        </ng-template>
+    </div>
+</section>

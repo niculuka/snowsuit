@@ -1,0 +1,19 @@
+<section class="best-sellers">
+    <div class="container">
+        <div class="heading" contentAnim aniName="blurIn">
+            <p class="heading-cat">favourite from every category</p>
+            <h3 class="heading-title">Best Sellers</h3>
+        </div>
+
+        <owl-carousel carouselClasses="owl-theme carousel-with-shadow carousel-equal-height text-center mb-3"
+            [options]="productSlider" *ngIf="!loaded else loadedBlock">
+            <div class="skel-pro" *ngFor="let item of [1,2,3,4,5,6]"></div>
+        </owl-carousel>
+        <ng-template #loadedBlock>
+            <owl-carousel carouselClasses="owl-theme carousel-with-shadow carousel-equal-height text-center mb-3"
+                [options]="productSlider">
+                <product-twelve [product]="product" *ngFor="let product of products"></product-twelve>
+            </owl-carousel>
+        </ng-template>
+    </div>
+</section>

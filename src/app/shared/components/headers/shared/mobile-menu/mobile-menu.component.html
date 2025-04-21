@@ -1,0 +1,104 @@
+<div class="mobile-menu-container">
+    <div class="mobile-menu-wrapper">
+        <span class="mobile-menu-close" (click)="hideMobileMenu()"><i class="icon-close"></i></span>
+
+        <form action="#" method="get" class="mobile-search" (submit)="submitSearchForm($event)">
+            <label for="mobile-search" class="sr-only">Search</label>
+            <input type="search" class="form-control" name="mobile-search" id="mobile-search" placeholder="Search in..."
+                required>
+            <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+        </form>
+
+        <nav class="mobile-nav">
+            <ul class="mobile-menu">
+                <li>
+                    <a (click)="submenuToggle($event)">
+                        Shop
+                        <span class="mmenu-btn"></span>
+                    </a>
+                    <ul>
+                        <li><a routerLink="/shop/sidebar/list">Shop List</a></li>
+                        <li><a routerLink="/shop/sidebar/2cols">Shop Grid 2 Columns</a></li>
+                        <li><a routerLink="/shop/sidebar/3cols">Shop Grid 3 Columns</a></li>
+                        <li><a routerLink="/shop/sidebar/4cols">Shop Grid 4 Columns</a></li>
+                        <li><a routerLink="/shop/nosidebar/boxed"><span>Shop Boxed No Sidebar<span
+                                        class="tip tip-hot">Hot</span></span></a></li>
+                        <li><a routerLink="/shop/nosidebar/fullwidth">Shop Fullwidth No Sidebar</a></li>
+                        <li><a routerLink="/shop/category/boxed">Product Category Boxed</a></li>
+                        <li><a routerLink="/shop/category/fullwidth"><span>Product Category Fullwidth<span
+                                        class="tip tip-new">New</span></span></a></li>
+                        <li><a routerLink="/shop/cart">Cart</a></li>
+                        <li><a routerLink="/shop/checkout">Checkout</a></li>
+                        <li><a routerLink="/shop/wishlist">Wishlist</a></li>
+                        <li><a routerLink="/shop/dashboard">Dashboard</a></li>
+                        <li><a href="javascript:;">Lookbook</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="sf-with-ul" (click)="submenuToggle($event)">
+                        Product
+                        <span class="mmenu-btn"></span>
+                    </a>
+                    <ul>
+                        <li><a routerLink="/product/default/dark-yellow-lace-cut-out-swing-dress">Default</a>
+                        </li>
+                        <li><a routerLink="/product/centered/beige-ring-handle-circle-cross-body-bag">Centered</a>
+                        </li>
+                        <li><a routerLink="/product/extended/yellow-tie-strap-block-heel-sandals"><span>Extended
+                                    Info<span class="tip tip-new">New</span></span></a></li>
+                        <li><a routerLink="/product/gallery/beige-metal-hoop-tote-bag">Gallery</a></li>
+                        <li><a routerLink="/product/sticky/brown-faux-fur-longline-coat">Sticky Info</a>
+                        </li>
+                        <li><a routerLink="/product/sidebar/beige-v-neck-button-cardigan">Boxed With
+                                Sidebar</a></li>
+                        <li><a routerLink="/product/fullwidth/black-faux-leather-chain-trim-sandals">Full
+                                Width</a></li>
+                        <li><a routerLink="/product/masonry/black-denim-dungaree-dress">Masonry Sticky
+                                Info</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a (click)="submenuToggle($event)">
+                        Pages
+                        <span class="mmenu-btn"></span>
+                    </a>
+                    <ul>
+                        <li>
+                            <a (click)="submenuToggle($event)">
+                                About
+                                <span class="mmenu-btn"></span>
+                            </a>
+
+                            <ul>
+                                <li><a routerLink="/pages/about-1">About 01</a></li>
+                                <li><a routerLink="/pages/about-2">About 02</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a (click)="submenuToggle($event)">
+                                Contact
+                                <span class="mmenu-btn"></span>
+                            </a>
+
+                            <ul>
+                                <li><a routerLink="/pages/contact-1">Contact 01</a></li>
+                                <li><a routerLink="/pages/contact-2">Contact 02</a></li>
+                            </ul>
+                        </li>
+                        <li><a routerLink="/pages/login">Login</a></li>
+                        <li><a routerLink="/pages/faq">FAQs</a></li>
+                        <li><a routerLink="/pages/404">Error 404</a></li>
+                        <li><a routerLink="/pages/coming-soon">Coming Soon</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="social-icons">
+            <a href="javascript:;" class="social-icon" title="Facebook"><i class="icon-facebook-f"></i></a>
+            <a href="javascript:;" class="social-icon" title="Twitter"><i class="icon-twitter"></i></a>
+            <a href="javascript:;" class="social-icon" title="Instagram"><i class="icon-instagram"></i></a>
+            <a href="javascript:;" class="social-icon" title="Youtube"><i class="icon-youtube"></i></a>
+        </div>
+    </div>
+</div>

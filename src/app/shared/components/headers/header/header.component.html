@@ -1,0 +1,29 @@
+<header class="header header-6">
+
+    <div class="sticky-wrapper" [style.height]="utilsService.isSticky? utilsService.stickyHeight + 'px' : '' ">
+        <div class="header-middle sticky-header" [class.fixed]="utilsService.isSticky">
+            <div class="header-left">
+                <molla-mobile-button></molla-mobile-button>
+
+                <a routerLink="/" class="logo">
+                    <img src="assets/images/home/logo.png" class="bg-transparent" alt="Molla Logo" width="110"
+                        height="25">
+                </a>
+
+            </div>
+
+            <div class="header-center">
+                <molla-main-menu></molla-main-menu>
+            </div>
+
+            <div class="header-right">
+                <molla-header-search></molla-header-search>
+
+                <molla-wishlist-menu></molla-wishlist-menu>
+
+                <molla-cart-menu></molla-cart-menu>
+            </div>
+        </div>
+    </div>
+    
+</header>

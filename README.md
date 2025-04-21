@@ -1,1 +1,1 @@
-# snowsuit
+## Snowsuit project store
