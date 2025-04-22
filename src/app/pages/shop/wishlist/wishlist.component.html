@@ -1,16 +1,16 @@
 <main class="main">
-    <molla-page-header title="Wishlist" subtitle="Shop"></molla-page-header>
+    <molla-page-header title="Favorite" subtitle="Magazin"></molla-page-header>
 
     <nav class="breadcrumb-nav">
         <div class="container">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a routerLink="/">Home</a>
+                    <a routerLink="/">Acasă</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a routerLink="/shop/sidebar/list">Shop</a>
+                    <a routerLink="/shop/sidebar/list">Magazin</a>
                 </li>
-                <li class="breadcrumb-item active">Wishlist</li>
+                <li class="breadcrumb-item active">Favorite</li>
             </ol>
         </div>
     </nav>
@@ -28,9 +28,9 @@
                 <table class="table table-wishlist table-mobile">
                     <thead>
                         <tr>
-                            <th>Product</th>
-                            <th>Price</th>
-                            <th>Stock Status</th>
+                            <th>Produs</th>
+                            <th>Preț</th>
+                            <th>Stoc</th>
                             <th></th>
                             <th></th>
                         </tr>
@@ -78,16 +78,18 @@
                                 </ng-template>
                             </td>
                             <td class="stock-col">
-                                <span class="in-stock" *ngIf="product.stock > 0">In stock</span>
-                                <span class="out-of-stock" *ngIf="product.stock < 1">Out of stock</span>
+                                <span class="in-stock" *ngIf="product.stock > 0">În stoc</span>
+                                <span class="out-of-stock" *ngIf="product.stock < 1">Vândut</span>
                             </td>
                             <td class="action-col">
                                 <button class="btn btn-block btn-outline-primary-2" *ngIf="product.stock > 0"
-                                    (click)="wishlistService.moveToCart( product )"><i class="icon-cart-plus"></i>Add to
-                                    Cart</button>
-                                <button class="btn btn-block btn-outline-primary-2 disabled"
-                                    *ngIf="product.stock < 1">Out
-                                    of Stock</button>
+                                    (click)="wishlistService.moveToCart( product )">
+                                    <i class="icon-cart-plus"> </i>
+                                    Adaugă în coș
+                                </button>
+                                <button class="btn btn-block btn-outline-primary-2 disabled" *ngIf="product.stock < 1">
+                                    Vândut
+                                </button>
                             </td>
                             <td class="remove-col"><button class="btn-remove"
                                     (click)="wishlistService.removeFromWishList( product )"><i

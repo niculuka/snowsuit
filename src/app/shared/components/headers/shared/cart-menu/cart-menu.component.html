@@ -7,7 +7,7 @@
 
     <div class="dropdown-menu dropdown-menu-right"
         [ngClass]="{'text-center': (cartService.cartStream | async).length == 0}">
-        <p *ngIf="(cartService.cartStream | async).length == 0 else elseBlock">No products in the cart.</p>
+        <p *ngIf="(cartService.cartStream | async).length == 0 else elseBlock">Niciun produs în coș.</p>
 
         <ng-template #elseBlock>
             <div class="dropdown-cart-products">
@@ -41,8 +41,8 @@
             </div>
 
             <div class="dropdown-cart-action">
-                <a routerLink="/shop/cart" class="btn btn-primary">View Cart</a>
-                <a routerLink="/shop/checkout" class="btn btn-outline-primary-2"><span>Checkout</span><i
+                <a routerLink="/shop/cart" class="btn btn-primary">Vezi Coș!</a>
+                <a routerLink="/shop/checkout" class="btn btn-outline-primary-2"><span>Plată</span><i
                         class="icon-long-arrow-right"></i></a>
             </div>
         </ng-template>

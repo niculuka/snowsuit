@@ -3,8 +3,8 @@
         <span class="mobile-menu-close" (click)="hideMobileMenu()"><i class="icon-close"></i></span>
 
         <form action="#" method="get" class="mobile-search" (submit)="submitSearchForm($event)">
-            <label for="mobile-search" class="sr-only">Search</label>
-            <input type="search" class="form-control" name="mobile-search" id="mobile-search" placeholder="Search in..."
+            <label for="mobile-search" class="sr-only">Caută</label>
+            <input type="search" class="form-control" name="mobile-search" id="mobile-search" placeholder="Caută în..."
                 required>
             <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
         </form>
@@ -13,65 +13,67 @@
             <ul class="mobile-menu">
                 <li>
                     <a (click)="submenuToggle($event)">
-                        Shop
+                        Magazin
                         <span class="mmenu-btn"></span>
                     </a>
                     <ul>
-                        <li><a routerLink="/shop/sidebar/list">Shop List</a></li>
-                        <li><a routerLink="/shop/sidebar/2cols">Shop Grid 2 Columns</a></li>
-                        <li><a routerLink="/shop/sidebar/3cols">Shop Grid 3 Columns</a></li>
-                        <li><a routerLink="/shop/sidebar/4cols">Shop Grid 4 Columns</a></li>
-                        <li><a routerLink="/shop/nosidebar/boxed"><span>Shop Boxed No Sidebar<span
+                        <li><a routerLink="/shop/sidebar/list">Listă</a></li>
+                        <li><a routerLink="/shop/sidebar/2cols">Grilă - 2 Coloane</a></li>
+                        <li><a routerLink="/shop/sidebar/3cols">Grilă - 3 Coloane</a></li>
+                        <li><a routerLink="/shop/sidebar/4cols">Grilă - 4 Coloane</a></li>
+                        <li><a routerLink="/shop/nosidebar/boxed"><span>Grilă - 4 Coloane<span
                                         class="tip tip-hot">Hot</span></span></a></li>
-                        <li><a routerLink="/shop/nosidebar/fullwidth">Shop Fullwidth No Sidebar</a></li>
-                        <li><a routerLink="/shop/category/boxed">Product Category Boxed</a></li>
-                        <li><a routerLink="/shop/category/fullwidth"><span>Product Category Fullwidth<span
+                        <li><a routerLink="/shop/nosidebar/fullwidth">Grilă - 6 Coloane</a></li>
+                        <li><a routerLink="/shop/category/boxed">Lațime mică</a></li>
+                        <li><a routerLink="/shop/category/fullwidth"><span>Lațime completă<span
                                         class="tip tip-new">New</span></span></a></li>
-                        <li><a routerLink="/shop/cart">Cart</a></li>
-                        <li><a routerLink="/shop/checkout">Checkout</a></li>
-                        <li><a routerLink="/shop/wishlist">Wishlist</a></li>
-                        <li><a routerLink="/shop/dashboard">Dashboard</a></li>
-                        <li><a href="javascript:;">Lookbook</a></li>
+                        <li><a routerLink="/shop/cart">Coș</a></li>
+                        <li><a routerLink="/shop/checkout">Plată</a></li>
+                        <li><a routerLink="/shop/wishlist">Favorite</a></li>
+                        <li><a routerLink="/shop/dashboard">Contul Meu</a></li>
                     </ul>
                 </li>
                 <li>
                     <a class="sf-with-ul" (click)="submenuToggle($event)">
-                        Product
+                        Produs
                         <span class="mmenu-btn"></span>
                     </a>
                     <ul>
-                        <li><a routerLink="/product/default/dark-yellow-lace-cut-out-swing-dress">Default</a>
+                        <li><a routerLink="/product/default/dark-yellow-lace-cut-out-swing-dress">Normal</a>
                         </li>
-                        <li><a routerLink="/product/centered/beige-ring-handle-circle-cross-body-bag">Centered</a>
+                        <li><a routerLink="/product/centered/beige-ring-handle-circle-cross-body-bag">Centrat</a>
                         </li>
-                        <li><a routerLink="/product/extended/yellow-tie-strap-block-heel-sandals"><span>Extended
-                                    Info<span class="tip tip-new">New</span></span></a></li>
-                        <li><a routerLink="/product/gallery/beige-metal-hoop-tote-bag">Gallery</a></li>
-                        <li><a routerLink="/product/sticky/brown-faux-fur-longline-coat">Sticky Info</a>
+                        <li><a routerLink="/product/extended/yellow-tie-strap-block-heel-sandals">
+                                <span>Informații extinse
+                                    <span class="tip tip-new"> Nou</span>
+                                </span></a></li>
+                        <li><a routerLink="/product/gallery/beige-metal-hoop-tote-bag">Galerie</a></li>
+                        <li><a routerLink="/product/sticky/brown-faux-fur-longline-coat">Informații mobile</a>
                         </li>
-                        <li><a routerLink="/product/sidebar/beige-v-neck-button-cardigan">Boxed With
-                                Sidebar</a></li>
-                        <li><a routerLink="/product/fullwidth/black-faux-leather-chain-trim-sandals">Full
-                                Width</a></li>
-                        <li><a routerLink="/product/masonry/black-denim-dungaree-dress">Masonry Sticky
-                                Info</a></li>
+                        <li>
+                            <a routerLink="/product/sidebar/beige-v-neck-button-cardigan"> Lațime mică </a>
+                        </li>
+                        <li><a routerLink="/product/fullwidth/black-faux-leather-chain-trim-sandals">Lațime completă</a>
+                        </li>
+                        <li><a routerLink="/product/masonry/black-denim-dungaree-dress">
+                                Informații Mobile</a>
+                        </li>
                     </ul>
                 </li>
                 <li>
                     <a (click)="submenuToggle($event)">
-                        Pages
+                        Pagini
                         <span class="mmenu-btn"></span>
                     </a>
                     <ul>
                         <li>
-                            <a (click)="submenuToggle($event)">
-                                About
+                            <a (click)="submenuToggle($event)"> Despre noi
                                 <span class="mmenu-btn"></span>
                             </a>
 
                             <ul>
-                                <li><a routerLink="/pages/about-1">About 01</a></li>
-                                <li><a routerLink="/pages/about-2">About 02</a></li>
+                                <li><a routerLink="/pages/about-1">Despre 1</a></li>
+                                <li><a routerLink="/pages/about-2">Despre 2</a></li>
                             </ul>
                         </li>
                         <li>
@@ -81,14 +83,14 @@
                             </a>
 
                             <ul>
-                                <li><a routerLink="/pages/contact-1">Contact 01</a></li>
-                                <li><a routerLink="/pages/contact-2">Contact 02</a></li>
+                                <li><a routerLink="/pages/contact-1">Contact 1</a></li>
+                                <li><a routerLink="/pages/contact-2">Contact 2</a></li>
                             </ul>
                         </li>
-                        <li><a routerLink="/pages/login">Login</a></li>
-                        <li><a routerLink="/pages/faq">FAQs</a></li>
-                        <li><a routerLink="/pages/404">Error 404</a></li>
-                        <li><a routerLink="/pages/coming-soon">Coming Soon</a></li>
+                        <li><a routerLink="/pages/login">Logare</a></li>
+                        <li><a routerLink="/pages/faq">Întrebări & Răspunsuri</a></li>
+                        <li><a routerLink="/pages/404">Eroare 404</a></li>
+                        <li><a routerLink="/pages/coming-soon">Revenim curând</a></li>
                     </ul>
                 </li>
             </ul>

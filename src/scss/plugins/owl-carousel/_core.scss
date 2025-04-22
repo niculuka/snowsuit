@@ -107,11 +107,12 @@
 		-moz-user-select: none;
 		-ms-user-select: none;
 		user-select: none;
+		cursor: grab;
 	}
 
 	&.owl-grab {
 		cursor: move;
-		cursor: grab;
+		// cursor: grab;
 	}
 
 	&.owl-rtl {
