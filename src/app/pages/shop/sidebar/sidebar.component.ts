@@ -12,7 +12,7 @@ import { UtilsService } from 'src/app/shared/services/utils.service';
 
 export class SidebarPageComponent implements OnInit {
 	products = [];
-	perPage = 12;
+	perPage = 4;
 	type = 'list';
 	totalCount = 0;
 	orderBy = 'default';
@@ -54,7 +54,9 @@ export class SidebarPageComponent implements OnInit {
 
 			this.apiService.fetchShopData(params, this.perPage).subscribe(result => {
 				this.products = result.products;
-				this.totalCount = result.totalCount;
+				this.totalCount = this.products.length;
+				console.log(this.products)
+				console.log(this.totalCount)
 
 				this.loaded = true;
 				if (!this.firstLoad) {

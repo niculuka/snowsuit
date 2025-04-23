@@ -36,7 +36,8 @@ export class ApiService {
 
 		temp += '&demo=' + environment.demo;
 
-		return this.http.get(`${environment.SERVER_URL}/${temp}`);
+		// return this.http.get(`${environment.SERVER_URL}/${temp}`);
+		return this.http.get<any>("db/snowdb.json");
 	}
 
 	/**
@@ -75,7 +76,7 @@ export class ApiService {
 	 */
 	public fetchHomeData(): Observable<any> {
 		// return this.http.get(`${environment.SERVER_URL}/${environment.demo}`);
-		return this.http.get<any>("assets/snowdb.json");
+		return this.http.get<any>("db/snowdb.json");
 	}
 
 	/**
