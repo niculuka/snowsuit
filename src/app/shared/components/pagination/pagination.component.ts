@@ -12,6 +12,7 @@ export class PaginationComponent implements OnInit, OnChanges {
 	@Input() adClass = '';
 	@Input() perPage = 12;
 	@Input() total = 6;
+	@Input() currentUrl = "";
 
 	currentPage = 1;
 	lastPage = 1;

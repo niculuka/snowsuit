@@ -21,11 +21,13 @@ export class SidebarPageComponent implements OnInit {
 	searchTerm = '';
 	loaded = false;
 	firstLoad = false;
+	currentUrl = "";
 
 	constructor(public activeRoute: ActivatedRoute, public router: Router, public utilsService: UtilsService, public apiService: ApiService) {
 		this.activeRoute.params.subscribe(params => {
 			this.type = params['type'];
-
+			this.currentUrl = "/shop/sidebar/" + this.type;
+			//
 			if (this.type == 'list') {
 				this.pageTitle = 'List';
 			} else if (this.type == '2cols') {
@@ -36,7 +38,7 @@ export class SidebarPageComponent implements OnInit {
 				this.pageTitle = 'Grid 4 Columns';
 			}
 		});
-		
+
 		this.activeRoute.queryParams.subscribe(params => {
 			this.loaded = false;
 
@@ -52,12 +54,17 @@ export class SidebarPageComponent implements OnInit {
 				this.orderBy = 'default';
 			}
 
-			this.apiService.fetchShopData(params, this.perPage).subscribe(result => {
-				this.products = result.products;
-				this.totalCount = this.products.length;
-				console.log(this.products)
-				console.log(this.totalCount)
-
+			this.apiService.fetchAllShopData().subscribe(result => {
+				let totalProducts = result.products;
+				this.totalCount = totalProducts.length;
+				//
+				let pageInd = 0;
+				if (params.page && params.page >= 1) pageInd = params.page - 1;
+				//
+				const startInd = pageInd * this.perPage;
+				const endInd = startInd + this.perPage;
+				this.products = totalProducts.slice(startInd, endInd);
+				//
 				this.loaded = true;
 				if (!this.firstLoad) {
 					this.firstLoad = true;

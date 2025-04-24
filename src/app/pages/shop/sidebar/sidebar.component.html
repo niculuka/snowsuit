@@ -45,7 +45,7 @@
 
                             <div class="toolbox-layout">
                                 <a routerLink="/shop/sidebar/list" queryParamsHandling="merge" class="btn-layout"
-                                   routerLinkActive="active">
+                                    routerLinkActive="active">
                                     <svg width="16" height="10">
                                         <rect x="0" y="0" width="4" height="4" />
                                         <rect x="6" y="0" width="10" height="4" />
@@ -55,7 +55,7 @@
                                 </a>
 
                                 <a routerLink="/shop/sidebar/2cols" queryParamsHandling="merge" class="btn-layout"
-                                   routerLinkActive="active">
+                                    routerLinkActive="active">
                                     <svg width="10" height="10">
                                         <rect x="0" y="0" width="4" height="4" />
                                         <rect x="6" y="0" width="4" height="4" />
@@ -65,7 +65,7 @@
                                 </a>
 
                                 <a routerLink="/shop/sidebar/3cols" queryParamsHandling="merge" class="btn-layout"
-                                   routerLinkActive="active">
+                                    routerLinkActive="active">
                                     <svg width="16" height="10">
                                         <rect x="0" y="0" width="4" height="4" />
                                         <rect x="6" y="0" width="4" height="4" />
@@ -77,7 +77,7 @@
                                 </a>
 
                                 <a routerLink="/shop/sidebar/4cols" queryParamsHandling="merge" class="btn-layout"
-                                   routerLinkActive="active">
+                                    routerLinkActive="active">
                                     <svg width="22" height="10">
                                         <rect x="0" y="0" width="4" height="4" />
                                         <rect x="6" y="0" width="4" height="4" />
@@ -96,7 +96,8 @@
                     <shop-list-one [type]="type" [products]="products" [loaded]="loaded">
                     </shop-list-one>
 
-                    <molla-pagination [perPage]="perPage" [total]="totalCount" *ngIf="totalCount > perPage">
+                    <molla-pagination [perPage]="perPage" [total]="totalCount" [currentUrl]="currentUrl"
+                        *ngIf="totalCount > perPage">
                     </molla-pagination>
                 </div>
 

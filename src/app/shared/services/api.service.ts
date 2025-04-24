@@ -10,12 +10,15 @@ import { environment } from 'src/environments/environment';
 
 export class ApiService {
 
-	constructor(private http: HttpClient) {
-	}
+	constructor(private http: HttpClient) { }
 
 	/**
 	 * Get Products
 	 */
+	public fetchAllShopData() {
+		return this.http.get<any>("db/snowdb.json");
+	}
+
 	public fetchShopData(params: any, perPage: number, initial = 'shop'): Observable<any> {
 		let temp = initial;
 		if (!initial.includes('?')) {
