@@ -22,7 +22,7 @@ export class IndexComponent implements OnInit {
 	constructor(public apiService: ApiService, public utilsService: UtilsService, private modalService: ModalService,) {
 		this.modalService.openNewsletter();
 
-		this.apiService.fetchHomeData().subscribe(result => {
+		this.apiService.fetchProducts().subscribe(result => {
 			this.products = result.products;
 			this.loaded = true;
 		})

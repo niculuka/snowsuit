@@ -1,23 +1,66 @@
 export const shopData = {
+    "categories": [
+        {
+            name: "Snowboard",
+            slug: "snowboard",
+            count: 8
+        },
+        {
+            name: "Camping",
+            slug: "camping",
+            count: 1
+        },
+        {
+            name: "Lighting",
+            slug: "lighting",
+            count: 3
+        },
+        {
+            name: "Decoration",
+            slug: "decoration",
+            count: 5
+        },
+        {
+            name: "Electronics",
+            slug: "electronics",
+            count: 1
+        },
+        {
+            name: "Beds",
+            slug: "beds",
+            count: 2
+        },
+        {
+            name: "Armchairs & Chaises",
+            slug: "armchairs-and-chaises",
+            count: 3
+        },
+        {
+            name: "Sofas & Sleeper Sofas",
+            slug: "sofas-and-sleeper-sofas",
+            count: 1
+        }
+    ],
+
     "sizes": [
         {
-            size: 'Extra Small',
+            size: 'Foarte Mici',
             slug: 'XS'
         },
         {
-            size: 'Small',
+            size: 'Mici',
             slug: 'S'
         },
         {
-            size: 'Medium',
+            size: 'Medii',
             slug: 'M'
         },
         {
-            size: 'Large',
+            size: 'Largi',
             slug: 'L'
         },
         {
-            size: 'Extra Large',
+            size: 'Foarte Largi',
             slug: 'XL'
         }
     ],
@@ -84,49 +127,6 @@ export const shopData = {
         }
     ],
 
-    "categories": [
-        {
-            name: "Furniture",
-            slug: "furniture",
-            count: 8
-        },
-        {
-            name: "Coffee & Tables",
-            slug: "coffee-and-tables",
-            count: 1
-        },
-        {
-            name: "Lighting",
-            slug: "lighting",
-            count: 3
-        },
-        {
-            name: "Decoration",
-            slug: "decoration",
-            count: 5
-        },
-        {
-            name: "Electronics",
-            slug: "electronics",
-            count: 1
-        },
-        {
-            name: "Beds",
-            slug: "beds",
-            count: 2
-        },
-        {
-            name: "Armchairs & Chaises",
-            slug: "armchairs-and-chaises",
-            count: 3
-        },
-        {
-            name: "Sofas & Sleeper Sofas",
-            slug: "sofas-and-sleeper-sofas",
-            count: 1
-        }
-    ],
-
     "prices": [
         {
             min: '0',
@@ -152,6 +152,6 @@ export const shopData = {
             min: '200',
             max: '9999',
             name: '$200 & Above'
-        },
+        }
     ]
 }

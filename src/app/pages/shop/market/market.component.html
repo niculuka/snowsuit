@@ -108,7 +108,8 @@
 
                     <shop-list-two [products]="products" [loaded]="loaded"></shop-list-two>
 
-                    <molla-pagination [perPage]="perPage" [total]="totalCount" *ngIf="totalCount > perPage">
+                    <molla-pagination [perPage]="perPage" [total]="totalCount" [currentUrl]="currentUrl"
+                        *ngIf="totalCount > perPage">
                     </molla-pagination>
                 </div>
 

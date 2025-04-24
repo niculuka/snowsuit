@@ -14,7 +14,7 @@ export class ShopSidebarOneComponent implements OnInit {
 	@Input() toggle = false;
 	shopData = shopData;
 	params = {};
-	priceRange: any = [0, 100];
+	priceRange: any = [0, 500];
 
 	@ViewChild('priceSlider') priceSlider: any;
 
@@ -27,10 +27,10 @@ export class ShopSidebarOneComponent implements OnInit {
 					params['maxPrice'] / 10
 				]
 			} else {
-				this.priceRange = [0, 100];
+				this.priceRange = [0, 500];
 				
 				if(this.priceSlider) {
-					this.priceSlider.slider.reset({min: 0, max: 100});
+					this.priceSlider.slider.reset({min: 0, max: 500});
 				}
 			}
 		})
@@ -65,6 +65,6 @@ export class ShopSidebarOneComponent implements OnInit {
 
 	clearFilter() {
 		// console.log(this.priceRange);
-		// this.priceRange = [0, 100];
+		// this.priceRange = [0, 500];
 	}
 }

@@ -13,11 +13,10 @@ import { UtilsService } from 'src/app/shared/services/utils.service';
 export class NosidebarPageComponent implements OnInit {
 
 	products = [];
-	perPage = 12;
 	type = 'boxed';
 	totalCount = 0;
 	orderBy = 'default';
-	pageTitle = 'Boxed No Sidebar';
+	pageTitle = 'Lățime mică';
 	searchTerm = '';
 	containerClass = 'container';
 	cols = "col-6 col-md-4 col-lg-4 col-xl-3";
@@ -28,13 +27,12 @@ export class NosidebarPageComponent implements OnInit {
 	constructor ( public activeRoute: ActivatedRoute, public router: Router, public utilsService: UtilsService, public apiService: ApiService ) {
 		this.activeRoute.params.subscribe( params => {
 			this.type = params[ 'type' ];
-			this.perPage = 12;
 			if ( this.type == 'boxed' ) {
-				this.pageTitle = 'Boxed No Sidebar';
+				this.pageTitle = 'Lățime mică';
 				this.containerClass = 'container';
 				this.cols = "col-6 col-md-4 col-lg-4 col-xl-3";
 			} else {
-				this.pageTitle = 'Fullwidth No Sidebar';
+				this.pageTitle = 'Lățime completă';
 				this.containerClass = 'container-fluid'
 				this.cols = "col-6 col-md-4 col-lg-4 col-xl-3 col-xxl-2";
 			}
@@ -42,7 +40,6 @@ export class NosidebarPageComponent implements OnInit {
 
 		this.activeRoute.queryParams.subscribe( params => {
 			this.params = params;
-			this.perPage = 12;
 			this.loadProducts();
 		} )
 	}
@@ -65,11 +62,10 @@ export class NosidebarPageComponent implements OnInit {
 			this.orderBy = 'default';
 		}
 
-		this.apiService.fetchShopData( this.params, this.perPage ).subscribe( result => {
+		this.apiService.fetchProducts().subscribe( result => {
 			this.products = result.products;
-			this.totalCount = result.totalCount;
+			this.totalCount = this.products.length;
 			this.loaded = true;
-
 			this.utilsService.scrollToPageContent();
 		} )
 	}
@@ -87,22 +83,5 @@ export class NosidebarPageComponent implements OnInit {
 
 	hideSidebar () {
 		document.querySelector( 'body' ).classList.remove( 'sidebar-filter-active' );
-	}
-
-	loadMore ( e: Event ) {
-		e.preventDefault();
-		if ( this.products.length < this.totalCount ) {
-			this.moreLoading = true;
-
-			setTimeout( () => {
-				this.apiService.fetchShopData( this.params, 4, 'shop?from=' + this.perPage ).subscribe( result => {
-					this.products = [ ...this.products, ...result.products ];
-					this.totalCount = result.totalCount;
-					this.moreLoading = false;
-				} )
-
-				this.perPage += 4;
-			}, 500 );
-		}
 	}
 }

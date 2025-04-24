@@ -19,7 +19,7 @@ export class MarketPageComponent implements OnInit {
 	introSlider = bannerSlider;
 	brandSlider = brandSlider;
 	products = [];
-	perPage = 8;
+	perPage = 4;
 	type: 'list';
 	totalCount = 0;
 	orderBy = 'default';
@@ -28,9 +28,11 @@ export class MarketPageComponent implements OnInit {
 	searchTerm = '';
 	loaded = false;
 	firstLoad = false;
+	currentUrl = "";
 
 	constructor(public activeRoute: ActivatedRoute, public router: Router, public apiService: ApiService, public utilsService: UtilsService) {
 		this.activeRoute.queryParams.subscribe(params => {
+			this.currentUrl = "/shop/market";
 			this.loaded = false;
 
 			if (params['searchTerm']) {
@@ -45,15 +47,20 @@ export class MarketPageComponent implements OnInit {
 				this.orderBy = 'default';
 			}
 
-			this.apiService.fetchShopData(params, this.perPage).subscribe(result => {
-				this.products = result.products;
-				this.totalCount = result.totalCount;
+			this.apiService.fetchProducts().subscribe(result => {
+				let totalProducts = result.products;
+				this.totalCount = totalProducts.length;
+				//
+				let pageInd = 0;
+				if (params.page && params.page >= 1) pageInd = params.page - 1;
+				//
+				const startInd = pageInd * this.perPage;
+				const endInd = startInd + this.perPage;
+				this.products = totalProducts.slice(startInd, endInd);
+				//
 				this.loaded = true;
-
-				if (!this.firstLoad) {
-					this.firstLoad = true;
-				}
-
+				if (!this.firstLoad) this.firstLoad = true;
+				//
 				this.utilsService.scrollToPageContent('.products');
 			})
 		})

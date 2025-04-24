@@ -16,7 +16,7 @@ export class SidebarPageComponent implements OnInit {
 	type = 'list';
 	totalCount = 0;
 	orderBy = 'default';
-	pageTitle = 'List';
+	pageTitle = 'Listă';
 	toggle = false;
 	searchTerm = '';
 	loaded = false;
@@ -29,13 +29,13 @@ export class SidebarPageComponent implements OnInit {
 			this.currentUrl = "/shop/sidebar/" + this.type;
 			//
 			if (this.type == 'list') {
-				this.pageTitle = 'List';
+				this.pageTitle = 'Listă';
 			} else if (this.type == '2cols') {
-				this.pageTitle = 'Grid 2 Columns';
+				this.pageTitle = 'Grid (2 Coloane)';
 			} else if (this.type == '3cols') {
-				this.pageTitle = 'Grid 3 Columns';
+				this.pageTitle = 'Grid (3 Coloane)';
 			} else if (this.type == '4cols') {
-				this.pageTitle = 'Grid 4 Columns';
+				this.pageTitle = 'Grid (4 Coloane)';
 			}
 		});
 
@@ -54,7 +54,7 @@ export class SidebarPageComponent implements OnInit {
 				this.orderBy = 'default';
 			}
 
-			this.apiService.fetchAllShopData().subscribe(result => {
+			this.apiService.fetchProducts().subscribe(result => {
 				let totalProducts = result.products;
 				this.totalCount = totalProducts.length;
 				//
@@ -66,10 +66,8 @@ export class SidebarPageComponent implements OnInit {
 				this.products = totalProducts.slice(startInd, endInd);
 				//
 				this.loaded = true;
-				if (!this.firstLoad) {
-					this.firstLoad = true;
-				}
-
+				if (!this.firstLoad) this.firstLoad = true;
+				//
 				this.utilsService.scrollToPageContent();
 			})
 		})

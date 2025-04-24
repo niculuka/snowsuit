@@ -1,17 +1,17 @@
 <div class="main shop">
-    <molla-page-header [title]="pageTitle" subtitle="Shop"></molla-page-header>
+    <molla-page-header [title]="pageTitle" subtitle="Magazin"></molla-page-header>
     <nav aria-label="breadcrumb" class="breadcrumb-nav mb-2">
         <div class="container">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a routerLink="/">Home</a>
+                    <a routerLink="/">Acasă</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a routerLink="/shop/sidebar/list">Shop</a>
+                    <a routerLink="/shop/sidebar/list">Magazin</a>
                 </li>
                 <li class="breadcrumb-item active">{{ pageTitle }}</li>
                 <li class="breadcrumb-item" *ngIf="searchTerm != ''">
-                    <span>Search - {{ searchTerm }}</span>
+                    <span>Caută - {{ searchTerm }}</span>
                 </li>
             </ol>
         </div>
@@ -24,21 +24,22 @@
                     <div class="toolbox">
                         <div class="toolbox-left">
                             <div class="toolbox-info">
-                                Showing
-                                <span>{{ products.length }} of {{ totalCount }}</span> Products
+                                Am găsit
+                                <span>{{ products.length }} of {{ totalCount }} </span>
+                                Produse
                             </div>
                         </div>
 
                         <div class="toolbox-right">
                             <div class="toolbox-sort">
-                                <label for="sortby">Sort by:</label>
+                                <label for="sortby">Sortare:</label>
                                 <div class="select-custom">
                                     <select name="sortby" id="sortby" class="form-control"
                                         (change)="changeOrderBy($event)" [value]="orderBy">
-                                        <option value="default">Default</option>
-                                        <option value="featured">Most Popular</option>
-                                        <option value="rating">Most Rated</option>
-                                        <option value="new">Date</option>
+                                        <option value="default">Inițial</option>
+                                        <option value="featured">Cele Mai Populare</option>
+                                        <option value="rating">Punctaj Mare</option>
+                                        <option value="new">Dată</option>
                                     </select>
                                 </div>
                             </div>
