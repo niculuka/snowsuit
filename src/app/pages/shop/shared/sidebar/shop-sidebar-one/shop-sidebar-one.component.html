@@ -58,7 +58,7 @@
             <div class="collapse show" id="widget-3">
                 <div class="widget-body pt-0">
                     <div class="filter-colors">
-                        <a [routerLink]="" [queryParams]="{color: getUrlForAttrs('color', item.color_name), page: 1}"
+                        <a [routerLink]='currentUrl' [queryParams]="{color: getUrlForAttrs('color', item.color_name), page: 1}"
                             queryParamsHandling="merge" [style.background-color]="item.color"
                             [class.selected]="containsAttrInUrl('color', item.color_name)"
                             *ngFor="let item of shopData.colors">

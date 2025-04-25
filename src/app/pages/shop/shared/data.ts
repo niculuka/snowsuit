@@ -1,52 +1,33 @@
 export const shopData = {
     "categories": [
         {
-            name: "Snowboard",
-            slug: "snowboard",
-            count: 8
+            name: "Sport",
+            slug: "sport",
+            count: 0
         },
         {
             name: "Camping",
             slug: "camping",
-            count: 1
+            count: 0
         },
         {
-            name: "Lighting",
-            slug: "lighting",
-            count: 3
+            name: "Garden",
+            slug: "garden",
+            count: 0
         },
         {
             name: "Decoration",
             slug: "decoration",
-            count: 5
+            count: 0
         },
         {
-            name: "Electronics",
-            slug: "electronics",
-            count: 1
-        },
-        {
-            name: "Beds",
-            slug: "beds",
-            count: 2
-        },
-        {
-            name: "Armchairs & Chaises",
-            slug: "armchairs-and-chaises",
-            count: 3
-        },
-        {
-            name: "Sofas & Sleeper Sofas",
-            slug: "sofas-and-sleeper-sofas",
-            count: 1
+            name: "Furnish",
+            slug: "furnish",
+            count: 0
         }
     ],
 
     "sizes": [
-        {
-            size: 'Foarte Mici',
-            slug: 'XS'
-        },
         {
             size: 'Mici',
             slug: 'S'
@@ -68,58 +49,46 @@ export const shopData = {
     "colors": [
         {
             color: '#cc9966',
-            color_name: 'Brown'
+            color_name: 'brown'
         },
         {
             color: '#3399cc',
-            color_name: 'Blue'
+            color_name: 'blue'
         },
         {
             color: '#9966cc',
-            color_name: 'Purple'
+            color_name: 'purple'
         },
         {
             color: '#333333',
-            color_name: 'Black'
+            color_name: 'black'
         },
         {
             color: '#669933',
-            color_name: 'Green'
+            color_name: 'green'
         },
         {
             color: '#cc3333',
-            color_name: 'Red'
+            color_name: 'red'
         },
         {
             color: '#999999',
-            color_name: 'Grey'
+            color_name: 'grey'
         }
     ],
 
     "brands": [
         {
-            brand: "Next",
-            slug: "next"
+            brand: "Drake",
+            slug: "drake"
         },
         {
-            brand: "River Island",
-            slug: "river-island"
+            brand: "Raven",
+            slug: "raven"
         },
         {
             brand: "Geox",
             slug: "geox"
-        },
-        {
-            brand: "New Balance",
-            slug: "nex-balance"
-        },
-        {
-            brand: "UGG",
-            slug: "ugg"
-        },
-        {
-            brand: "F&F",
-            slug: "f-and-f"
         },
         {
             brand: "Nike",
@@ -131,27 +100,32 @@ export const shopData = {
         {
             min: '0',
             max: '25',
-            name: 'Under $25'
+            name: 'Sub 25 lei'
         },
         {
             min: '25',
             max: '50',
-            name: '$25 to $50'
+            name: '25 - 50 lei'
         },
         {
             min: '50',
             max: '100',
-            name: '$50 to $100'
+            name: '50 - 100 lei'
         },
         {
             min: '100',
             max: '200',
-            name: '$100 to $200'
+            name: '100 - 200 lei'
         },
         {
             min: '200',
+            max: '500',
+            name: '200 - 500 lei'
+        },
+        {
+            min: '500',
             max: '9999',
-            name: '$200 & Above'
+            name: 'Peste 500 lei'
         }
     ]
 }

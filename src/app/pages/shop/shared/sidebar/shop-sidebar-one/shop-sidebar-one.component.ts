@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, OnChanges, SimpleChanges } from '@angular/core';
 
 import { shopData } from '../../data';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -9,9 +9,11 @@ import { ActivatedRoute, Router } from '@angular/router';
 	styleUrls: ['./shop-sidebar-one.component.scss']
 })
 
-export class ShopSidebarOneComponent implements OnInit {
+export class ShopSidebarOneComponent implements OnInit, OnChanges {
 
+	@Input() products = [];
 	@Input() toggle = false;
+	@Input() currentUrl = "";
 	shopData = shopData;
 	params = {};
 	priceRange: any = [0, 500];
@@ -34,6 +36,20 @@ export class ShopSidebarOneComponent implements OnInit {
 				}
 			}
 		})
+	}
+	ngOnChanges(): void {
+		this.shopData = JSON.parse(JSON.stringify(shopData));
+		if (this.products.length) {
+			for (let prod of this.products) {
+				for (let p of prod.category) {
+					for (let data of this.shopData.categories) {
+						if (p.slug == data.slug) {
+							data.count += 1;
+						}
+					}
+				}
+			}
+		}
 	}
 
 	ngOnInit(): void {
