@@ -99,33 +99,23 @@ export const shopData = {
     "prices": [
         {
             min: '0',
-            max: '25',
-            name: 'Sub 25 lei'
-        },
-        {
-            min: '25',
-            max: '50',
-            name: '25 - 50 lei'
-        },
-        {
-            min: '50',
-            max: '100',
-            name: '50 - 100 lei'
-        },
-        {
-            min: '100',
             max: '200',
-            name: '100 - 200 lei'
+            name: 'Sub 200 lei'
         },
         {
             min: '200',
-            max: '500',
-            name: '200 - 500 lei'
+            max: '400',
+            name: '200 - 400 lei'
         },
         {
-            min: '500',
-            max: '9999',
-            name: 'Peste 500 lei'
+            min: '400',
+            max: '1000',
+            name: '400 - 1000 lei'
+        },
+        {
+            min: '1000',
+            max: '2000',
+            name: '10000 - 2000 lei'
         }
     ]
 }

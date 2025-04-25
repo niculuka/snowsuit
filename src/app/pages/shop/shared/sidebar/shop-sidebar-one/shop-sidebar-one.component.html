@@ -2,7 +2,7 @@
     <div [class.sidebar-filter-wrapper]="toggle">
         <div class="widget widget-clean">
             <label>Filtre</label>
-            <a [routerLink]="" class="sidebar-filter-clear" (click)="clearFilter()">Șterge Tot</a>
+            <a [routerLink]="currentUrl" class="sidebar-filter-clear" (click)="clearFilter()">Șterge Tot</a>
         </div>
 
         <div class="widget widget-collapsible">
@@ -16,7 +16,7 @@
                 <div class="widget-body pt-0">
                     <div class="filter-items filter-items-count">
                         <div class="filter-item" *ngFor="let item of shopData.categories">
-                            <a [routerLink]="" [queryParams]="{category: item.slug}" routerLinkActive="active">{{
+                            <a [routerLink]="currentUrl" [queryParams]="{category: item.slug}" routerLinkActive="active">{{
                                 item.name }}</a>
                             <span class="item-count">{{ item.count }}</span>
                         </div>
@@ -105,16 +105,16 @@
                         <div class="filter-price-text d-flex justify-content-between">
                             <span>
                                 De la:&nbsp;
-                                <span class="filter-price-range">{{ priceRange[0] * 10 }} lei -
-                                    {{ priceRange[1] * 10 }} lei</span>
+                                <span class="filter-price-range">{{ priceRange[0] }} lei -
+                                    {{ priceRange[1] }} lei</span>
                             </span>
 
-                            <button class="pr-2" (click)="filterPrice()">Filtre</button>
+                            <!-- <button class="pr-2" (click)="filterPrice()">Aplică Preț</button> -->
                         </div>
 
                         <div class="price-slider">
                             <nouislider #priceSlider [connect]="[true, true, true]" [ngModel]="priceRange" [min]="0"
-                                [max]="500" [step]="10" [pageSteps]="1" (change)="changeFilterPrice($event)"
+                                [max]="2000" [step]="200" [pageSteps]="1" (change)="changeFilterPrice($event)"
                                 style="padding: 0 1.5rem;">
                             </nouislider>
                         </div>

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, OnChanges } from '@angular/core';
 
 import { shopData } from '../../data';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -16,7 +16,7 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 	@Input() currentUrl = "";
 	shopData = shopData;
 	params = {};
-	priceRange: any = [0, 500];
+	priceRange: any = [0, 2000];
 
 	@ViewChild('priceSlider') priceSlider: any;
 
@@ -25,14 +25,14 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 			this.params = params;
 			if (params['minPrice'] && params['maxPrice']) {
 				this.priceRange = [
-					params['minPrice'] / 10,
-					params['maxPrice'] / 10
+					params['minPrice'] / 1,
+					params['maxPrice'] / 1
 				]
 			} else {
-				this.priceRange = [0, 500];
-				
-				if(this.priceSlider) {
-					this.priceSlider.slider.reset({min: 0, max: 500});
+				this.priceRange = [0, 2000];
+
+				if (this.priceSlider) {
+					this.priceSlider.slider.reset({ min: 0, max: 2000 });
 				}
 			}
 		})
@@ -62,7 +62,7 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 
 	getUrlForAttrs(type: string, value: string) {
 		let currentQueries = this.params[type] ? this.params[type].split(',') : [];
-		currentQueries = this.containsAttrInUrl(type, value) ? currentQueries.filter(item => item !== value) : [...currentQueries, value];
+		currentQueries = this.containsAttrInUrl(type, value) ? currentQueries.filter((item: any) => item !== value) : [...currentQueries, value];
 		return currentQueries.join(',');
 	}
 
@@ -72,15 +72,16 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 	}
 
 	filterPrice() {
-		this.router.navigate([], { queryParams: { minPrice: this.priceRange[0] * 10, maxPrice: this.priceRange[1] * 10, page: 1 }, queryParamsHandling: 'merge' });
+		this.router.navigate([], { queryParams: { minPrice: this.priceRange[0], maxPrice: this.priceRange[1], page: 1 }, queryParamsHandling: 'merge' });
 	}
 
 	changeFilterPrice(value: any) {
 		this.priceRange = [value[0], value[1]];
+		this.filterPrice();
 	}
 
 	clearFilter() {
 		// console.log(this.priceRange);
-		// this.priceRange = [0, 500];
+		this.priceRange = [0, 2000];
 	}
 }

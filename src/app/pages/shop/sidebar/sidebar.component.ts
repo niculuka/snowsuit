@@ -12,19 +12,25 @@ import { UtilsService } from 'src/app/shared/services/utils.service';
 
 export class SidebarPageComponent implements OnInit {
 	products = [];
+	allProducts = [];
 	perPage = 4;
 	type = 'list';
 	totalCount = 0;
 	orderBy = 'default';
-	sizes = [];
-	colors = [];
-	brands = [];
 	pageTitle = 'Listă';
 	toggle = false;
 	searchTerm = '';
 	loaded = false;
 	firstLoad = false;
+	//
 	currentUrl = "";
+	//
+	sizes = [];
+	colors = [];
+	brands = [];
+	category = null;
+	minPrice = null;
+	maxPrice = null;
 
 	constructor(public activeRoute: ActivatedRoute, public router: Router, public utilsService: UtilsService, public apiService: ApiService) {
 		this.activeRoute.params.subscribe(params => {
@@ -58,6 +64,9 @@ export class SidebarPageComponent implements OnInit {
 			}
 
 			// --------------------------------------------------------- FILTERS PARAM
+			if (params['category']) this.category = params['category'];
+			else this.category = null;
+
 			if (params['size']) this.sizes = params['size'].split(',');
 			else this.sizes = [];
 
@@ -67,19 +76,40 @@ export class SidebarPageComponent implements OnInit {
 			if (params['brand']) this.brands = params['brand'].split(',');
 			else this.brands = [];
 
+			if (params['minPrice']) this.minPrice = parseInt(params['minPrice']);
+			else this.minPrice = null;
+
+			if (params['maxPrice']) this.maxPrice = parseInt(params['maxPrice']);
+			else this.maxPrice = null;
 
 			// ====================================================================================== P R O D U C T S
 			// ======================================================================================================
 			this.apiService.fetchProducts().subscribe(result => {
+				this.allProducts = result.products;
 				let totalProducts = result.products;
+
+				// ------------------------------------------------------------------------------------- CATEGORY
+				let categProducts = [];
+				if (this.category) {
+					for (let prod of totalProducts) {
+						for (let p of prod.category) {
+							if (p.slug == this.category) categProducts.push(prod);
+						}
+					}
+				}
+				// console.log("categProducts: ", categProducts)
+				//
+				let categories = []
+				if (categProducts.length) categories = totalProducts.filter((val: any) => categProducts.includes(val));
+				else categories = totalProducts;
 
 				// ---------------------------------------------------------------------------------------- SIZE
 				let sizeProducts = [];
 				if (this.sizes.length) {
-					for (let prods of totalProducts) {
-						for (let p of prods.size) {
+					for (let prod of totalProducts) {
+						for (let p of prod.size) {
 							for (let s of this.sizes) {
-								if (p.slug == s) sizeProducts.push(prods);
+								if (p.slug == s) sizeProducts.push(prod);
 							}
 						}
 					}
@@ -87,16 +117,16 @@ export class SidebarPageComponent implements OnInit {
 				// console.log("sizeProducts: ", sizeProducts)
 				//
 				let sizes = []
-				if (sizeProducts.length) sizes = totalProducts.filter((val: any) => sizeProducts.includes(val));
-				else sizes = totalProducts;
+				if (sizeProducts.length) sizes = categories.filter((val: any) => sizeProducts.includes(val));
+				else sizes = categories;
 
 				// --------------------------------------------------------------------------------------- COLOR
 				let colorProducts = [];
 				if (this.colors.length) {
-					for (let prods of totalProducts) {
-						for (let p of prods.color) {
+					for (let prod of totalProducts) {
+						for (let p of prod.color) {
 							for (let c of this.colors) {
-								if (p.slug == c) colorProducts.push(prods);
+								if (p.slug == c) colorProducts.push(prod);
 							}
 						}
 					}
@@ -110,10 +140,10 @@ export class SidebarPageComponent implements OnInit {
 				// --------------------------------------------------------------------------------------- BRAND
 				let brandProducts = [];
 				if (this.brands.length) {
-					for (let prods of totalProducts) {
-						for (let p of prods.brands) {
+					for (let prod of totalProducts) {
+						for (let p of prod.brands) {
 							for (let b of this.brands) {
-								if (p.slug == b) brandProducts.push(prods);
+								if (p.slug == b) brandProducts.push(prod);
 							}
 						}
 					}
@@ -124,10 +154,25 @@ export class SidebarPageComponent implements OnInit {
 				if (brandProducts.length) brands = colors.filter((val: any) => brandProducts.includes(val));
 				else brands = colors;
 
+				// --------------------------------------------------------------------------------------- PRICE
+				let priceProducts = [];
+				let prices = [];
+				if (this.minPrice || this.minPrice == 0 || this.maxPrice || this.maxPrice == 0) {
+					for (let prod of totalProducts) {
+						if (prod.price >= this.minPrice && prod.price <= this.maxPrice) {
+							priceProducts.push(prod);
+						}
+					}
+					prices = brands.filter((val: any) => priceProducts.includes(val));
+				}
+				else prices = brands;
+				console.log("priceProducts: ", priceProducts)
+
 				// *********************************************************************************************
 				// *********************************************************************************************
 				// *********************************************************************************************
-				totalProducts = brands;
+
+				totalProducts = prices;
 				// console.log("filteredProducts: ", totalProducts)				
 				this.totalCount = totalProducts.length;
 				//

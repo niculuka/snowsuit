@@ -256,10 +256,14 @@
 
  	a {
  		display: inline-block;
- 		font-weight: 400;
+ 		font-weight: 600;
  		font-size: 1.2rem;
  		margin-left: auto;
  	}
+
+	a:hover {
+		color: red;
+	}
 }
 
 .widget-collapsible {

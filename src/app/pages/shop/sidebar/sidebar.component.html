@@ -110,7 +110,7 @@
                         <div class="skel-widget"></div>
                     </div>
                     <ng-template #sidebarLoaded>
-                        <shop-sidebar-one [toggle]="toggle" [currentUrl]="currentUrl" [products]="products">
+                        <shop-sidebar-one [toggle]="toggle" [currentUrl]="currentUrl" [products]="allProducts">
                         </shop-sidebar-one>
 
                         <button class="sidebar-fixed-toggler" (click)="toggleSidebar()" *ngIf="toggle">
