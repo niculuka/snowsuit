@@ -24,10 +24,7 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 		activeRoute.queryParams.subscribe(params => {
 			this.params = params;
 			if (params['minPrice'] && params['maxPrice']) {
-				this.priceRange = [
-					params['minPrice'] / 1,
-					params['maxPrice'] / 1
-				]
+				this.priceRange = [params['minPrice'] / 1, params['maxPrice'] / 1]
 			} else {
 				this.priceRange = [0, 2000];
 
@@ -35,8 +32,10 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 					this.priceSlider.slider.reset({ min: 0, max: 2000 });
 				}
 			}
-		})
+		});
+		// this.router.routeReuseStrategy.shouldReuseRoute = () => false;
 	}
+
 	ngOnChanges(): void {
 		this.shopData = JSON.parse(JSON.stringify(shopData));
 		if (this.products.length) {
@@ -68,11 +67,17 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 
 	onAttrClick(attr: string, value: string) {
 		let url = this.getUrlForAttrs(attr, value);
-		this.router.navigate([], { queryParams: { [attr]: this.getUrlForAttrs(attr, value), page: 1 }, queryParamsHandling: 'merge' });
+		this.router.navigate(
+			[this.currentUrl],
+			{ queryParams: { [attr]: this.getUrlForAttrs(attr, value), page: 1 }, queryParamsHandling: 'merge' }
+		);
 	}
 
 	filterPrice() {
-		this.router.navigate([], { queryParams: { minPrice: this.priceRange[0], maxPrice: this.priceRange[1], page: 1 }, queryParamsHandling: 'merge' });
+		this.router.navigate(
+			[this.currentUrl],
+			{ queryParams: { minPrice: this.priceRange[0], maxPrice: this.priceRange[1], page: 1 }, queryParamsHandling: 'merge' }
+		);
 	}
 
 	changeFilterPrice(value: any) {

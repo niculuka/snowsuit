@@ -13,7 +13,7 @@ import { UtilsService } from 'src/app/shared/services/utils.service';
 export class SidebarPageComponent implements OnInit {
 	products = [];
 	allProducts = [];
-	perPage = 4;
+	perPage = 10;
 	type = 'list';
 	totalCount = 0;
 	orderBy = 'default';
@@ -68,13 +68,13 @@ export class SidebarPageComponent implements OnInit {
 			else this.category = null;
 
 			if (params['size']) this.sizes = params['size'].split(',');
-			else this.sizes = [];
+			else this.sizes = null;
 
 			if (params['color']) this.colors = params['color'].split(',');
-			else this.colors = [];
+			else this.colors = null;
 
 			if (params['brand']) this.brands = params['brand'].split(',');
-			else this.brands = [];
+			else this.brands = null;
 
 			if (params['minPrice']) this.minPrice = parseInt(params['minPrice']);
 			else this.minPrice = null;
@@ -86,26 +86,29 @@ export class SidebarPageComponent implements OnInit {
 			// ======================================================================================================
 			this.apiService.fetchProducts().subscribe(result => {
 				this.allProducts = result.products;
+				//
 				let totalProducts = result.products;
-
+				// console.log("IN_Products: ", totalProducts)
 				// ------------------------------------------------------------------------------------- CATEGORY
 				let categProducts = [];
+				let categsOUT = [];
 				if (this.category) {
 					for (let prod of totalProducts) {
 						for (let p of prod.category) {
 							if (p.slug == this.category) categProducts.push(prod);
 						}
 					}
+					// console.log("categProducts: ", categProducts);
+					//
+					categsOUT = totalProducts.filter((val: any) => categProducts.includes(val));
 				}
-				// console.log("categProducts: ", categProducts)
-				//
-				let categories = []
-				if (categProducts.length) categories = totalProducts.filter((val: any) => categProducts.includes(val));
-				else categories = totalProducts;
+				else categsOUT = totalProducts;
+
 
 				// ---------------------------------------------------------------------------------------- SIZE
 				let sizeProducts = [];
-				if (this.sizes.length) {
+				let sizesOUT = [];
+				if (this.sizes) {
 					for (let prod of totalProducts) {
 						for (let p of prod.size) {
 							for (let s of this.sizes) {
@@ -113,16 +116,15 @@ export class SidebarPageComponent implements OnInit {
 							}
 						}
 					}
+					// console.log("sizeProducts: ", sizeProducts);
+					//
+					sizesOUT = categsOUT.filter((val: any) => sizeProducts.includes(val));
 				}
-				// console.log("sizeProducts: ", sizeProducts)
-				//
-				let sizes = []
-				if (sizeProducts.length) sizes = categories.filter((val: any) => sizeProducts.includes(val));
-				else sizes = categories;
-
+				else sizesOUT = categsOUT;
 				// --------------------------------------------------------------------------------------- COLOR
 				let colorProducts = [];
-				if (this.colors.length) {
+				let colorsOUT = []
+				if (this.colors) {
 					for (let prod of totalProducts) {
 						for (let p of prod.color) {
 							for (let c of this.colors) {
@@ -130,16 +132,16 @@ export class SidebarPageComponent implements OnInit {
 							}
 						}
 					}
+					// console.log("colorProducts: ", colorProducts);
+					//
+					colorsOUT = sizesOUT.filter((val: any) => colorProducts.includes(val));
 				}
-				// console.log("colorProducts: ", colorProducts)
-				//
-				let colors = []
-				if (colorProducts.length) colors = sizes.filter((val: any) => colorProducts.includes(val));
-				else colors = sizes;
+				else colorsOUT = sizesOUT;
 
 				// --------------------------------------------------------------------------------------- BRAND
 				let brandProducts = [];
-				if (this.brands.length) {
+				let brandsOUT = [];
+				if (this.brands) {
 					for (let prod of totalProducts) {
 						for (let p of prod.brands) {
 							for (let b of this.brands) {
@@ -147,33 +149,31 @@ export class SidebarPageComponent implements OnInit {
 							}
 						}
 					}
+					// console.log("brandProducts: ", brandProducts);
+					brandsOUT = colorsOUT.filter((val: any) => brandProducts.includes(val));
 				}
-				// console.log("brandProducts: ", brandProducts)
-				//
-				let brands = []
-				if (brandProducts.length) brands = colors.filter((val: any) => brandProducts.includes(val));
-				else brands = colors;
+				else brandsOUT = colorsOUT;
 
 				// --------------------------------------------------------------------------------------- PRICE
 				let priceProducts = [];
-				let prices = [];
+				let pricesOUT = [];
 				if (this.minPrice || this.minPrice == 0 || this.maxPrice || this.maxPrice == 0) {
 					for (let prod of totalProducts) {
 						if (prod.price >= this.minPrice && prod.price <= this.maxPrice) {
 							priceProducts.push(prod);
 						}
 					}
-					prices = brands.filter((val: any) => priceProducts.includes(val));
+					// console.log("priceProducts: ", priceProducts)
+					pricesOUT = brandsOUT.filter((val: any) => priceProducts.includes(val));
 				}
-				else prices = brands;
-				console.log("priceProducts: ", priceProducts)
+				else pricesOUT = brandsOUT;
 
 				// *********************************************************************************************
 				// *********************************************************************************************
 				// *********************************************************************************************
 
-				totalProducts = prices;
-				// console.log("filteredProducts: ", totalProducts)				
+				totalProducts = pricesOUT;
+				// console.log("OUT_Products: ", totalProducts)
 				this.totalCount = totalProducts.length;
 				//
 				let pageInd = 0;
