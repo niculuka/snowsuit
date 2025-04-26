@@ -50,7 +50,6 @@ export class SidebarPageComponent implements OnInit {
 
 		this.activeRoute.queryParams.subscribe(params => {
 			this.loaded = false;
-
 			if (params['searchTerm']) {
 				this.searchTerm = params['searchTerm'];
 			} else {

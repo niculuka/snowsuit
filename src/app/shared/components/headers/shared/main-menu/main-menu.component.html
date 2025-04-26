@@ -12,8 +12,8 @@
                         <div class="menu-col">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="menu-title">MAGAZIN (cu bară)</div>
 
+                                    <div class="menu-title">MAGAZIN</div>
                                     <ul>
                                         <li [class.active]="current.includes('shop/sidebar/list')">
                                             <a routerLink="/shop/sidebar/list">Listă</a>
@@ -37,8 +37,7 @@
                                         </li> -->
                                     </ul>
 
-                                    <div class="menu-title">MAGAZIN (fara bară)</div>
-
+                                    <!-- <div class="menu-title">MAGAZIN (fara bară)</div>
                                     <ul>
                                         <li [class.active]="current.includes('shop/nosidebar/boxed')">
                                             <a routerLink="/shop/nosidebar/boxed">
@@ -51,10 +50,8 @@
                                         <li [class.active]="current.includes('shop/nosidebar/fullwidth')">
                                             <a routerLink="/shop/nosidebar/fullwidth">Grilă - 6 Coloane</a>
                                         </li>
-                                    </ul>
-                                </div>
+                                    </ul> -->
 
-                                <div class="col-md-6">
                                     <div class="menu-title">CATEGORIE PRODUSE</div>
 
                                     <ul>
@@ -72,8 +69,10 @@
                                             </a>
                                         </li>
                                     </ul>
-                                    <div class="menu-title">PAGINILE MAGAZINULUI</div>
+                                </div>
 
+                                <div class="col-md-6">
+                                    <div class="menu-title">PAGINILE MAGAZINULUI</div>
                                     <ul>
                                         <li [class.active]="current.includes('shop/cart')">
                                             <a routerLink="/shop/cart">Coș</a>
@@ -130,8 +129,7 @@
                                     </a>
                                 </li>
                                 <li [class.active]="current.includes('product/centered')">
-                                    <a
-                                        routerLink="/product/centered/beige-ring-handle-circle-cross-body-bag">
+                                    <a routerLink="/product/centered/beige-ring-handle-circle-cross-body-bag">
                                         Centrat
                                     </a>
                                 </li>

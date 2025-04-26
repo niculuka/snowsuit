@@ -22,14 +22,14 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 
 	constructor(public activeRoute: ActivatedRoute, public router: Router) {
 		activeRoute.queryParams.subscribe(params => {
+			// console.log(this.priceSlider)
 			this.params = params;
 			if (params['minPrice'] && params['maxPrice']) {
 				this.priceRange = [params['minPrice'] / 1, params['maxPrice'] / 1]
 			} else {
 				this.priceRange = [0, 2000];
-
 				if (this.priceSlider) {
-					this.priceSlider.slider.reset({ min: 0, max: 2000 });
+					this.priceSlider.slider.reset({ min: this.priceRange[0], max: this.priceRange[1] });
 				}
 			}
 		});
@@ -87,6 +87,6 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 
 	clearFilter() {
 		// console.log(this.priceRange);
-		this.priceRange = [0, 2000];
+		// this.priceRange = [0, 2000];
 	}
 }
