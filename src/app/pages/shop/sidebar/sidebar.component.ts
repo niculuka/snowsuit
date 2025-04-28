@@ -25,9 +25,9 @@ export class SidebarPageComponent implements OnInit {
 	//
 	currentUrl = "";
 	//
-	sizes = [];
-	colors = [];
-	brands = [];
+	sizes = null;
+	colors = null;
+	brands = null;
 	category = null;
 	minPrice = null;
 	maxPrice = null;
