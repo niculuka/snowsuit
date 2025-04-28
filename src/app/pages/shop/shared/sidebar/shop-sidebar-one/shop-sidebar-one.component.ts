@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, ViewChild, OnChanges } from '@angular/core';
+import { Options } from '@angular-slider/ngx-slider';
 
 import { shopData } from '../../data';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -19,6 +20,12 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 	priceRange: any = [0, 2000];
 
 	@ViewChild('priceSlider') priceSlider: any;
+
+	options: Options = {
+		floor: 0,
+		ceil: 2000,
+		step: 200
+	};
 
 	constructor(public activeRoute: ActivatedRoute, public router: Router) {
 		activeRoute.queryParams.subscribe(params => {
@@ -82,6 +89,10 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 
 	changeFilterPrice(value: any) {
 		this.priceRange = [value[0], value[1]];
+		this.filterPrice();
+	}
+
+	changeFilterPrices() {
 		this.filterPrice();
 	}
 

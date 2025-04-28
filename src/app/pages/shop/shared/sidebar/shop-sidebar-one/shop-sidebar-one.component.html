@@ -16,7 +16,8 @@
                 <div class="widget-body pt-0">
                     <div class="filter-items filter-items-count">
                         <div class="filter-item" *ngFor="let item of shopData.categories">
-                            <a [routerLink]="currentUrl" [queryParams]="{category: item.slug}" routerLinkActive="active">{{
+                            <a [routerLink]="currentUrl" [queryParams]="{category: item.slug}"
+                                routerLinkActive="active">{{
                                 item.name }}</a>
                             <span class="item-count">{{ item.count }}</span>
                         </div>
@@ -58,7 +59,8 @@
             <div class="collapse show" id="widget-3">
                 <div class="widget-body pt-0">
                     <div class="filter-colors">
-                        <a [routerLink]='currentUrl' [queryParams]="{color: getUrlForAttrs('color', item.color_name), page: 1}"
+                        <a [routerLink]='currentUrl'
+                            [queryParams]="{color: getUrlForAttrs('color', item.color_name), page: 1}"
                             queryParamsHandling="merge" [style.background-color]="item.color"
                             [class.selected]="containsAttrInUrl('color', item.color_name)"
                             *ngFor="let item of shopData.colors">
@@ -102,21 +104,20 @@
             <div class="collapse show" id="widget-5">
                 <div class="widget-body pt-0">
                     <div class="filter-price">
-                        <div class="filter-price-text d-flex justify-content-between">
+                        <!-- <div class="filter-price-text d-flex justify-content-between">
                             <span>
                                 De la:&nbsp;
                                 <span class="filter-price-range">{{ priceRange[0] }} lei -
                                     {{ priceRange[1] }} lei</span>
                             </span>
 
-                            <!-- <button class="pr-2" (click)="filterPrice()">Aplică Preț</button> -->
-                        </div>
+                            <button class="pr-2" (click)="filterPrice()">Aplică Preț</button>
+                        </div> -->
 
                         <div class="price-slider">
-                            <nouislider #priceSlider [connect]="[true, true, true]" [ngModel]="priceRange" [min]="0"
-                                [max]="2000" [step]="200" [pageSteps]="1" (change)="changeFilterPrice($event)"
-                                style="padding: 0 1.5rem;">
-                            </nouislider>
+                            <ngx-slider [(value)]="priceRange[0]" [(highValue)]="priceRange[1]" [options]="options"
+                                (click)="changeFilterPrices()">
+                            </ngx-slider>
                         </div>
                     </div>
                 </div>

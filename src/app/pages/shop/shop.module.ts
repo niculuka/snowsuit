@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { OwlModule } from 'angular-owl-carousel';
-import { NouisliderModule } from 'ng2-nouislider';
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
 
 import { ShopRoutingModule } from './shop-routing.module';
 import { SharedModule } from '../../shared/shared.module';
@@ -39,7 +39,7 @@ import { ShopListOneComponent } from './shared/list/shop-list-one/shop-list-one.
 		RouterModule,
 		NgbModule,
 		OwlModule,
-		NouisliderModule
+		NgxSliderModule
 	]
 } )
 
