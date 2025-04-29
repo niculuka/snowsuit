@@ -4,6 +4,7 @@ export interface Product {
 	slug?: string;
 	price?: number;
 	sale_price?: number;
+	related?: number[];
 	review?: number;
 	ratings?: number;
 	until?: string;
@@ -12,10 +13,6 @@ export interface Product {
 	featured?: boolean;
 	new?: boolean;
 	short_desc?: boolean;
-	category?: Array<{
-		name?: string;
-		slug?: string;
-	}>;
 	pictures?: Array<{
 		width?: number;
 		height?: number;
@@ -25,7 +22,7 @@ export interface Product {
 		width?: number;
 		height?: number;
 		url?: number;
-	}>
+	}>;
 	variants?: Array<{
 		color?: string;
 		color_name?: string;
@@ -33,5 +30,21 @@ export interface Product {
 		size?: Array<{
 			name?: string;
 		}>
-	}>
+	}>;
+	category?: Array<{
+		name?: string;
+		slug?: string;
+	}>;
+	size?: Array<{
+		name?: string;
+		slug?: string;
+	}>;
+	color?: Array<{
+		name?: string;
+		slug?: string;
+	}>;
+	brand?: Array<{
+		name?: string;
+		slug?: string;
+	}>;
 }

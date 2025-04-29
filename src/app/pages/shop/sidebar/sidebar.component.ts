@@ -142,7 +142,7 @@ export class SidebarPageComponent implements OnInit {
 				let brandsOUT = [];
 				if (this.brands) {
 					for (let prod of totalProducts) {
-						for (let p of prod.brands) {
+						for (let p of prod.brand) {
 							for (let b of this.brands) {
 								if (p.slug == b) brandProducts.push(prod);
 							}

@@ -32,7 +32,9 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 			// console.log(this.priceSlider)
 			this.params = params;
 			if (params['minPrice'] && params['maxPrice']) {
-				this.priceRange = [params['minPrice'] / 1, params['maxPrice'] / 1]
+				setTimeout(() => {
+					this.priceRange = [params['minPrice'] / 1, params['maxPrice'] / 1]
+				}, 200);
 			} else {
 				this.priceRange = [0, 2000];
 				if (this.priceSlider) {

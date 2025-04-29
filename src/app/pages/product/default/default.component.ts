@@ -25,16 +25,24 @@ export class DefaultPageComponent implements OnInit {
 	) {
 		activeRoute.params.subscribe(params => {
 			this.loaded = false;
-			this.apiService.getSingleProduct(params['slug']).subscribe(result => {
-				if (result === null) {
-					this.router.navigate(['/pages/404']);
+			this.apiService.fetchProducts().subscribe(result => {
+				let products: any = result.products;
+				for (let p of products) {
+					if (p.slug == params['slug']) {
+						this.product = p;
+						// ------------------------------ related products
+						this.related = [];
+						for (let rel of p.related) {
+							for (let relP of products) {
+								if (rel == relP.id) this.related.push(relP);
+							}
+						}
+						// this.prev = result.prevProduct;
+						// this.next = result.nextProduct;
+						this.loaded = true;
+					}
 				}
-
-				this.product = result.product;
-				this.prev = result.prevProduct;
-				this.next = result.nextProduct;
-				this.related = result.relatedProducts;
-				this.loaded = true;
+				if (this.product == null) this.router.navigate(['/pages/404']);
 			});
 		});
 	}
