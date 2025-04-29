@@ -13,7 +13,7 @@ import { UtilsService } from 'src/app/shared/services/utils.service';
 export class SidebarPageComponent implements OnInit {
 	products = [];
 	allProducts = [];
-	perPage = 10;
+	perPage = 16;
 	type = 'list';
 	totalCount = 0;
 	orderBy = 'default';

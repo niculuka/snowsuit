@@ -10,8 +10,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class PaginationComponent implements OnInit, OnChanges {
 
 	@Input() adClass = '';
-	@Input() perPage = 12;
-	@Input() total = 6;
+	@Input() perPage = 16;
+	@Input() total = 0;
 	@Input() currentUrl = "";
 
 	currentPage = 1;
