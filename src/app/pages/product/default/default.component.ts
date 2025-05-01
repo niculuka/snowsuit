@@ -30,6 +30,8 @@ export class DefaultPageComponent implements OnInit {
 				for (let p of products) {
 					if (p.slug == params['slug']) {
 						this.product = p;
+						// this.prev = result.prevProduct;
+						// this.next = result.nextProduct;
 						// ------------------------------ related products
 						this.related = [];
 						for (let rel of p.related) {
@@ -37,8 +39,6 @@ export class DefaultPageComponent implements OnInit {
 								if (rel == relP.id) this.related.push(relP);
 							}
 						}
-						// this.prev = result.prevProduct;
-						// this.next = result.nextProduct;
 						this.loaded = true;
 					}
 				}
