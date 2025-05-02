@@ -27,7 +27,6 @@ import { ProductFourComponent } from './components/product/product-four/product-
 import { ProductFiveComponent } from './components/product/product-five/product-five.component';
 import { ProductSixComponent } from './components/product/product-six/product-six.component';
 import { ProductSevenComponent } from './components/product/product-seven/product-seven.component';
-import { ProductEightComponent } from './components/product/product-eight/product-eight.component';
 import { ProductNineComponent } from './components/product/product-nine/product-nine.component';
 import { ProductTenComponent } from './components/product/product-ten/product-ten.component';
 import { ProductElevenComponent } from './components/product/product-eleven/product-eleven.component';
@@ -91,7 +90,6 @@ import { SafeContentPipe } from './pipes/safe-content.pipe';
 		ProductFiveComponent,
 		ProductSixComponent,
 		ProductSevenComponent,
-		ProductEightComponent,
 		ProductNineComponent,
 		ProductTenComponent,
 		ProductElevenComponent,
@@ -155,7 +153,6 @@ import { SafeContentPipe } from './pipes/safe-content.pipe';
 		ProductFiveComponent,
 		ProductSixComponent,
 		ProductSevenComponent,
-		ProductEightComponent,
 		ProductNineComponent,
 		ProductTenComponent,
 		ProductElevenComponent,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 
 import { Product } from 'src/app/shared/classes/product';
 import { CompareService } from 'src/app/shared/services/compare.service';
@@ -11,7 +12,10 @@ import { CompareService } from 'src/app/shared/services/compare.service';
 
 export class CompareMenuComponent implements OnInit {
 
-	constructor(public compareService: CompareService) { }
+	constructor(
+		private toastr: ToastrService,
+		public compareService: CompareService
+	) { }
 
 	ngOnInit(): void {
 	}
@@ -24,5 +28,9 @@ export class CompareMenuComponent implements OnInit {
 	clearAllCompare($event: Event) {
 		$event.preventDefault();
 		this.compareService.clearAllCompare();
+	}
+
+	underConstruction() {
+		this.toastr.info("În Construcție")
 	}
 }
