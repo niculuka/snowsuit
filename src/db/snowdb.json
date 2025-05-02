@@ -9,13 +9,13 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                77,
-                64,
+                10,
+                21,
                 2,
-                65,
-                46,
-                3,
-                26
+                19,
+                11,
+                4,
+                6
             ],
             "review": 2,
             "ratings": 5,
@@ -123,11 +123,11 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                24,
+                8,
+                14,
+                3,
+                16,
                 5,
-                63,
-                78,
-                88,
                 1
             ],
             "review": 2,
@@ -232,12 +232,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                65,
-                24,
+                19,
+                8,
                 1,
-                48,
-                3,
-                46
+                20,
+                4,
+                11
             ],
             "review": 2,
             "ratings": 3,
@@ -341,12 +341,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                64,
-                28,
+                21,
+                17,
                 2,
-                88,
-                77,
-                63
+                5,
+                10,
+                3
             ],
             "review": 2,
             "ratings": 5,
@@ -454,12 +454,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                77,
-                6,
-                28,
-                24,
+                10,
+                13,
+                17,
+                8,
                 1,
-                26
+                6
             ],
             "review": 2,
             "ratings": 5,
@@ -563,12 +563,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                5,
-                46,
-                65,
+                14,
+                11,
+                19,
                 2,
-                88,
-                77
+                5,
+                10
             ],
             "review": 2,
             "ratings": 4,
@@ -672,11 +672,11 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                4,
-                28,
-                45,
-                77,
-                24,
+                12,
+                17,
+                9,
+                10,
+                8,
                 2
             ],
             "review": 2,
@@ -782,11 +782,11 @@
             "vendor": "demo24",
             "related": [
                 1,
-                77,
-                64,
-                78,
-                45,
-                46
+                10,
+                21,
+                16,
+                9,
+                11
             ],
             "review": 2,
             "ratings": 3,
@@ -890,12 +890,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                26,
-                65,
-                46,
-                27,
+                6,
+                19,
+                11,
+                15,
                 2,
-                88
+                5
             ],
             "review": 2,
             "ratings": 4,
@@ -999,12 +999,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                4,
-                5,
+                12,
+                14,
                 1,
                 2,
-                78,
-                88
+                16,
+                5
             ],
             "review": 2,
             "ratings": 5,
@@ -1104,12 +1104,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                25,
-                28,
-                3,
-                65,
+                7,
+                17,
                 4,
-                88
+                19,
+                12,
+                5
             ],
             "review": 2,
             "ratings": 5,
@@ -1217,12 +1217,12 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                27,
-                65,
-                24,
-                46,
-                6,
-                77
+                15,
+                19,
+                8,
+                11,
+                13,
+                10
             ],
             "review": 2,
             "ratings": 5,
@@ -1326,12 +1326,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                27,
-                78,
-                63,
-                45,
+                15,
+                16,
+                3,
+                9,
                 1,
-                5
+                14
             ],
             "review": 2,
             "ratings": 3,
@@ -1435,11 +1435,11 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                64,
-                4,
-                24,
-                26,
-                65,
+                21,
+                12,
+                8,
+                6,
+                19,
                 1
             ],
             "review": 2,
@@ -1548,12 +1548,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                4,
-                5,
+                12,
+                14,
                 1,
                 2,
-                48,
-                46
+                20,
+                11
             ],
             "review": 2,
             "ratings": 5,
@@ -1657,12 +1657,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                64,
-                47,
-                46,
-                3,
-                88,
-                24
+                21,
+                18,
+                11,
+                4,
+                5,
+                8
             ],
             "review": 2,
             "ratings": 4,
@@ -1766,12 +1766,12 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                4,
-                48,
+                12,
+                20,
                 2,
-                46,
-                88,
-                65
+                11,
+                5,
+                19
             ],
             "review": 2,
             "ratings": 3,
@@ -1875,12 +1875,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                24,
-                46,
-                64,
-                78,
+                8,
+                11,
+                19,
+                16,
                 2,
-                28
+                17
             ],
             "review": 2,
             "ratings": 3,
@@ -1984,12 +1984,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
+                12,
+                7,
+                17,
                 4,
-                25,
-                28,
-                3,
-                6,
-                88
+                13,
+                5
             ],
             "review": 2,
             "ratings": 4,
@@ -2095,10 +2095,10 @@
             "related": [
                 1,
                 2,
-                4,
-                5,
-                26,
-                77
+                12,
+                14,
+                6,
+                10
             ],
             "review": 2,
             "ratings": 5,
@@ -2198,12 +2198,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                78,
-                65,
-                24,
-                25,
-                5,
-                27
+                16,
+                19,
+                8,
+                7,
+                14,
+                15
             ],
             "review": 2,
             "ratings": 5,
@@ -2311,12 +2311,12 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                96,
-                89,
-                81,
-                90,
-                69,
-                8
+                28,
+                27,
+                41,
+                42,
+                49,
+                29
             ],
             "review": 2,
             "ratings": 5,
@@ -2420,12 +2420,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                49,
-                66,
-                33,
-                53,
-                90,
-                9
+                24,
+                25,
+                44,
+                45,
+                42,
+                34
             ],
             "review": 2,
             "ratings": 3,
@@ -2529,12 +2529,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                52,
-                53,
-                67,
-                66,
-                69,
-                31
+                39,
+                45,
+                32,
+                25,
+                49,
+                35
             ],
             "review": 2,
             "ratings": 5,
@@ -2642,12 +2642,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                9,
-                31,
-                10,
-                32,
-                52,
-                51
+                34,
+                35,
+                37,
+                38,
+                39,
+                36
             ],
             "review": 2,
             "ratings": 5,
@@ -2751,12 +2751,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                10,
-                11,
-                80,
-                9,
-                69,
-                51
+                37,
+                43,
+                33,
+                34,
+                49,
+                36
             ],
             "review": 2,
             "ratings": 4,
@@ -2860,12 +2860,12 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                7,
-                8,
-                52,
-                53,
-                10,
-                90
+                22,
+                29,
+                39,
+                45,
+                37,
+                42
             ],
             "review": 2,
             "ratings": 3,
@@ -2969,12 +2969,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                10,
-                34,
+                37,
+                47,
                 30,
-                9,
-                8,
-                33
+                34,
+                29,
+                44
             ],
             "review": 2,
             "ratings": 3,
@@ -3078,12 +3078,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                12,
-                34,
-                29,
+                46,
+                47,
+                23,
                 30,
-                31,
-                33
+                35,
+                44
             ],
             "review": 2,
             "ratings": 4,
@@ -3187,12 +3187,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                49,
-                66,
-                31,
-                12,
-                34,
-                54
+                24,
+                25,
+                35,
+                46,
+                47,
+                48
             ],
             "review": 2,
             "ratings": 5,
@@ -3292,12 +3292,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                12,
-                34,
-                54,
-                7,
-                67,
-                80
+                46,
+                47,
+                48,
+                22,
+                32,
+                33
             ],
             "review": 2,
             "ratings": 5,
@@ -3406,11 +3406,11 @@
             "vendor": "demo24",
             "related": [
                 30,
-                80,
-                11,
                 33,
-                8,
-                69
+                43,
+                44,
+                29,
+                49
             ],
             "review": 2,
             "ratings": 5,
@@ -3514,12 +3514,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                29,
+                23,
                 30,
-                32,
-                33,
-                66,
-                68
+                38,
+                44,
+                25,
+                40
             ],
             "review": 2,
             "ratings": 3,
@@ -3623,12 +3623,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                52,
-                68,
-                79,
-                80,
-                7,
-                10
+                39,
+                40,
+                26,
+                33,
+                22,
+                37
             ],
             "review": 2,
             "ratings": 5,
@@ -3736,12 +3736,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                66,
-                67,
-                68,
-                12,
-                89,
-                90
+                25,
+                32,
+                40,
+                46,
+                27,
+                42
             ],
             "review": 2,
             "ratings": 5,
@@ -3845,12 +3845,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                33,
+                44,
                 30,
-                53,
-                50,
-                67,
-                12
+                45,
+                31,
+                32,
+                46
             ],
             "review": 2,
             "ratings": 4,
@@ -3955,11 +3955,11 @@
             "vendor": "demo24",
             "related": [
                 30,
-                50,
+                31,
+                44,
+                45,
                 33,
-                53,
-                80,
-                81
+                41
             ],
             "review": 2,
             "ratings": 3,
@@ -4063,12 +4063,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                51,
-                69,
-                31,
-                54,
-                9,
-                34
+                36,
+                49,
+                35,
+                48,
+                34,
+                47
             ],
             "review": 2,
             "ratings": 3,
@@ -4172,11 +4172,11 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                10,
-                7,
-                11,
-                8,
-                33,
+                37,
+                22,
+                43,
+                29,
+                44,
                 30
             ],
             "review": 2,
@@ -4281,12 +4281,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                51,
-                69,
-                11,
-                8,
-                50,
-                81
+                36,
+                49,
+                43,
+                29,
+                31,
+                41
             ],
             "review": 2,
             "ratings": 5,
@@ -4386,12 +4386,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                50,
-                80,
-                9,
-                11,
+                31,
+                33,
                 34,
-                54
+                43,
+                47,
+                48
             ],
             "review": 2,
             "ratings": 5,
@@ -4500,11 +4500,11 @@
             "vendor": "demo24",
             "related": [
                 30,
-                11,
-                50,
+                43,
+                31,
+                44,
                 33,
-                80,
-                53
+                45
             ],
             "review": 2,
             "ratings": 5,
@@ -4608,12 +4608,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                66,
-                32,
-                79,
-                52,
-                89,
-                68
+                25,
+                38,
+                26,
+                39,
+                27,
+                40
             ],
             "review": 2,
             "ratings": 3,
@@ -4717,12 +4717,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                12,
-                8,
-                52,
+                46,
+                29,
+                39,
                 30,
-                32,
-                50
+                38,
+                31
             ],
             "review": 2,
             "ratings": 5,
@@ -4830,12 +4830,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                12,
-                50,
-                34,
+                46,
                 31,
-                54,
-                51
+                47,
+                35,
+                48,
+                36
             ],
             "review": 2,
             "ratings": 5,
@@ -4939,12 +4939,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                7,
-                8,
-                10,
-                11,
+                22,
+                29,
+                37,
+                43,
                 30,
-                33
+                44
             ],
             "review": 2,
             "ratings": 4,
@@ -5049,11 +5049,11 @@
             "vendor": "demo24",
             "related": [
                 30,
-                50,
-                32,
-                52,
-                69,
-                51
+                31,
+                38,
+                39,
+                49,
+                36
             ],
             "review": 2,
             "ratings": 3,
@@ -5157,12 +5157,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
+                38,
+                41,
+                29,
                 32,
-                81,
-                8,
-                67,
-                9,
-                10
+                34,
+                37
             ],
             "review": 2,
             "ratings": 3,
@@ -5266,12 +5266,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                31,
-                90,
-                9,
+                35,
+                42,
+                34,
+                44,
                 33,
-                80,
-                11
+                43
             ],
             "review": 2,
             "ratings": 4,
@@ -5375,12 +5375,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                99,
-                21,
-                97,
-                42,
-                57,
-                20
+                66,
+                88,
+                65,
+                87,
+                64,
+                86
             ],
             "review": 2,
             "ratings": 5,
@@ -5480,12 +5480,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                71,
-                83,
-                39,
+                77,
                 60,
-                59,
-                21
+                75,
+                84,
+                76,
+                88
             ],
             "review": 2,
             "ratings": 5,
@@ -5593,12 +5593,12 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                72,
+                70,
+                77,
                 71,
-                84,
-                83,
-                74,
-                40
+                60,
+                85,
+                81
             ],
             "review": 2,
             "ratings": 5,
@@ -5702,12 +5702,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                20,
-                98,
-                92,
-                97,
-                19,
-                74
+                86,
+                73,
+                61,
+                65,
+                82,
+                85
             ],
             "review": 2,
             "ratings": 3,
@@ -5811,12 +5811,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                41,
-                17,
-                39,
-                92,
-                15,
-                98
+                83,
+                74,
+                75,
+                61,
+                62,
+                73
             ],
             "review": 2,
             "ratings": 5,
@@ -5924,12 +5924,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                21,
-                18,
-                92,
-                40,
-                15,
-                38
+                88,
+                80,
+                61,
+                81,
+                62,
+                68
             ],
             "review": 2,
             "ratings": 5,
@@ -6033,12 +6033,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                99,
-                39,
-                59,
-                15,
-                20,
-                42
+                66,
+                75,
+                76,
+                62,
+                86,
+                87
             ],
             "review": 2,
             "ratings": 4,
@@ -6142,12 +6142,12 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                13,
-                16,
-                14,
-                19,
-                15,
-                17
+                50,
+                67,
+                56,
+                82,
+                62,
+                74
             ],
             "review": 2,
             "ratings": 3,
@@ -6251,12 +6251,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                58,
-                71,
-                59,
+                69,
+                77,
+                76,
+                84,
                 60,
-                83,
-                35
+                51
             ],
             "review": 2,
             "ratings": 3,
@@ -6360,12 +6360,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                98,
-                35,
-                40,
-                41,
-                36,
-                38
+                73,
+                51,
+                81,
+                83,
+                57,
+                68
             ],
             "review": 2,
             "ratings": 4,
@@ -6469,12 +6469,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                20,
-                84,
-                99,
-                16,
-                19,
-                18
+                86,
+                71,
+                66,
+                67,
+                82,
+                80
             ],
             "review": 2,
             "ratings": 5,
@@ -6574,12 +6574,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
+                53,
+                77,
                 70,
-                71,
-                72,
-                74,
-                73,
-                41
+                85,
+                59,
+                83
             ],
             "review": 2,
             "ratings": 5,
@@ -6687,12 +6687,12 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                82,
-                83,
-                84,
-                20,
-                85,
-                42
+                54,
+                60,
+                71,
+                86,
+                78,
+                87
             ],
             "review": 2,
             "ratings": 5,
@@ -6796,12 +6796,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                41,
-                74,
-                20,
-                93,
-                98,
-                15
+                83,
+                85,
+                86,
+                72,
+                73,
+                62
             ],
             "review": 2,
             "ratings": 3,
@@ -6905,12 +6905,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                16,
-                70,
-                38,
-                82,
-                58,
-                19
+                67,
+                53,
+                68,
+                54,
+                69,
+                82
             ],
             "review": 2,
             "ratings": 5,
@@ -7018,12 +7018,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                55,
-                60,
-                56,
-                21,
-                73,
-                19
+                52,
+                84,
+                58,
+                88,
+                59,
+                82
             ],
             "review": 2,
             "ratings": 5,
@@ -7127,12 +7127,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                85,
-                14,
-                18,
-                19,
-                40,
-                42
+                78,
+                56,
+                80,
+                82,
+                81,
+                87
             ],
             "review": 2,
             "ratings": 4,
@@ -7236,12 +7236,12 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                83,
-                99,
-                84,
-                85,
-                20,
-                15
+                60,
+                66,
+                71,
+                78,
+                86,
+                62
             ],
             "review": 2,
             "ratings": 3,
@@ -7345,12 +7345,11 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                39,
-                200,
-                59,
-                60,
-                55,
-                91
+                75,
+                76,
+                84,
+                52,
+                55
             ],
             "review": 2,
             "ratings": 3,
@@ -7454,12 +7453,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                40,
-                18,
-                92,
-                83,
-                42,
-                21
+                81,
+                80,
+                61,
+                60,
+                87,
+                88
             ],
             "review": 2,
             "ratings": 4,
@@ -7563,12 +7562,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                18,
-                40,
-                97,
-                99,
-                41,
-                60
+                80,
+                81,
+                65,
+                66,
+                83,
+                84
             ],
             "review": 2,
             "ratings": 5,
@@ -7668,12 +7667,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                20,
-                60,
+                86,
+                84,
+                76,
+                62,
                 59,
-                15,
-                73,
-                37
+                63
             ],
             "review": 2,
             "ratings": 5,
@@ -7781,12 +7780,12 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                74,
-                42,
-                13,
-                35,
-                39,
-                18
+                85,
+                87,
+                50,
+                51,
+                75,
+                80
             ],
             "review": 2,
             "ratings": 5,
@@ -7890,12 +7889,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
+                53,
                 70,
-                72,
-                71,
-                73,
-                97,
-                94
+                77,
+                59,
+                65,
+                79
             ],
             "review": 2,
             "ratings": 3,
@@ -7999,12 +7998,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                40,
-                82,
-                18,
-                83,
-                21,
-                59
+                81,
+                54,
+                80,
+                60,
+                88,
+                76
             ],
             "review": 2,
             "ratings": 5,
@@ -8112,12 +8111,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                91,
-                94,
-                92,
-                71,
-                93,
-                42
+                55,
+                79,
+                61,
+                77,
+                72,
+                87
             ],
             "review": 2,
             "ratings": 5,
@@ -8221,12 +8220,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                35,
-                37,
-                38,
-                39,
-                19,
-                21
+                51,
+                63,
+                68,
+                75,
+                82,
+                88
             ],
             "review": 2,
             "ratings": 4,
@@ -8330,12 +8329,12 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                42,
-                18,
-                21,
-                40,
-                36,
-                56
+                87,
+                80,
+                88,
+                81,
+                57,
+                58
             ],
             "review": 2,
             "ratings": 3,
@@ -8439,12 +8438,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                60,
-                74,
-                91,
-                92,
-                15,
-                39
+                84,
+                85,
+                55,
+                61,
+                62,
+                75
             ],
             "review": 2,
             "ratings": 3,
@@ -8548,12 +8547,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                41,
-                74,
-                38,
-                72,
-                99,
-                91
+                83,
+                85,
+                68,
+                70,
+                66,
+                55
             ],
             "review": 2,
             "ratings": 4,
@@ -8657,12 +8656,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                20,
-                17,
-                42,
-                71,
-                16,
-                83
+                86,
+                74,
+                87,
+                77,
+                67,
+                60
             ],
             "review": 2,
             "ratings": 5,
@@ -8762,12 +8761,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                19,
-                83,
-                41,
-                84,
+                82,
                 60,
-                13
+                83,
+                71,
+                84,
+                50
             ],
             "review": 2,
             "ratings": 5,
@@ -8875,12 +8874,12 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                42,
-                38,
-                21,
-                58,
-                35,
-                36
+                87,
+                68,
+                88,
+                69,
+                51,
+                57
             ],
             "review": 2,
             "ratings": 5,
@@ -8984,12 +8983,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                70,
-                20,
+                53,
+                86,
+                77,
                 71,
-                84,
-                97,
-                85
+                65,
+                78
             ],
             "review": 2,
             "ratings": 3,
@@ -9093,12 +9092,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                13,
-                20,
-                14,
-                18,
-                15,
-                98
+                50,
+                86,
+                56,
+                80,
+                62,
+                73
             ],
             "review": 2,
             "ratings": 5,
@@ -9206,12 +9205,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                55,
-                20,
-                71,
-                38,
-                99,
-                59
+                52,
+                86,
+                77,
+                68,
+                66,
+                76
             ],
             "review": 2,
             "ratings": 5,
@@ -9315,12 +9314,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                91,
-                74,
-                81,
-                97,
-                58,
-                39
+                55,
+                85,
+                41,
+                65,
+                69,
+                75
             ],
             "review": 2,
             "ratings": 4,
@@ -9424,12 +9423,12 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                41,
-                36,
-                19,
+                83,
                 57,
-                92,
-                91
+                82,
+                64,
+                61,
+                55
             ],
             "review": 2,
             "ratings": 3,
@@ -9533,12 +9532,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                13,
-                74,
-                56,
-                84,
-                57,
-                94
+                50,
+                85,
+                58,
+                71,
+                64,
+                79
             ],
             "review": 2,
             "ratings": 3,
@@ -9642,12 +9641,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                86,
-                79,
-                87,
-                81,
-                33,
-                53
+                93,
+                26,
+                99,
+                41,
+                44,
+                45
             ],
             "review": 2,
             "ratings": 4,
@@ -9751,12 +9750,12 @@
             "sale_price": 419.99,
             "vendor": "demo24",
             "related": [
-                23,
-                50,
-                62,
-                96,
-                80,
-                8
+                95,
+                31,
+                97,
+                28,
+                33,
+                29
             ],
             "review": 2,
             "ratings": 5,
@@ -9856,12 +9855,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
+                89,
+                95,
                 22,
-                23,
-                7,
-                8,
-                10,
-                11
+                29,
+                37,
+                43
             ],
             "review": 2,
             "ratings": 5,
@@ -9969,12 +9968,12 @@
             "sale_price": 849,
             "vendor": "demo24",
             "related": [
-                86,
-                79,
-                87,
-                80,
-                52,
-                12
+                93,
+                26,
+                99,
+                33,
+                39,
+                46
             ],
             "review": 2,
             "ratings": 5,
@@ -10078,12 +10077,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                61,
-                49,
-                62,
-                50,
-                54,
-                90
+                91,
+                24,
+                97,
+                31,
+                48,
+                42
             ],
             "review": 2,
             "ratings": 3,
@@ -10187,12 +10186,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                23,
-                44,
-                43,
-                49,
-                80,
-                12
+                95,
+                96,
+                90,
+                24,
+                33,
+                46
             ],
             "review": 2,
             "ratings": 5,
@@ -10300,12 +10299,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                86,
-                87,
-                89,
-                50,
-                9,
-                53
+                93,
+                99,
+                27,
+                31,
+                34,
+                45
             ],
             "review": 2,
             "ratings": 5,
@@ -10409,12 +10408,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                86,
-                79,
-                87,
-                80,
-                81,
-                22
+                93,
+                26,
+                99,
+                33,
+                41,
+                89
             ],
             "review": 2,
             "ratings": 4,
@@ -10518,11 +10517,11 @@
             "sale_price": 239.99,
             "vendor": "demo24",
             "related": [
-                43,
-                29,
-                44,
-                52,
-                53,
+                90,
+                23,
+                96,
+                39,
+                45,
                 30
             ],
             "review": 2,
@@ -10627,12 +10626,12 @@
             "sale_price": null,
             "vendor": "demo24",
             "related": [
-                86,
-                87,
-                95,
-                96,
+                93,
+                99,
+                94,
+                28,
                 30,
-                31
+                35
             ],
             "review": 2,
             "ratings": 3,
@@ -10736,12 +10735,12 @@
             "sale_price": 139,
             "vendor": "demo24",
             "related": [
-                75,
-                66,
-                76,
-                67,
-                81,
-                34
+                92,
+                25,
+                98,
+                32,
+                41,
+                47
             ],
             "review": 2,
             "ratings": 4,
