@@ -61,7 +61,7 @@ export const shopData = {
             slug: 'L'
         },
         {
-            size: 'Foarte Largi',
+            size: 'Extra Largi',
             slug: 'XL'
         }
     ],
@@ -103,20 +103,48 @@ export const shopData = {
 
     "brands": [
         {
-            brand: "Drake",
-            slug: "drake"
+            brand: "Adidas",
+            slug: "adidas"
         },
         {
-            brand: "Raven",
-            slug: "raven"
+            brand: "Arbor",
+            slug: "arbor"
         },
         {
-            brand: "Geox",
-            slug: "geox"
+            brand: "Dreamscape",
+            slug: "dreamscape"
+        },
+        {
+            brand: "Evercross",
+            slug: "evercross"
+        },
+        {
+            brand: "Lectra",
+            slug: "lectra"
         },
         {
             brand: "Nike",
             slug: "nike"
+        },
+        {
+            brand: "OEM",
+            slug: "oem"
+        },
+        {
+            brand: "Otter",
+            slug: "otter"
+        },
+        {
+            brand: "Oxelo",
+            slug: "oxelo"
+        },
+        {
+            brand: "Pegas",
+            slug: "pegas"
+        },
+        {
+            brand: "Solognac",
+            slug: "solognac"
         }
     ],
 

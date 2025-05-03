@@ -7,7 +7,6 @@
             "short_desc": "Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
             "price": 1299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 10,
                 21,
@@ -17,7 +16,7 @@
                 4,
                 6
             ],
-            "review": 2,
+            "review": 11,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -87,14 +86,14 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -105,12 +104,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Arbor",
+                    "slug": "arbor"
                 }
             ]
         },
@@ -121,7 +116,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 8,
                 14,
@@ -130,8 +124,8 @@
                 5,
                 1
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 5,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -200,8 +194,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -218,8 +212,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Dreamscape",
+                    "slug": "dreamscape"
                 }
             ]
         },
@@ -230,7 +224,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 19,
                 8,
@@ -239,8 +232,8 @@
                 4,
                 11
             ],
-            "review": 2,
-            "ratings": 3,
+            "review": 5,
+            "ratings": 1,
             "until": null,
             "stock": 100,
             "top": null,
@@ -309,8 +302,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -327,8 +320,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -339,7 +332,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 21,
                 17,
@@ -348,8 +340,8 @@
                 10,
                 3
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 24,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -418,12 +410,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Bags",
-                    "slug": "bags"
-                },
-                {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -440,8 +428,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -452,7 +440,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 10,
                 13,
@@ -461,7 +448,7 @@
                 1,
                 6
             ],
-            "review": 2,
+            "review": 7,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -531,8 +518,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -549,8 +536,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Dreamscape",
+                    "slug": "dreamscape"
                 }
             ]
         },
@@ -561,7 +548,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 14,
                 11,
@@ -570,7 +556,7 @@
                 5,
                 10
             ],
-            "review": 2,
+            "review": 4,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -640,8 +626,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -658,8 +644,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Arbor",
+                    "slug": "arbor"
                 }
             ]
         },
@@ -670,7 +656,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 12,
                 17,
@@ -679,7 +664,7 @@
                 8,
                 2
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": "2026-01-01",
             "stock": 100,
@@ -749,8 +734,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -767,8 +752,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Arbor",
+                    "slug": "arbor"
                 }
             ]
         },
@@ -779,7 +764,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 1,
                 10,
@@ -788,7 +772,7 @@
                 9,
                 11
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -858,8 +842,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -876,8 +860,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -888,7 +872,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 6,
                 19,
@@ -897,7 +880,7 @@
                 2,
                 5
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -965,12 +948,16 @@
                 {
                     "name": "Snowboarduri",
                     "slug": "snowboard"
+                },
+                {
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -981,12 +968,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Dreamscape",
+                    "slug": "dreamscape"
                 }
             ]
         },
@@ -997,7 +980,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 12,
                 14,
@@ -1006,8 +988,8 @@
                 16,
                 5
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 5,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -1074,6 +1056,10 @@
                 {
                     "name": "Snowboarduri",
                     "slug": "snowboard"
+                },
+                {
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -1090,8 +1076,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -1102,7 +1088,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 7,
                 17,
@@ -1111,7 +1096,7 @@
                 12,
                 5
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -1181,8 +1166,8 @@
                     "slug": "snowboard"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -1199,12 +1184,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Arbor",
+                    "slug": "arbor"
                 }
             ]
         },
@@ -1215,7 +1196,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 15,
                 19,
@@ -1224,7 +1204,7 @@
                 13,
                 10
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -1294,8 +1274,8 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -1312,8 +1292,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Arbor",
+                    "slug": "arbor"
                 }
             ]
         },
@@ -1324,7 +1304,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 15,
                 16,
@@ -1333,7 +1312,7 @@
                 1,
                 14
             ],
-            "review": 2,
+            "review": 6,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -1403,8 +1382,8 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -1421,8 +1400,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -1433,7 +1412,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 21,
                 12,
@@ -1442,7 +1420,7 @@
                 19,
                 1
             ],
-            "review": 2,
+            "review": 9,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -1512,8 +1490,8 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -1530,8 +1508,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Dreamscape",
+                    "slug": "dreamscape"
                 }
             ]
         },
@@ -1542,7 +1520,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 12,
                 14,
@@ -1551,7 +1528,7 @@
                 20,
                 11
             ],
-            "review": 2,
+            "review": 4,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -1621,8 +1598,8 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -1639,8 +1616,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Dreamscape",
+                    "slug": "dreamscape"
                 }
             ]
         },
@@ -1651,7 +1628,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 21,
                 18,
@@ -1660,7 +1636,7 @@
                 5,
                 8
             ],
-            "review": 2,
+            "review": 9,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -1730,8 +1706,8 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -1748,8 +1724,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -1760,7 +1736,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 12,
                 20,
@@ -1769,7 +1744,7 @@
                 5,
                 19
             ],
-            "review": 2,
+            "review": 9,
             "ratings": 3,
             "until": "2026-01-01",
             "stock": 100,
@@ -1839,14 +1814,14 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -1857,8 +1832,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Arbor",
+                    "slug": "arbor"
                 }
             ]
         },
@@ -1869,7 +1844,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 8,
                 11,
@@ -1878,7 +1852,7 @@
                 2,
                 17
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -1948,14 +1922,14 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -1966,8 +1940,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Arbor",
+                    "slug": "arbor"
                 }
             ]
         },
@@ -1978,7 +1952,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 12,
                 7,
@@ -1987,7 +1960,7 @@
                 13,
                 5
             ],
-            "review": 2,
+            "review": 11,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -2055,6 +2028,10 @@
                 {
                     "name": "Clăpari",
                     "slug": "boot"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -2071,12 +2048,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -2087,7 +2060,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 1,
                 2,
@@ -2096,8 +2068,8 @@
                 6,
                 10
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 24,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -2164,6 +2136,10 @@
                 {
                     "name": "Clăpari",
                     "slug": "boot"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -2180,8 +2156,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Dreamscape",
+                    "slug": "dreamscape"
                 }
             ]
         },
@@ -2192,7 +2168,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 16,
                 19,
@@ -2201,7 +2176,7 @@
                 14,
                 15
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -2271,14 +2246,14 @@
                     "slug": "boot"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -2289,12 +2264,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Lectra",
+                    "slug": "lectra"
                 }
             ]
         },
@@ -2305,7 +2276,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 28,
                 27,
@@ -2314,7 +2284,7 @@
                 49,
                 29
             ],
-            "review": 2,
+            "review": 24,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -2384,8 +2354,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -2402,8 +2372,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -2414,7 +2384,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 24,
                 25,
@@ -2423,8 +2392,8 @@
                 42,
                 34
             ],
-            "review": 2,
-            "ratings": 3,
+            "review": 4,
+            "ratings": 1,
             "until": null,
             "stock": 100,
             "top": null,
@@ -2493,8 +2462,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -2511,8 +2480,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -2523,7 +2492,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 39,
                 45,
@@ -2532,8 +2500,8 @@
                 49,
                 35
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 1,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -2602,8 +2570,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -2620,8 +2588,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -2632,7 +2600,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 34,
                 35,
@@ -2641,7 +2608,7 @@
                 39,
                 36
             ],
-            "review": 2,
+            "review": 31,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -2711,8 +2678,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -2729,8 +2696,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -2741,7 +2708,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 37,
                 43,
@@ -2750,7 +2716,7 @@
                 49,
                 36
             ],
-            "review": 2,
+            "review": 31,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -2820,8 +2786,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -2838,8 +2804,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -2850,7 +2816,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 22,
                 29,
@@ -2859,7 +2824,7 @@
                 37,
                 42
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": "2026-01-01",
             "stock": 100,
@@ -2929,8 +2894,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -2947,8 +2912,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -2959,7 +2924,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 37,
                 47,
@@ -2968,7 +2932,7 @@
                 29,
                 44
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -3038,26 +3002,26 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
                 {
-                    "name": "Green",
-                    "slug": "green"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -3068,7 +3032,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 46,
                 47,
@@ -3077,7 +3040,7 @@
                 35,
                 44
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -3145,6 +3108,10 @@
                 {
                     "name": "Biciclete",
                     "slug": "bike"
+                },
+                {
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -3161,12 +3128,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -3177,7 +3140,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 24,
                 25,
@@ -3186,7 +3148,7 @@
                 47,
                 48
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -3254,6 +3216,10 @@
                 {
                     "name": "Biciclete",
                     "slug": "bike"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -3270,8 +3236,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -3282,7 +3248,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 46,
                 47,
@@ -3291,7 +3256,7 @@
                 32,
                 33
             ],
-            "review": 2,
+            "review": 11,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -3361,8 +3326,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -3379,12 +3344,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -3395,7 +3356,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 30,
                 33,
@@ -3404,7 +3364,7 @@
                 29,
                 49
             ],
-            "review": 2,
+            "review": 4,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -3474,8 +3434,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -3492,8 +3452,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -3504,7 +3464,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 23,
                 30,
@@ -3513,7 +3472,7 @@
                 25,
                 40
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -3583,8 +3542,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -3601,8 +3560,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -3613,7 +3572,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 39,
                 40,
@@ -3622,8 +3580,8 @@
                 22,
                 37
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 6,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -3692,8 +3650,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -3710,8 +3668,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -3722,7 +3680,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 25,
                 32,
@@ -3731,7 +3688,7 @@
                 27,
                 42
             ],
-            "review": 2,
+            "review": 6,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -3801,8 +3758,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -3819,8 +3776,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -3831,7 +3788,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 44,
                 30,
@@ -3840,7 +3796,7 @@
                 32,
                 46
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -3910,8 +3866,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -3928,8 +3884,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -3940,7 +3896,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 30,
                 31,
@@ -3949,7 +3904,7 @@
                 33,
                 41
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 3,
             "until": "2026-01-01",
             "stock": 100,
@@ -4019,8 +3974,8 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -4037,8 +3992,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -4049,7 +4004,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 36,
                 49,
@@ -4058,7 +4012,7 @@
                 34,
                 47
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -4128,14 +4082,14 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -4146,8 +4100,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -4158,7 +4112,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 37,
                 22,
@@ -4167,7 +4120,7 @@
                 44,
                 30
             ],
-            "review": 2,
+            "review": 39,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -4235,6 +4188,10 @@
                 {
                     "name": "Trotinete",
                     "slug": "scooter"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -4251,12 +4208,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -4267,7 +4220,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 36,
                 49,
@@ -4276,8 +4228,8 @@
                 31,
                 41
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 4,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -4344,12 +4296,16 @@
                 {
                     "name": "Trotinete",
                     "slug": "scooter"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -4360,8 +4316,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -4372,7 +4328,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 31,
                 33,
@@ -4381,7 +4336,7 @@
                 47,
                 48
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -4451,14 +4406,14 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -4469,12 +4424,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -4485,7 +4436,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 30,
                 43,
@@ -4494,7 +4444,7 @@
                 33,
                 45
             ],
-            "review": 2,
+            "review": 9,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -4564,8 +4514,8 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -4582,8 +4532,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -4594,7 +4544,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 25,
                 38,
@@ -4603,8 +4552,8 @@
                 27,
                 40
             ],
-            "review": 2,
-            "ratings": 3,
+            "review": 9,
+            "ratings": 1,
             "until": null,
             "stock": 100,
             "top": null,
@@ -4673,8 +4622,8 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -4691,8 +4640,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -4703,7 +4652,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 46,
                 29,
@@ -4712,7 +4660,7 @@
                 38,
                 31
             ],
-            "review": 2,
+            "review": 9,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -4782,8 +4730,8 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -4800,8 +4748,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -4812,7 +4760,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 46,
                 31,
@@ -4821,7 +4768,7 @@
                 48,
                 36
             ],
-            "review": 2,
+            "review": 31,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -4891,8 +4838,8 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -4909,8 +4856,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -4921,7 +4868,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 22,
                 29,
@@ -4930,7 +4876,7 @@
                 30,
                 44
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -5000,8 +4946,8 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -5018,8 +4964,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Oxelo",
+                    "slug": "oxelo"
                 }
             ]
         },
@@ -5030,7 +4976,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 30,
                 31,
@@ -5039,7 +4984,7 @@
                 49,
                 36
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 3,
             "until": "2026-01-01",
             "stock": 100,
@@ -5109,8 +5054,8 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -5127,8 +5072,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -5139,7 +5084,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 38,
                 41,
@@ -5148,7 +5092,7 @@
                 34,
                 37
             ],
-            "review": 2,
+            "review": 24,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -5218,14 +5162,14 @@
                     "slug": "scooter"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -5236,8 +5180,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Evercross",
+                    "slug": "evercross"
                 }
             ]
         },
@@ -5248,7 +5192,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 35,
                 42,
@@ -5257,7 +5200,7 @@
                 33,
                 43
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -5325,12 +5268,16 @@
                 {
                     "name": "Trotinete",
                     "slug": "scooter"
+                },
+                {
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -5341,12 +5288,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Pegas",
+                    "slug": "pegas"
                 }
             ]
         },
@@ -5357,7 +5300,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 66,
                 88,
@@ -5366,7 +5308,7 @@
                 64,
                 86
             ],
-            "review": 2,
+            "review": 6,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -5434,12 +5376,16 @@
                 {
                     "name": "Tricouri",
                     "slug": "t-shirt"
+                },
+                {
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -5450,8 +5396,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -5462,7 +5408,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 77,
                 60,
@@ -5471,8 +5416,8 @@
                 76,
                 88
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 4,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": null,
@@ -5541,8 +5486,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -5559,12 +5504,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -5575,7 +5516,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 70,
                 77,
@@ -5584,7 +5524,7 @@
                 85,
                 81
             ],
-            "review": 2,
+            "review": 6,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -5654,8 +5594,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -5672,8 +5612,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Nike",
+                    "slug": "nike"
                 }
             ]
         },
@@ -5684,7 +5624,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 86,
                 73,
@@ -5693,7 +5632,7 @@
                 82,
                 85
             ],
-            "review": 2,
+            "review": 6,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -5763,8 +5702,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -5781,8 +5720,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -5793,7 +5732,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 83,
                 74,
@@ -5802,7 +5740,7 @@
                 62,
                 73
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -5872,8 +5810,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -5890,8 +5828,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -5902,7 +5840,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 88,
                 80,
@@ -5911,8 +5848,8 @@
                 62,
                 68
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 5,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": null,
@@ -5981,8 +5918,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -5999,8 +5936,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -6011,7 +5948,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 66,
                 75,
@@ -6020,7 +5956,7 @@
                 86,
                 87
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -6090,8 +6026,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -6120,7 +6056,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 50,
                 67,
@@ -6129,8 +6064,8 @@
                 62,
                 74
             ],
-            "review": 2,
-            "ratings": 3,
+            "review": 11,
+            "ratings": 1,
             "until": "2026-01-01",
             "stock": 100,
             "top": null,
@@ -6199,8 +6134,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -6217,8 +6152,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -6229,7 +6164,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 69,
                 77,
@@ -6238,7 +6172,7 @@
                 60,
                 51
             ],
-            "review": 2,
+            "review": 24,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -6308,8 +6242,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -6326,8 +6260,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -6338,7 +6272,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 73,
                 51,
@@ -6347,7 +6280,7 @@
                 57,
                 68
             ],
-            "review": 2,
+            "review": 4,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -6415,6 +6348,10 @@
                 {
                     "name": "Tricouri",
                     "slug": "t-shirt"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -6431,12 +6368,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -6447,7 +6380,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 86,
                 71,
@@ -6456,8 +6388,8 @@
                 82,
                 80
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 44,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -6524,12 +6456,16 @@
                 {
                     "name": "Tricouri",
                     "slug": "t-shirt"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -6540,8 +6476,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Nike",
+                    "slug": "nike"
                 }
             ]
         },
@@ -6552,7 +6488,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 53,
                 77,
@@ -6561,7 +6496,7 @@
                 59,
                 83
             ],
-            "review": 2,
+            "review": 9,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -6631,14 +6566,14 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -6649,12 +6584,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -6665,7 +6596,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 54,
                 60,
@@ -6674,7 +6604,7 @@
                 78,
                 87
             ],
-            "review": 2,
+            "review": 9,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -6744,8 +6674,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -6762,8 +6692,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -6774,7 +6704,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 83,
                 85,
@@ -6783,7 +6712,7 @@
                 73,
                 62
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -6853,8 +6782,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -6871,8 +6800,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -6883,7 +6812,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 67,
                 53,
@@ -6892,7 +6820,7 @@
                 69,
                 82
             ],
-            "review": 2,
+            "review": 7,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -6962,8 +6890,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -6992,7 +6920,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 52,
                 84,
@@ -7001,7 +6928,7 @@
                 59,
                 82
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -7071,8 +6998,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -7089,8 +7016,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -7101,7 +7028,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 78,
                 56,
@@ -7110,7 +7036,7 @@
                 81,
                 87
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -7180,8 +7106,8 @@
                     "slug": "t-shirt"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -7210,7 +7136,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 60,
                 66,
@@ -7219,7 +7144,7 @@
                 86,
                 62
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": "2026-01-01",
             "stock": 100,
@@ -7289,8 +7214,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -7307,8 +7232,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -7319,7 +7244,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 75,
                 76,
@@ -7327,7 +7251,7 @@
                 52,
                 55
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -7397,8 +7321,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -7415,8 +7339,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -7427,7 +7351,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 81,
                 80,
@@ -7436,7 +7359,7 @@
                 87,
                 88
             ],
-            "review": 2,
+            "review": 17,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -7504,12 +7427,16 @@
                 {
                     "name": "Pantofi",
                     "slug": "shoe"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -7520,12 +7447,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -7536,7 +7459,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 80,
                 81,
@@ -7545,7 +7467,7 @@
                 83,
                 84
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -7613,6 +7535,10 @@
                 {
                     "name": "Pantofi",
                     "slug": "shoe"
+                },
+                {
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -7629,8 +7555,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Nike",
+                    "slug": "nike"
                 }
             ]
         },
@@ -7641,7 +7567,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 86,
                 84,
@@ -7650,7 +7575,7 @@
                 59,
                 63
             ],
-            "review": 2,
+            "review": 17,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -7720,14 +7645,14 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -7738,12 +7663,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -7754,7 +7675,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 85,
                 87,
@@ -7763,7 +7683,7 @@
                 75,
                 80
             ],
-            "review": 2,
+            "review": 4,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -7833,8 +7753,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -7845,14 +7765,14 @@
             ],
             "color": [
                 {
-                    "name": "Yellow",
-                    "slug": "yellow"
+                    "name": "Brown",
+                    "slug": "brown"
                 }
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -7863,7 +7783,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 53,
                 70,
@@ -7872,8 +7791,8 @@
                 65,
                 79
             ],
-            "review": 2,
-            "ratings": 3,
+            "review": 65,
+            "ratings": 1,
             "until": null,
             "stock": 100,
             "top": null,
@@ -7942,8 +7861,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -7960,8 +7879,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Nike",
+                    "slug": "nike"
                 }
             ]
         },
@@ -7972,7 +7891,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 81,
                 54,
@@ -7981,7 +7899,7 @@
                 88,
                 76
             ],
-            "review": 2,
+            "review": 6,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -8051,8 +7969,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -8081,7 +7999,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 55,
                 79,
@@ -8090,8 +8007,8 @@
                 72,
                 87
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 6,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": null,
@@ -8160,8 +8077,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -8178,8 +8095,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -8190,7 +8107,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 51,
                 63,
@@ -8199,7 +8115,7 @@
                 82,
                 88
             ],
-            "review": 2,
+            "review": 7,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -8269,8 +8185,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -8299,7 +8215,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 87,
                 80,
@@ -8308,7 +8223,7 @@
                 57,
                 58
             ],
-            "review": 2,
+            "review": 44,
             "ratings": 3,
             "until": "2026-01-01",
             "stock": 100,
@@ -8378,8 +8293,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -8396,8 +8311,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -8408,7 +8323,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 84,
                 85,
@@ -8417,7 +8331,7 @@
                 62,
                 75
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -8487,14 +8401,14 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -8517,7 +8431,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 83,
                 85,
@@ -8526,7 +8439,7 @@
                 66,
                 55
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -8594,12 +8507,16 @@
                 {
                     "name": "Pantofi",
                     "slug": "shoe"
+                },
+                {
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -8610,12 +8527,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -8626,7 +8539,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 86,
                 74,
@@ -8635,7 +8547,7 @@
                 67,
                 60
             ],
-            "review": 2,
+            "review": 4,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -8703,12 +8615,16 @@
                 {
                     "name": "Pantofi",
                     "slug": "shoe"
+                },
+                {
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -8719,8 +8635,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -8731,7 +8647,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 82,
                 60,
@@ -8740,7 +8655,7 @@
                 84,
                 50
             ],
-            "review": 2,
+            "review": 31,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -8810,8 +8725,8 @@
                     "slug": "shoe"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -8828,12 +8743,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -8844,7 +8755,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 87,
                 68,
@@ -8853,7 +8763,7 @@
                 51,
                 57
             ],
-            "review": 2,
+            "review": 17,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -8923,8 +8833,8 @@
                     "slug": "backpack"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -8941,8 +8851,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -8953,7 +8863,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 53,
                 86,
@@ -8962,7 +8871,7 @@
                 65,
                 78
             ],
-            "review": 2,
+            "review": 17,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -9032,8 +8941,8 @@
                     "slug": "backpack"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -9050,8 +8959,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -9062,7 +8971,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 50,
                 86,
@@ -9071,8 +8979,8 @@
                 62,
                 73
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 5,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -9141,8 +9049,8 @@
                     "slug": "backpack"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -9159,8 +9067,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -9171,7 +9079,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 52,
                 86,
@@ -9180,8 +9087,8 @@
                 66,
                 76
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 33,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": null,
@@ -9250,8 +9157,8 @@
                     "slug": "backpack"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -9280,7 +9187,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 55,
                 85,
@@ -9289,7 +9195,7 @@
                 69,
                 75
             ],
-            "review": 2,
+            "review": 6,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -9359,8 +9265,8 @@
                     "slug": "backpack"
                 },
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Bărbați",
+                    "slug": "bărbați"
                 }
             ],
             "size": [
@@ -9377,8 +9283,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -9389,7 +9295,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 83,
                 57,
@@ -9398,8 +9303,8 @@
                 61,
                 55
             ],
-            "review": 2,
-            "ratings": 3,
+            "review": 9,
+            "ratings": 1,
             "until": "2026-01-01",
             "stock": 100,
             "top": null,
@@ -9468,8 +9373,8 @@
                     "slug": "backpack"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -9486,8 +9391,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Otter",
+                    "slug": "otter"
                 }
             ]
         },
@@ -9498,7 +9403,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 50,
                 85,
@@ -9507,7 +9411,7 @@
                 64,
                 79
             ],
-            "review": 2,
+            "review": 4,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -9577,8 +9481,8 @@
                     "slug": "backpack"
                 },
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -9595,8 +9499,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Adidas",
+                    "slug": "adidas"
                 }
             ]
         },
@@ -9607,7 +9511,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 93,
                 26,
@@ -9616,7 +9519,7 @@
                 44,
                 45
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -9700,12 +9603,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "Solognac",
+                    "slug": "solognac"
                 }
             ]
         },
@@ -9716,7 +9615,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 499.99,
             "sale_price": 419.99,
-            "vendor": "demo24",
             "related": [
                 95,
                 31,
@@ -9725,7 +9623,7 @@
                 33,
                 29
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -9809,8 +9707,8 @@
             ],
             "brand": [
                 {
-                    "name": "New Balance",
-                    "slug": "new-balance"
+                    "name": "OEM",
+                    "slug": "oem"
                 }
             ]
         },
@@ -9821,7 +9719,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
             "price": 77.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 89,
                 95,
@@ -9830,8 +9727,8 @@
                 37,
                 43
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 65,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": null,
@@ -9898,10 +9795,6 @@
                 {
                     "name": "Lanterne",
                     "slug": "flashlight"
-                },
-                {
-                    "name": "Men",
-                    "slug": "men"
                 }
             ],
             "size": [
@@ -9918,12 +9811,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf"
+                    "name": "OEM",
+                    "slug": "oem"
                 }
             ]
         },
@@ -9934,7 +9823,6 @@
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
-            "vendor": "demo24",
             "related": [
                 93,
                 26,
@@ -9943,8 +9831,8 @@
                 39,
                 46
             ],
-            "review": 2,
-            "ratings": 5,
+            "review": 7,
+            "ratings": 2,
             "until": null,
             "stock": 100,
             "top": true,
@@ -10011,10 +9899,6 @@
                 {
                     "name": "Lanterne",
                     "slug": "flashlight"
-                },
-                {
-                    "name": "Women",
-                    "slug": "women"
                 }
             ],
             "size": [
@@ -10031,8 +9915,8 @@
             ],
             "brand": [
                 {
-                    "name": "Drake",
-                    "slug": "drake"
+                    "name": "Solognac",
+                    "slug": "solognac"
                 }
             ]
         },
@@ -10043,7 +9927,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 52.66,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 91,
                 24,
@@ -10052,7 +9935,7 @@
                 48,
                 42
             ],
-            "review": 2,
+            "review": 5,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -10120,10 +10003,6 @@
                 {
                     "name": "Lanterne",
                     "slug": "flashlight"
-                },
-                {
-                    "name": "Men",
-                    "slug": "men"
                 }
             ],
             "size": [
@@ -10140,8 +10019,8 @@
             ],
             "brand": [
                 {
-                    "name": "Raven",
-                    "slug": "raven"
+                    "name": "Solognac",
+                    "slug": "solognac"
                 }
             ]
         },
@@ -10152,7 +10031,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 299.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 95,
                 96,
@@ -10161,7 +10039,7 @@
                 33,
                 46
             ],
-            "review": 2,
+            "review": 14,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -10229,10 +10107,6 @@
                 {
                     "name": "Lanterne",
                     "slug": "flashlight"
-                },
-                {
-                    "name": "Women",
-                    "slug": "women"
                 }
             ],
             "size": [
@@ -10249,8 +10123,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "OEM",
+                    "slug": "oem"
                 }
             ]
         },
@@ -10261,7 +10135,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 34.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 93,
                 99,
@@ -10270,7 +10143,7 @@
                 34,
                 45
             ],
-            "review": 2,
+            "review": 1,
             "ratings": 5,
             "until": null,
             "stock": 100,
@@ -10338,10 +10211,6 @@
                 {
                     "name": "Mingi",
                     "slug": "ball"
-                },
-                {
-                    "name": "Women",
-                    "slug": "women"
                 }
             ],
             "size": [
@@ -10358,8 +10227,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Solognac",
+                    "slug": "solognac"
                 }
             ]
         },
@@ -10370,7 +10239,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 76.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 93,
                 26,
@@ -10379,7 +10247,7 @@
                 41,
                 89
             ],
-            "review": 2,
+            "review": 24,
             "ratings": 4,
             "until": null,
             "stock": 100,
@@ -10447,10 +10315,6 @@
                 {
                     "name": "Mingi",
                     "slug": "ball"
-                },
-                {
-                    "name": "Women",
-                    "slug": "women"
                 }
             ],
             "size": [
@@ -10467,8 +10331,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "OEM",
+                    "slug": "oem"
                 }
             ]
         },
@@ -10479,7 +10343,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 600,
             "sale_price": 239.99,
-            "vendor": "demo24",
             "related": [
                 90,
                 23,
@@ -10488,8 +10351,8 @@
                 45,
                 30
             ],
-            "review": 2,
-            "ratings": 3,
+            "review": 4,
+            "ratings": 1,
             "until": "2026-01-01",
             "stock": 100,
             "top": null,
@@ -10556,28 +10419,24 @@
                 {
                     "name": "Mingi",
                     "slug": "ball"
-                },
-                {
-                    "name": "Men",
-                    "slug": "men"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
                 {
-                    "name": "White",
-                    "slug": "white"
+                    "name": "Yellow",
+                    "slug": "yellow"
                 }
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Solognac",
+                    "slug": "solognac"
                 }
             ]
         },
@@ -10588,7 +10447,6 @@
             "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
             "price": 127.99,
             "sale_price": null,
-            "vendor": "demo24",
             "related": [
                 93,
                 99,
@@ -10597,7 +10455,7 @@
                 30,
                 35
             ],
-            "review": 2,
+            "review": 17,
             "ratings": 3,
             "until": null,
             "stock": 100,
@@ -10665,16 +10523,12 @@
                 {
                     "name": "Mingi",
                     "slug": "ball"
-                },
-                {
-                    "name": "Men",
-                    "slug": "men"
                 }
             ],
             "size": [
                 {
-                    "name": "Largi",
-                    "slug": "L"
+                    "name": "Extra Largi",
+                    "slug": "XL"
                 }
             ],
             "color": [
@@ -10685,8 +10539,8 @@
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "OEM",
+                    "slug": "oem"
                 }
             ]
         },
@@ -10697,7 +10551,6 @@
             "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
             "price": 150,
             "sale_price": 139,
-            "vendor": "demo24",
             "related": [
                 92,
                 25,
@@ -10706,7 +10559,7 @@
                 41,
                 47
             ],
-            "review": 2,
+            "review": 17,
             "ratings": 4,
             "until": "2026-01-01",
             "stock": 100,
@@ -10790,8 +10643,8 @@
             ],
             "brand": [
                 {
-                    "name": "UGG",
-                    "slug": "ugg"
+                    "name": "OEM",
+                    "slug": "oem"
                 },
                 {
                     "name": "F&F",
