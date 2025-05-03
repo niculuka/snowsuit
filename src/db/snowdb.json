@@ -2,10 +2,10 @@
     "products": [
         {
             "id": 1,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-1",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
-            "price": 77.99,
+            "name": "Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
+            "slug": "placa-snowboard-arbor-paparazzi-rocker-lungime-147cm-21-22",
+            "short_desc": "Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
+            "price": 1299.99,
             "sale_price": null,
             "vendor": "demo24",
             "related": [
@@ -83,8 +83,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Men",
@@ -99,14 +99,14 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
                 {
-                    "name": "Nike",
-                    "slug": "nike"
+                    "name": "Drake",
+                    "slug": "drake"
                 },
                 {
                     "name": "F&F",
@@ -196,8 +196,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Women",
@@ -212,8 +212,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -305,8 +305,8 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Sport",
@@ -321,8 +321,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -414,8 +414,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Bags",
@@ -434,8 +434,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -527,8 +527,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Women",
@@ -543,8 +543,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -636,8 +636,8 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Jackets & Vests",
@@ -652,8 +652,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -745,8 +745,8 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Shoes",
@@ -761,8 +761,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -854,8 +854,8 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Shoes",
@@ -870,8 +870,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -963,8 +963,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 }
             ],
             "size": [
@@ -975,8 +975,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -1072,8 +1072,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 }
             ],
             "size": [
@@ -1084,8 +1084,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -1177,8 +1177,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Snowboarduri",
+                    "slug": "snowboard"
                 },
                 {
                     "name": "Men",
@@ -1193,8 +1193,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -1210,7 +1210,7 @@
         },
         {
             "id": 12,
-            "name": "Snowboard Freestyle Italia - 135 cm",
+            "name": "C L A P A R I   -   C L A P A R I   -   C L A P A R I   -   C L A P A R I   -   ",
             "slug": "snowboard-freestyle-italia-12",
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
@@ -1290,8 +1290,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
                     "name": "Women",
@@ -1306,8 +1306,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Yellow",
+                    "slug": "yellow"
                 }
             ],
             "brand": [
@@ -1399,12 +1399,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -1415,8 +1415,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "Yellow",
+                    "slug": "yellow"
                 }
             ],
             "brand": [
@@ -1508,12 +1508,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
                     "name": "Women",
@@ -1528,8 +1524,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -1621,8 +1617,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
                     "name": "Women",
@@ -1637,8 +1633,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -1730,12 +1726,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -1746,8 +1742,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -1839,12 +1835,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -1855,8 +1851,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -1948,12 +1944,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -1964,8 +1960,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -2057,8 +2053,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 }
             ],
             "size": [
@@ -2069,8 +2065,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -2166,8 +2162,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 }
             ],
             "size": [
@@ -2178,8 +2174,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -2271,8 +2267,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Clăpari",
+                    "slug": "boot"
                 },
                 {
                     "name": "Men",
@@ -2384,8 +2380,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
                     "name": "Women",
@@ -2400,8 +2396,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -2493,12 +2489,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -2509,8 +2505,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -2602,12 +2598,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
                     "name": "Women",
@@ -2622,8 +2614,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -2715,8 +2707,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
                     "name": "Women",
@@ -2731,8 +2723,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -2824,12 +2816,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -2840,8 +2832,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -2933,12 +2925,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -2949,8 +2941,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -3042,12 +3034,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -3058,8 +3050,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -3151,8 +3143,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 }
             ],
             "size": [
@@ -3163,8 +3155,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -3260,8 +3252,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 }
             ],
             "size": [
@@ -3272,8 +3264,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -3365,8 +3357,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
                     "name": "Men",
@@ -3381,8 +3373,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -3478,8 +3470,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
                     "name": "Women",
@@ -3494,8 +3486,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -3587,12 +3579,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -3603,8 +3595,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -3696,16 +3688,12 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
                     "name": "Bags",
                     "slug": "bags"
-                },
-                {
-                    "name": "Women",
-                    "slug": "women"
                 }
             ],
             "size": [
@@ -3809,8 +3797,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
                     "name": "Women",
@@ -3825,8 +3813,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -3918,12 +3906,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Biciclete",
+                    "slug": "bike"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -3934,8 +3922,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -4027,12 +4015,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -4136,12 +4124,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -4152,8 +4140,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -4245,8 +4233,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 }
             ],
             "size": [
@@ -4257,8 +4245,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -4354,8 +4342,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 }
             ],
             "size": [
@@ -4366,8 +4354,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -4459,8 +4447,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
                     "name": "Men",
@@ -4475,8 +4463,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -4572,8 +4560,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
                     "name": "Women",
@@ -4588,8 +4576,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -4681,12 +4669,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -4697,8 +4685,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -4790,12 +4778,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
                     "name": "Women",
@@ -4810,8 +4794,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -4903,8 +4887,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
                     "name": "Women",
@@ -4919,8 +4903,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -5012,12 +4996,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -5028,8 +5012,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -5121,12 +5105,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -5137,8 +5121,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -5230,12 +5214,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -5246,8 +5230,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Yellow",
+                    "slug": "yellow"
                 }
             ],
             "brand": [
@@ -5339,8 +5323,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Trotinete",
+                    "slug": "scooter"
                 }
             ],
             "size": [
@@ -5351,8 +5335,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -5448,8 +5432,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 }
             ],
             "size": [
@@ -5460,8 +5444,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -5553,8 +5537,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Men",
@@ -5569,8 +5553,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -5666,8 +5650,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Women",
@@ -5682,8 +5666,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -5775,12 +5759,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -5884,12 +5868,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Women",
@@ -5904,8 +5884,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -5997,8 +5977,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Women",
@@ -6013,8 +5993,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -6106,12 +6086,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -6122,8 +6102,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -6215,12 +6195,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -6231,8 +6211,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -6324,12 +6304,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -6340,8 +6320,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -6433,8 +6413,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 }
             ],
             "size": [
@@ -6445,8 +6425,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -6542,8 +6522,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 }
             ],
             "size": [
@@ -6554,8 +6534,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -6647,8 +6627,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Men",
@@ -6663,8 +6643,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -6760,8 +6740,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Women",
@@ -6776,8 +6756,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -6869,12 +6849,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -6885,8 +6865,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -6978,12 +6958,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Women",
@@ -6998,8 +6974,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -7091,8 +7067,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
                     "name": "Women",
@@ -7107,8 +7083,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -7200,12 +7176,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Tricouri",
+                    "slug": "t-shirt"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -7309,12 +7285,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -7325,8 +7301,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Yellow",
+                    "slug": "yellow"
                 }
             ],
             "brand": [
@@ -7417,12 +7393,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -7433,8 +7409,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Brown",
+                    "slug": "brown"
                 }
             ],
             "brand": [
@@ -7526,8 +7502,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 }
             ],
             "size": [
@@ -7538,8 +7514,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -7635,8 +7611,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 }
             ],
             "size": [
@@ -7647,8 +7623,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -7740,8 +7716,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
                     "name": "Men",
@@ -7756,8 +7732,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Brown",
+                    "slug": "brown"
                 }
             ],
             "brand": [
@@ -7853,8 +7829,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
                     "name": "Women",
@@ -7869,8 +7845,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Yellow",
+                    "slug": "yellow"
                 }
             ],
             "brand": [
@@ -7962,12 +7938,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -7978,8 +7954,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -8071,12 +8047,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
                     "name": "Women",
@@ -8091,8 +8063,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -8184,8 +8156,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
                     "name": "Women",
@@ -8200,8 +8172,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Brown",
+                    "slug": "brown"
                 }
             ],
             "brand": [
@@ -8293,12 +8265,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -8309,8 +8281,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -8350,8 +8322,8 @@
             "variants": [],
             "pictures": [
                 {
-                    "name": "product_71_800.jpg",
-                    "url": "/db/uploads/product_71_800.jpg",
+                    "name": "product_73_800.jpg",
+                    "url": "/db/uploads/product_73_800.jpg",
                     "width": 800,
                     "height": 800
                 },
@@ -8376,8 +8348,8 @@
             ],
             "sm_pictures": [
                 {
-                    "name": "product_71_300.jpg",
-                    "url": "/db/uploads/product_71_300.jpg",
+                    "name": "product_73_300.jpg",
+                    "url": "/db/uploads/product_73_300.jpg",
                     "width": 300,
                     "height": 300
                 },
@@ -8402,12 +8374,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -8418,8 +8390,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -8511,12 +8483,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -8527,8 +8499,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -8620,8 +8592,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 }
             ],
             "size": [
@@ -8632,8 +8604,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -8729,8 +8701,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 }
             ],
             "size": [
@@ -8834,8 +8806,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Pantofi",
+                    "slug": "shoe"
                 },
                 {
                     "name": "Men",
@@ -8850,8 +8822,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -8947,8 +8919,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Rucsacuri",
+                    "slug": "backpack"
                 },
                 {
                     "name": "Women",
@@ -8963,8 +8935,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -9056,12 +9028,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Rucsacuri",
+                    "slug": "backpack"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -9165,12 +9137,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Rucsacuri",
+                    "slug": "backpack"
                 },
                 {
                     "name": "Women",
@@ -9185,8 +9153,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -9278,8 +9246,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Rucsacuri",
+                    "slug": "backpack"
                 },
                 {
                     "name": "Women",
@@ -9294,8 +9262,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -9387,12 +9355,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Rucsacuri",
+                    "slug": "backpack"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -9403,8 +9371,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -9496,12 +9464,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Rucsacuri",
+                    "slug": "backpack"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -9512,8 +9480,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Blue",
+                    "slug": "blue"
                 }
             ],
             "brand": [
@@ -9605,12 +9573,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Rucsacuri",
+                    "slug": "backpack"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -9621,8 +9589,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -9714,8 +9682,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Lanterne",
+                    "slug": "flashlight"
                 }
             ],
             "size": [
@@ -9823,8 +9791,8 @@
             ],
             "category": [
                 {
-                    "name": "Jackets",
-                    "slug": "jackets"
+                    "name": "Lanterne",
+                    "slug": "flashlight"
                 }
             ],
             "size": [
@@ -9835,8 +9803,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -9928,8 +9896,8 @@
             ],
             "category": [
                 {
-                    "name": "Camping",
-                    "slug": "camping"
+                    "name": "Lanterne",
+                    "slug": "flashlight"
                 },
                 {
                     "name": "Men",
@@ -9944,8 +9912,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -10041,8 +10009,8 @@
             ],
             "category": [
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Lanterne",
+                    "slug": "flashlight"
                 },
                 {
                     "name": "Women",
@@ -10057,8 +10025,8 @@
             ],
             "color": [
                 {
-                    "name": "Brown",
-                    "slug": "brown"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -10150,12 +10118,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Lanterne",
+                    "slug": "flashlight"
                 },
                 {
-                    "name": "Sport",
-                    "slug": "sport"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -10166,8 +10134,8 @@
             ],
             "color": [
                 {
-                    "name": "Blue",
-                    "slug": "blue"
+                    "name": "Grey",
+                    "slug": "grey"
                 }
             ],
             "brand": [
@@ -10259,12 +10227,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
-                },
-                {
-                    "name": "Bags",
-                    "slug": "bags"
+                    "name": "Lanterne",
+                    "slug": "flashlight"
                 },
                 {
                     "name": "Women",
@@ -10279,8 +10243,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Black",
+                    "slug": "black"
                 }
             ],
             "brand": [
@@ -10372,8 +10336,8 @@
             ],
             "category": [
                 {
-                    "name": "Tops",
-                    "slug": "tops"
+                    "name": "Mingi",
+                    "slug": "ball"
                 },
                 {
                     "name": "Women",
@@ -10388,8 +10352,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -10481,12 +10445,12 @@
             ],
             "category": [
                 {
-                    "name": "Women",
-                    "slug": "women"
+                    "name": "Mingi",
+                    "slug": "ball"
                 },
                 {
-                    "name": "Jackets & Vests",
-                    "slug": "jackets-and-vests"
+                    "name": "Women",
+                    "slug": "women"
                 }
             ],
             "size": [
@@ -10497,8 +10461,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Brown",
+                    "slug": "brown"
                 }
             ],
             "brand": [
@@ -10590,12 +10554,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Mingi",
+                    "slug": "ball"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -10606,8 +10570,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "White",
+                    "slug": "white"
                 }
             ],
             "brand": [
@@ -10699,12 +10663,12 @@
             ],
             "category": [
                 {
-                    "name": "Men",
-                    "slug": "men"
+                    "name": "Mingi",
+                    "slug": "ball"
                 },
                 {
-                    "name": "Shoes",
-                    "slug": "shoes"
+                    "name": "Men",
+                    "slug": "men"
                 }
             ],
             "size": [
@@ -10715,8 +10679,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Green",
+                    "slug": "green"
                 }
             ],
             "brand": [
@@ -10808,8 +10772,8 @@
             ],
             "category": [
                 {
-                    "name": "Accessories",
-                    "slug": "accessories"
+                    "name": "Mingi",
+                    "slug": "ball"
                 }
             ],
             "size": [
@@ -10820,8 +10784,8 @@
             ],
             "color": [
                 {
-                    "name": "Grey",
-                    "slug": "grey"
+                    "name": "Red",
+                    "slug": "red"
                 }
             ],
             "brand": [
@@ -10841,6 +10805,16 @@
                     "slug7": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
                     "slug8": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
                     "slug9": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug10": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug11": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug12": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug13": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug14": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug15": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug16": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug17": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug18": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
+                    "slug19": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
                     "slug99": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E"
                 }
             ]

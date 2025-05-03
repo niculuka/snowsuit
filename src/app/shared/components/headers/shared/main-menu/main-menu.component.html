@@ -27,33 +27,13 @@
                                         <li [class.active]="current.includes('shop/sidebar/4cols')">
                                             <a routerLink="/shop/sidebar/4cols">Grilă - 4 Coloane</a>
                                         </li>
-                                        <!-- <li [class.active]="current.includes('shop/market')">
-                                            <a routerLink="/shop/market">
-                                                <span>
-                                                    Catalog
-                                                    <span class="tip tip-new">Nou</span>
-                                                </span>
-                                            </a>
-                                        </li> -->
                                     </ul>
 
-                                    <!-- <div class="menu-title">MAGAZIN (fara bară)</div>
-                                    <ul>
-                                        <li [class.active]="current.includes('shop/nosidebar/boxed')">
-                                            <a routerLink="/shop/nosidebar/boxed">
-                                                <span>
-                                                    Grilă - 4 Coloane
-                                                    <span class="tip tip-hot">Wow</span>
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li [class.active]="current.includes('shop/nosidebar/fullwidth')">
-                                            <a routerLink="/shop/nosidebar/fullwidth">Grilă - 6 Coloane</a>
-                                        </li>
-                                    </ul> -->
+                                </div>
+
+                                <div class="col-md-6">
 
                                     <div class="menu-title">CATEGORIE PRODUSE</div>
-
                                     <ul>
                                         <li [class.active]="current.includes('shop/category/boxed')">
                                             <a routerLink="/shop/category/boxed">
@@ -69,24 +49,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </div>
 
-                                <div class="col-md-6">
-                                    <div class="menu-title">PAGINILE MAGAZINULUI</div>
-                                    <ul>
-                                        <li [class.active]="current.includes('shop/cart')">
-                                            <a routerLink="/shop/cart">Coș</a>
-                                        </li>
-                                        <li [class.active]="current.includes('shop/checkout')">
-                                            <a routerLink="/shop/checkout">Plată</a>
-                                        </li>
-                                        <li [class.active]="current.includes('shop/wishlist')">
-                                            <a routerLink="/shop/wishlist">Favorite</a>
-                                        </li>
-                                        <li [class.active]="current.includes('shop/dashboard')">
-                                            <a routerLink="/shop/dashboard">Contul Meu</a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -120,51 +83,29 @@
                 <div class="row no-gutters">
                     <div class="col-md-6">
                         <div class="menu-col">
-                            <div class="menu-title">DETALII PRODUS</div>
 
+                            <div class="menu-title">DETALII PRODUS</div>
                             <ul>
                                 <li [class.active]="current.includes('product/default')">
                                     <a routerLink="/product/default/dark-yellow-lace-cut-out-swing-dress">
                                         Normal
                                     </a>
                                 </li>
-                                <li [class.active]="current.includes('product/centered')">
-                                    <a routerLink="/product/centered/beige-ring-handle-circle-cross-body-bag">
-                                        Centrat
-                                    </a>
+                            </ul>
+
+                            <div class="menu-title">PAGINILE MAGAZINULUI</div>
+                            <ul>
+                                <li [class.active]="current.includes('shop/cart')">
+                                    <a routerLink="/shop/cart">Coș</a>
                                 </li>
-                                <li [class.active]="current.includes('product/extended')">
-                                    <a routerLink="/product/extended/yellow-tie-strap-block-heel-sandals">
-                                        <span>
-                                            Informații extinse
-                                            <span class="tip tip-new">Nou</span>
-                                        </span>
-                                    </a>
+                                <li [class.active]="current.includes('shop/checkout')">
+                                    <a routerLink="/shop/checkout">Plată</a>
                                 </li>
-                                <li [class.active]="current.includes('product/gallery')">
-                                    <a routerLink="/product/gallery/beige-metal-hoop-tote-bag">
-                                        Galerie
-                                    </a>
+                                <li [class.active]="current.includes('shop/wishlist')">
+                                    <a routerLink="/shop/wishlist">Favorite</a>
                                 </li>
-                                <li [class.active]="current.includes('product/sticky')">
-                                    <a routerLink="/product/sticky/brown-faux-fur-longline-coat">
-                                        Informații mobile
-                                    </a>
-                                </li>
-                                <li [class.active]="current.includes('product/sidebar')">
-                                    <a routerLink="/product/sidebar/beige-v-neck-button-cardigan">
-                                        Lațime mică
-                                    </a>
-                                </li>
-                                <li [class.active]="current.includes('product/fullwidth')">
-                                    <a routerLink="/product/fullwidth/black-faux-leather-chain-trim-sandals">
-                                        Lațime completă
-                                    </a>
-                                </li>
-                                <li [class.active]="current.includes('product/masonry')">
-                                    <a routerLink="/product/masonry/black-denim-dungaree-dress">
-                                        Informații Mobile
-                                    </a>
+                                <li [class.active]="current.includes('shop/dashboard')">
+                                    <a routerLink="/shop/dashboard">Contul Meu</a>
                                 </li>
                             </ul>
                         </div>

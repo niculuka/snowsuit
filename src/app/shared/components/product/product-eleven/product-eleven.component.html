@@ -3,7 +3,7 @@
         <span class="product-label label-new" *ngIf="product.new">New</span>
         <span class="product-label label-sale" *ngIf="product.sale_price">Sale</span>
         <span class="product-label label-top" *ngIf="product.top">Top</span>
-        <span class="product-label label-out" *ngIf="!product.stock || product.stock == 0">Out Of Stock</span>
+        <span class="product-label label-out" *ngIf="!product.stock || product.stock == 0">Vândut</span>
 
         <a [routerLink]="['/product/default/'+ product.slug]">
             <molla-image [src]="SERVER_URL + product.sm_pictures[0].url" alt="Product" class="product-image">
@@ -16,21 +16,21 @@
         <div class="product-action-vertical">
             <a href="javascript:;" class="btn-product-icon btn-wishlist btn-expandable"
                 [class.added-to-wishlist]="isInWishlist()" (click)="addToWishlist($event)">
-                <span>{{ isInWishlist() ? 'go' : 'add' }} to Wishlist</span>
+                <span>{{ isInWishlist() ? 'Du-te' : 'Adaugă' }} în Favorite</span>
             </a>
             <a href="javascript:;" class="btn-product-icon btn-quickview" title="Quick view"
-                (click)="quickView($event)"><span>Quick view</span></a>
+                (click)="quickView($event)"><span>Vedere rapidă</span></a>
             <a href="javascript:;" class="btn-product-icon btn-compare" title="Compare"
-                (click)="addToCompare($event)"><span>Compare</span></a>
+                (click)="addToCompare($event)"><span>Comparare</span></a>
         </div>
         <div class="product-action" *ngIf="product.stock && product.stock !== 0">
             <a [routerLink]="['/product/default/'+ product.slug]" class="btn-product btn-cart btn-select"
                 *ngIf="product.variants.length > 0 else cartBlock">
-                <span>select options</span>
+                <span>Selectează</span>
             </a>
             <ng-template #cartBlock>
                 <button class="btn-product btn-cart" (click)="addToCart($event)">
-                    <span>add to cart</span>
+                    <span>adaugă în coș</span>
                 </button>
             </ng-template>
         </div>
@@ -48,18 +48,18 @@
         </h3>
 
         <div class="product-price" *ngIf="!product.stock || product.stock == 0 else elseBlock">
-            <span class="out-price">${{ product.price.toFixed(2) }}</span>
+            <span class="out-price">{{ product.price.toFixed(2) }} Lei</span>
         </div>
 
         <ng-template #elseBlock>
-            <div class="product-price" *ngIf="minPrice == maxPrice else elseBlock">${{ minPrice.toFixed(2) }}</div>
+            <div class="product-price" *ngIf="minPrice == maxPrice else elseBlock">{{ minPrice.toFixed(2) }} Lei</div>
             <ng-template #elseBlock>
                 <div class="product-price" *ngIf="product.variants.length == 0 else elseBlock">
-                    <span class="new-price">${{ minPrice.toFixed(2) }}</span>
-                    <span class="old-price">${{ maxPrice.toFixed(2) }}</span>
+                    <span class="new-price">{{ minPrice.toFixed(2) }} Lei</span>
+                    <span class="old-price">{{ maxPrice.toFixed(2) }} Lei</span>
                 </div>
                 <ng-template #elseBlock>
-                    <div class="product-price">${{minPrice.toFixed(2)}}&ndash;${{maxPrice.toFixed(2)}}</div>
+                    <div class="product-price">{{minPrice.toFixed(2)}}&ndash;{{maxPrice.toFixed(2)}} Lei</div>
                 </ng-template>
             </ng-template>
         </ng-template>
@@ -69,13 +69,13 @@
                 <div class="ratings-val" [style.width]="product.ratings * 20 + '%'"></div>
                 <span class="tooltip-text">{{ product.ratings.toFixed(2) }}</span>
             </div>
-            <span class="ratings-text">( {{ product.review }} Reviews )</span>
+            <span class="ratings-text">( {{ product.review }} Păreri )</span>
         </div>
 
         <div class="product-nav product-nav-dots" *ngIf="product.variants.length > 0">
             <div class="row no-gutters">
                 <a href="javascript:;" [style.backgroundColor]="item.color" *ngFor="let item of product.variants">
-                    <span class="sr-only">Color name</span></a>
+                    <span class="sr-only">Culoare</span></a>
             </div>
         </div>
     </div>
