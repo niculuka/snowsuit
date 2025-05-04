@@ -2,7 +2,7 @@
     "products": [
         {
             "id": 1,
-            "name": "Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
+            "name": "Placă Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
             "slug": "placa-snowboard-arbor-paparazzi-rocker-lungime-147cm-21-22",
             "short_desc": "Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
             "price": 1299.99,
@@ -112,8 +112,8 @@
         {
             "id": 2,
             "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-2",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
+            "slug": "snowboard-freestyle-italia-135-cm",
+            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru femei între 1,45 m-1,70 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
             "price": 899,
             "sale_price": 849,
             "related": [
@@ -219,10 +219,10 @@
         },
         {
             "id": 3,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-3",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "name": "Placă Snowboard Profesională - lungime 147cm",
+            "slug": "placa-snowboard-profesionala-lungime-147cm",
+            "short_desc": "Placa Snowboard Profesionala - lungime 147cm, Placa Snowboard Profesionala - lungime 147cm, Placa Snowboard Profesionala - lungime 147cm, Placa Snowboard Profesionala - lungime 147cm.",
+            "price": 952.66,
             "sale_price": null,
             "related": [
                 19,
@@ -327,10 +327,10 @@
         },
         {
             "id": 4,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-4",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
+            "name": "Snowboard pentru sporturile de iarnă",
+            "slug": "snowboard-pentru-sporturile-de-iarna",
+            "short_desc": "Snowboard pentru sporturile de iarnă, Snowboard pentru sporturile de iarnă, Snowboard pentru sporturile de iarnă.",
+            "price": 1499.99,
             "sale_price": null,
             "related": [
                 21,
@@ -435,10 +435,10 @@
         },
         {
             "id": 5,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-5",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "name": "Placă Snowboard pentru adulți",
+            "slug": "placa-snowboard-pentru-adulti",
+            "short_desc": "Placă Snowboard pentru adulți, Placă Snowboard pentru adulți, Placă Snowboard pentru adulți, Placă Snowboard pentru adulți.",
+            "price": 1734.99,
             "sale_price": null,
             "related": [
                 10,
@@ -543,10 +543,10 @@
         },
         {
             "id": 6,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-6",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "name": "Placă Universală pentru lunecare pe zăpadă",
+            "slug": "placa-universala-pentru-lunecare-pe-zapada",
+            "short_desc": "Placă Universală pentru lunecare pe zăpadă, Placă Universală pentru lunecare pe zăpadă, Placă Universală pentru lunecare pe zăpadă, Placă Universală pentru lunecare pe zăpadă.",
+            "price": 1976.99,
             "sale_price": null,
             "related": [
                 14,
@@ -651,11 +651,11 @@
         },
         {
             "id": 7,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-7",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 600,
-            "sale_price": 239.99,
+            "name": "Snowboard de mare clasă pentru oameni mari",
+            "slug": "snowboard-de-mare-clasa-pentru-oameni-mari",
+            "short_desc": "Snowboard de mare clasă pentru oameni mari, Snowboard de mare clasă pentru oameni mari, Snowboard de mare clasă pentru oameni mari, Snowboard de mare clasă pentru oameni mari.",
+            "price": 900,
+            "sale_price": 839.99,
             "related": [
                 12,
                 17,
@@ -759,10 +759,10 @@
         },
         {
             "id": 8,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-8",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "name": "Snowboard din lemn de esență tare - 180cm",
+            "slug": "snowboard-din-lemn-de-esenta-tare-180cm",
+            "short_desc": "Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm.",
+            "price": 927.99,
             "sale_price": null,
             "related": [
                 1,
@@ -867,11 +867,11 @@
         },
         {
             "id": 9,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-9",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "name": "Snowboard de calitate superioară pentru meseriași",
+            "slug": "snowboard-de-calitate-superioara-pentru-meseriasi",
+            "short_desc": "Snowboard de calitate superioară pentru meseriași, Snowboard de calitate superioară pentru meseriași, Snowboard de calitate superioară pentru meseriași.",
+            "price": 1190,
+            "sale_price": 1109,
             "related": [
                 6,
                 19,
@@ -975,11 +975,11 @@
         },
         {
             "id": 10,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-10",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 499.99,
-            "sale_price": 419.99,
+            "name": "Snowboard pentru femei, calitate medie, lungime 155 cm",
+            "slug": "snowboard-pentru-femei-calitate-medie-lungime-155-cm",
+            "short_desc": "SSnowboard pentru femei, calitate medie, lungime 155 cm, Snowboard pentru femei, calitate medie, lungime 155 cm, Snowboard pentru femei, calitate medie, lungime 155 cm.",
+            "price": 1499.99,
+            "sale_price": 1319.99,
             "related": [
                 12,
                 14,
@@ -1083,11 +1083,11 @@
         },
         {
             "id": 11,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-11",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
-            "price": 77.99,
-            "sale_price": null,
+            "name": "Placă Snowboard pentru toți oamenii pricepuți la sport",
+            "slug": "placa-snowboard-pentru-toti-oamenii-pricepuți-la-sport",
+            "short_desc": "Placă Snowboard pentru toți oamenii pricepuți la sport, Placă Snowboard pentru toți oamenii pricepuți la sport, Placă Snowboard pentru toți oamenii pricepuți la sport",
+            "price": 977.99,
+            "sale_price": 899,
             "related": [
                 7,
                 17,
