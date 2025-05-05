@@ -1,7 +1,7 @@
 {
     "products": [
         {
-            "id": 1,
+            "id": 24,
             "name": "Placă Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
             "slug": "placa-snowboard-arbor-paparazzi-rocker-lungime-147cm-21-22",
             "short_desc": "Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22. Placa Snowboard Arbor Poparazzi Rocker, lungime 147cm 21/22",
@@ -110,7 +110,7 @@
             ]
         },
         {
-            "id": 2,
+            "id": 22,
             "name": "Snowboard Freestyle Italia - 135 cm",
             "slug": "snowboard-freestyle-italia-135-cm",
             "short_desc": "Produs conceput pentru snowboarding. Ideal pentru femei între 1,45 m-1,70 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
@@ -218,7 +218,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 12,
             "name": "Placă Snowboard Profesională - lungime 147cm",
             "slug": "placa-snowboard-profesionala-lungime-147cm",
             "short_desc": "Placa Snowboard Profesionala - lungime 147cm, Placa Snowboard Profesionala - lungime 147cm, Placa Snowboard Profesionala - lungime 147cm, Placa Snowboard Profesionala - lungime 147cm.",
@@ -326,7 +326,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 99,
             "name": "Snowboard pentru sporturile de iarnă",
             "slug": "snowboard-pentru-sporturile-de-iarna",
             "short_desc": "Snowboard pentru sporturile de iarnă, Snowboard pentru sporturile de iarnă, Snowboard pentru sporturile de iarnă.",
@@ -434,7 +434,7 @@
             ]
         },
         {
-            "id": 5,
+            "id": 61,
             "name": "Placă Snowboard pentru adulți",
             "slug": "placa-snowboard-pentru-adulti",
             "short_desc": "Placă Snowboard pentru adulți, Placă Snowboard pentru adulți, Placă Snowboard pentru adulți, Placă Snowboard pentru adulți.",
@@ -542,7 +542,7 @@
             ]
         },
         {
-            "id": 6,
+            "id": 77,
             "name": "Placă Universală pentru lunecare pe zăpadă",
             "slug": "placa-universala-pentru-lunecare-pe-zapada",
             "short_desc": "Placă Universală pentru lunecare pe zăpadă, Placă Universală pentru lunecare pe zăpadă, Placă Universală pentru lunecare pe zăpadă, Placă Universală pentru lunecare pe zăpadă.",
@@ -650,7 +650,7 @@
             ]
         },
         {
-            "id": 7,
+            "id": 55,
             "name": "Snowboard de mare clasă pentru oameni mari",
             "slug": "snowboard-de-mare-clasa-pentru-oameni-mari",
             "short_desc": "Snowboard de mare clasă pentru oameni mari, Snowboard de mare clasă pentru oameni mari, Snowboard de mare clasă pentru oameni mari, Snowboard de mare clasă pentru oameni mari.",
@@ -758,7 +758,7 @@
             ]
         },
         {
-            "id": 8,
+            "id": 18,
             "name": "Snowboard din lemn de esență tare - 180cm",
             "slug": "snowboard-din-lemn-de-esenta-tare-180cm",
             "short_desc": "Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm, Snowboard din lemn de esență tare - 180cm.",
@@ -866,7 +866,7 @@
             ]
         },
         {
-            "id": 9,
+            "id": 26,
             "name": "Snowboard de calitate superioară pentru meseriași",
             "slug": "snowboard-de-calitate-superioara-pentru-meseriasi",
             "short_desc": "Snowboard de calitate superioară pentru meseriași, Snowboard de calitate superioară pentru meseriași, Snowboard de calitate superioară pentru meseriași.",
@@ -974,7 +974,7 @@
             ]
         },
         {
-            "id": 10,
+            "id": 51,
             "name": "Snowboard pentru femei, calitate medie, lungime 155 cm",
             "slug": "snowboard-pentru-femei-calitate-medie-lungime-155-cm",
             "short_desc": "SSnowboard pentru femei, calitate medie, lungime 155 cm, Snowboard pentru femei, calitate medie, lungime 155 cm, Snowboard pentru femei, calitate medie, lungime 155 cm.",
@@ -1082,7 +1082,7 @@
             ]
         },
         {
-            "id": 11,
+            "id": 67,
             "name": "Placă Snowboard pentru toți oamenii pricepuți la sport",
             "slug": "placa-snowboard-pentru-toti-oamenii-pricepuți-la-sport",
             "short_desc": "Placă Snowboard pentru toți oamenii pricepuți la sport, Placă Snowboard pentru toți oamenii pricepuți la sport, Placă Snowboard pentru toți oamenii pricepuți la sport",
@@ -1190,7 +1190,7 @@
             ]
         },
         {
-            "id": 12,
+            "id": 69,
             "name": "Cizme de snowboard, bărbați Arbor Domino BB",
             "slug": "cizme-de-snowboard-barbati-arbort-domino-bb",
             "short_desc": "Cizme de snowboard, bărbați Arbor Domino BB. Cizme de snowboard pentru bărbați Arbor Domino BB. Cizme de snowboard pentru bărbați Arbor Domino BB",
@@ -1298,11 +1298,11 @@
             ]
         },
         {
-            "id": 13,
+            "id": 35,
             "name": "Cizme de snowboard pentru bărbați Lectra SUPRA",
-            "slug": "cizme-de-snowboard-pentru-barbati-lectra-supra/",
+            "slug": "cizme-de-snowboard-pentru-barbati-lectra-supra",
             "short_desc": "Cizme de snowboard pentru bărbați Lectra SUPRA. Cizme de snowboard pentru bărbați Lectra SUPRA. Cizme de snowboard pentru bărbați Lectra SUPRA. Cizme de snowboard pentru bărbați Lectra SUPRA",
-            "price": 52.66,
+            "price": 352.66,
             "sale_price": null,
             "related": [
                 15,
@@ -1406,11 +1406,11 @@
             ]
         },
         {
-            "id": 14,
+            "id": 64,
             "name": "Ghete de snowboard pentru bărbați Dreamscape Decade SLS",
             "slug": "ghete-de-snowboard-pentru-barbati-dreamscape-decade-sls",
             "short_desc": "Ghete de snowboard pentru bărbați Dreamscape Decade SLS. Ghete de snowboard pentru bărbați Dreamscape Decade SLS. Ghete de snowboard pentru bărbați Dreamscape Decade SLS. Ghete de snowboard pentru bărbați Dreamscape Decade SLS",
-            "price": 299.99,
+            "price": 499.99,
             "sale_price": null,
             "related": [
                 21,
@@ -1514,11 +1514,11 @@
             ]
         },
         {
-            "id": 15,
+            "id": 92,
             "name": "Boots Snowboard DREAMSCAPE Decade Pro, Albastru, Femei",
             "slug": "boots-snowboard-dreamscapr-decade-pro-albastru-femei",
             "short_desc": "Boots Snowboard DREAMSCAPE Decade Pro, Albastru, Femei. Boots Snowboard DREAMSCAPE Decade Pro, Albastru, Femei. Boots Snowboard DREAMSCAPE Decade Pro, Albastru, Femei. Boots Snowboard DREAMSCAPE Decade Pro, Albastru, Femei.",
-            "price": 34.99,
+            "price": 634.99,
             "sale_price": null,
             "related": [
                 12,
@@ -1622,11 +1622,11 @@
             ]
         },
         {
-            "id": 16,
+            "id": 43,
             "name": "Boots Snowboard LECTRA HOVER SPIN, Femei",
             "slug": "boots-snowboard-lectra-hover-spin-femei",
             "short_desc": "Boots Snowboard LECTRA HOVER SPIN, Femei. Boots Snowboard LECTRA HOVER SPIN, Femei. Boots Snowboard LECTRA HOVER SPIN, Femei. Boots Snowboard LECTRA HOVER SPIN, Femei. Boots Snowboard LECTRA HOVER SPIN, Femei.",
-            "price": 76.99,
+            "price": 776.99,
             "sale_price": null,
             "related": [
                 21,
@@ -1730,12 +1730,12 @@
             ]
         },
         {
-            "id": 17,
+            "id": 37,
             "name": "Boots Snowboard ARBOR Papar, Bărbați",
             "slug": "boots-snowboard-arbor-papar-barbati",
             "short_desc": "Boots Snowboard ARBOR Papar, Bărbați. Boots Snowboard ARBOR Papar, Bărbați. Boots Snowboard ARBOR Papar, Bărbați. Boots Snowboard ARBOR Papar, Bărbați.",
-            "price": 600,
-            "sale_price": 239.99,
+            "price": 1600,
+            "sale_price": 1439.99,
             "related": [
                 12,
                 20,
@@ -1838,11 +1838,11 @@
             ]
         },
         {
-            "id": 18,
+            "id": 59,
             "name": "Boots Snowboard ARBOR Freedom, white snow",
             "slug": "boots-snowboard-arbor-freedom-white-snow",
             "short_desc": "Boots Snowboard ARBOR Freedom, white snow. Boots Snowboard ARBOR Freedom, white snow. Boots Snowboard ARBOR Freedom, white snow. Boots Snowboard ARBOR Freedom, white snow",
-            "price": 127.99,
+            "price": 1127.99,
             "sale_price": null,
             "related": [
                 8,
@@ -1946,12 +1946,12 @@
             ]
         },
         {
-            "id": 19,
+            "id": 16,
             "name": "Ghete snowboard K2 imblăniți cu vată minerală",
             "slug": "ghete-snowboard-k2-imblaniti-cu-vata-minerala",
             "short_desc": "Ghete snowboard K2 imblăniți cu vată minerală. Ghete snowboard K2 imblăniți cu vată minerală. Ghete snowboard K2 imblăniți cu vată minerală. Ghete snowboard K2 imblăniți cu vată minerală.",
-            "price": 150,
-            "sale_price": 139,
+            "price": 950,
+            "sale_price": 899,
             "related": [
                 12,
                 7,
@@ -2054,7 +2054,7 @@
             ]
         },
         {
-            "id": 20,
+            "id": 86,
             "name": "Cizme de damă cu talpa ultra aderentă la placa de snowboard",
             "slug": "cizme-de-damă-cu-talpa-ultra-aderentă-la-placa-de-snowboard",
             "short_desc": "Cizme de damă cu talpa ultra aderentă la placa de snowboard. Cizme de damă cu talpa ultra aderentă la placa de snowboard. Cizme de damă cu talpa ultra aderentă la placa de snowboard.",
@@ -2162,11 +2162,11 @@
             ]
         },
         {
-            "id": 21,
+            "id": 74,
             "name": "Boots Snowboard LECTRA Domain 2 Spin, Închis, Femei, Mărime Mare",
             "slug": "boots-snowboard-lectra-domain-2-spin-inchis-femei-marime-mare",
             "short_desc": "Boots Snowboard LECTRA Domain 2 Spin, Închis, Femei, Mărime Mare. Boots Snowboard LECTRA Domain 2 Spin, Închis, Femei, Mărime Mare. Boots Snowboard LECTRA Domain 2 Spin, Închis, Femei, Mărime Mare.",
-            "price": 77.99,
+            "price": 777.99,
             "sale_price": null,
             "related": [
                 16,
@@ -2270,10 +2270,10 @@
             ]
         },
         {
-            "id": 22,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-22",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
+            "id": 21,
+            "name": "Bicicletă de oraș pentru femei",
+            "slug": "bicicleta-de-oras-pentru-femei",
+            "short_desc": "Bicicletă de oraș pentru femei. Bicicletă de oraș pentru femei. Bicicletă de oraș pentru femei. Bicicletă de oraș pentru femei.",
             "price": 899,
             "sale_price": 849,
             "related": [
@@ -2378,11 +2378,11 @@
             ]
         },
         {
-            "id": 23,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-23",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 25,
+            "name": "Bicicletă de mers la cumpărături, pentru adulți",
+            "slug": "bicicleta-de-mers-la-cumparaturi-pentru-adulti",
+            "short_desc": "Bicicletă de mers la cumpărături, pentru adulți. Bicicletă de mers la cumpărături, pentru adulți. Bicicletă de mers la cumpărături, pentru adulți.",
+            "price": 1299.99,
             "sale_price": null,
             "related": [
                 24,
@@ -2486,11 +2486,11 @@
             ]
         },
         {
-            "id": 24,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-24",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
+            "id": 50,
+            "name": "Cursieră de mare clasă, cu schimbător automat pentru viteze",
+            "slug": "cursiera-de-mare-clasa-cu-schimbator-automat-pentru-viteze",
+            "short_desc": "Cursieră de mare clasă, cu schimbător automat pentru viteze. Cursieră de mare clasă, cu schimbător automat pentru viteze. Cursieră de mare clasă, cu schimbător automat pentru viteze.",
+            "price": 1999.99,
             "sale_price": null,
             "related": [
                 39,
@@ -2594,11 +2594,11 @@
             ]
         },
         {
-            "id": 25,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-25",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "id": 36,
+            "name": "Bicicletă de viteză dedicată oamenilor mari",
+            "slug": "bicicleta-de-viteza-dedicata-oamenilor-mari",
+            "short_desc": "Bicicletă de viteză dedicată oamenilor mari. Bicicletă de viteză dedicată oamenilor mari. Bicicletă de viteză dedicată oamenilor mari. Bicicletă de viteză dedicată oamenilor mari.",
+            "price": 1734.99,
             "sale_price": null,
             "related": [
                 34,
@@ -2702,11 +2702,11 @@
             ]
         },
         {
-            "id": 26,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-26",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 91,
+            "name": "Cursieră, scaun mare pe arcuri, culoare neagră",
+            "slug": "cursiera-scaun-mare-pe-arcuri-culoare-neagra",
+            "short_desc": "Cursieră, scaun mare pe arcuri, culoare neagră. Cursieră, scaun mare pe arcuri, culoare neagră. Cursieră, scaun mare pe arcuri, culoare neagră. Cursieră, scaun mare pe arcuri, culoare neagră.",
+            "price": 1676.99,
             "sale_price": null,
             "related": [
                 37,
@@ -2810,12 +2810,12 @@
             ]
         },
         {
-            "id": 27,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-27",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 600,
-            "sale_price": 239.99,
+            "id": 62,
+            "name": "Bicicletă roz de oraș, pentru adolescente",
+            "slug": "bicicleta-roz-de-oras-pentru-adolescente",
+            "short_desc": "Bicicletă roz de oraș, pentru adolescente. Bicicletă roz de oraș, pentru adolescente. Bicicletă roz de oraș, pentru adolescente. Bicicletă roz de oraș, pentru adolescente.",
+            "price": 999.99,
+            "sale_price": 919.99,
             "related": [
                 22,
                 29,
@@ -2918,11 +2918,11 @@
             ]
         },
         {
-            "id": 28,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-28",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "id": 89,
+            "name": "Bicicletă pentru femei, cu protecție pentru lanț",
+            "slug": "bicicleta-pentru-femei-cu-protectie-pentru-lant",
+            "short_desc": "Bicicletă pentru femei, cu protecție pentru lanț. Bicicletă pentru femei, cu protecție pentru lanț. Bicicletă pentru femei, cu protecție pentru lanț.",
+            "price": 1127.99,
             "sale_price": null,
             "related": [
                 37,
@@ -3002,8 +3002,8 @@
                     "slug": "bike"
                 },
                 {
-                    "name": "Bărbați",
-                    "slug": "bărbați"
+                    "name": "Femei",
+                    "slug": "femei"
                 }
             ],
             "size": [
@@ -3026,12 +3026,12 @@
             ]
         },
         {
-            "id": 29,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-29",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 90,
+            "name": "Bicicletă pentru femei cu portbagaj lung",
+            "slug": "bicicleta-pentru-femei-cu-portbagaj-lung",
+            "short_desc": "Bicicletă pentru femei cu portbagaj lung. Bicicletă pentru femei cu portbagaj lung. Bicicletă pentru femei cu portbagaj lung. Bicicletă pentru femei cu portbagaj lung.",
+            "price": 950,
+            "sale_price": 939,
             "related": [
                 46,
                 47,
@@ -3134,12 +3134,12 @@
             ]
         },
         {
-            "id": 30,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-30",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 499.99,
-            "sale_price": 419.99,
+            "id": 47,
+            "name": "Bicicletă bărbați de croazieră, pentru asfalt",
+            "slug": "bicicleta-barbati-de-croaziera-pentru-asfalt",
+            "short_desc": "Bicicletă bărbarți de croazieră, pentru asfalt. Bicicletă bărbarți de croazieră, pentru asfalt. Bicicletă bărbarți de croazieră, pentru asfalt. Bicicletă bărbarți de croazieră, pentru asfalt.",
+            "price": 1499.99,
+            "sale_price": 1419.99,
             "related": [
                 24,
                 25,
@@ -3242,11 +3242,11 @@
             ]
         },
         {
-            "id": 31,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-31",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
-            "price": 77.99,
+            "id": 13,
+            "name": "Mountain Bike femei, robust și rezistent",
+            "slug": "mountain-bike-femei-robust-si-rezistent",
+            "short_desc": "Mountain Bike femei, robust și rezistent. Mountain Bike femei, robust și rezistent. Mountain Bike femei, robust și rezistent. Mountain Bike femei, robust și rezistent.",
+            "price": 877.99,
             "sale_price": null,
             "related": [
                 46,
@@ -3350,12 +3350,12 @@
             ]
         },
         {
-            "id": 32,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-32",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
-            "price": 899,
-            "sale_price": 849,
+            "id": 72,
+            "name": "Bicicletă profesională Freestyle Romania, bărbați",
+            "slug": "bicicleta-profesionala-freestyle-romania-bărbati",
+            "short_desc": "Bicicletă profesională Freestyle Romania, bărbați. Bicicletă profesională Freestyle Romania, bărbați. Bicicletă profesională Freestyle Romania, bărbați.",
+            "price": 1799,
+            "sale_price": 1699.99,
             "related": [
                 30,
                 33,
@@ -3458,11 +3458,11 @@
             ]
         },
         {
-            "id": 33,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-33",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 31,
+            "name": "Bicicletă femei cu coarne mari și protecție pentru lanț",
+            "slug": "bicicleta-femei-cu-coarne-mari-si-protectie-pentru-lant",
+            "short_desc": "Bicicletă femei cu coarne mari și protecție pentru lanț. Bicicletă femei cu coarne mari și protecție pentru lanț. Bicicletă femei cu coarne mari și protecție pentru lanț. Bicicletă femei cu coarne mari și protecție pentru lanț.",
+            "price": 1052.66,
             "sale_price": null,
             "related": [
                 23,
@@ -3566,12 +3566,12 @@
             ]
         },
         {
-            "id": 34,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-34",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
-            "sale_price": null,
+            "id": 42,
+            "name": "Super Speed Bike, serie limitată, cursieră viteză",
+            "slug": "super-speed-bike-serie-limitata-cursiera-viteza",
+            "short_desc": "Super Speed Bike, serie limitată, cursieră viteză. Super Speed Bike, serie limitată, cursieră viteză. Super Speed Bike, serie limitată, cursieră viteză. Super Speed Bike, serie limitată, cursieră viteză.",
+            "price": 3299.99,
+            "sale_price": 3099.99,
             "related": [
                 39,
                 40,
@@ -3674,11 +3674,11 @@
             ]
         },
         {
-            "id": 35,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-35",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "id": 94,
+            "name": "Mountain Bike super rezistent și robust",
+            "slug": "mountain-bike-super-rezistent-si-robust",
+            "short_desc": "Mountain Bike super rezistent și robust. Mountain Bike super rezistent și robust. Mountain Bike super rezistent și robust. Mountain Bike super rezistent și robust.",
+            "price": 1634.99,
             "sale_price": null,
             "related": [
                 25,
@@ -3782,11 +3782,11 @@
             ]
         },
         {
-            "id": 36,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-36",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 32,
+            "name": "Cursieră Speed Waggon, viteză și talent",
+            "slug": "cursiera-speed-waggon-viteza-si-talent",
+            "short_desc": "Cursieră Speed Waggon, viteză și talent. Cursieră Speed Waggon, viteză și talent. Cursieră Speed Waggon, viteză și talent. Cursieră Speed Waggon, viteză și talent.",
+            "price": 1976.99,
             "sale_price": null,
             "related": [
                 44,
@@ -3890,12 +3890,12 @@
             ]
         },
         {
-            "id": 37,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-37",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 600,
-            "sale_price": 239.99,
+            "id": 57,
+            "name": "Trotinetă electrică MXW600, super rapidă",
+            "slug": "trotineta-electrica-mxw600-super-rapida",
+            "short_desc": "Trotinetă electrică MXW600, super rapidă. Trotinetă electrică MXW600, super rapidă. Trotinetă electrică MXW600, super rapidă. Trotinetă electrică MXW600, super rapidă.",
+            "price": 1600,
+            "sale_price": 1539.99,
             "related": [
                 30,
                 31,
@@ -3998,12 +3998,12 @@
             ]
         },
         {
-            "id": 38,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-38",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
-            "sale_price": null,
+            "id": 10,
+            "name": "Scooter electric pentru oraș, gabarit mare și baterie bună",
+            "slug": "scooter-electric-pentru-oras-gabarit-mare-si-baterie-buna",
+            "short_desc": "Scooter electric pentru oraș, gabarit mare și baterie bună. Scooter electric pentru oraș, gabarit mare și baterie bună. Scooter electric pentru oraș, gabarit mare și baterie bună.",
+            "price": 3427.99,
+            "sale_price": 3327.99,
             "related": [
                 36,
                 49,
@@ -4106,12 +4106,12 @@
             ]
         },
         {
-            "id": 39,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-39",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 4,
+            "name": "Trotinetă Troti999, cu telecoape și arcuri",
+            "slug": "trotineta-troti999-cu-telecoape-si-arcuri",
+            "short_desc": "Trotinetă Troti999, cu telecoape și arcuri. Trotinetă Troti999, cu telecoape și arcuri. Trotinetă Troti999, cu telecoape și arcuri. Trotinetă Troti999, cu telecoape și arcuri.",
+            "price": 1999.99,
+            "sale_price": 1899.99,
             "related": [
                 37,
                 22,
@@ -4214,12 +4214,12 @@
             ]
         },
         {
-            "id": 40,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-40",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 499.99,
-            "sale_price": 419.99,
+            "id": 29,
+            "name": "Trotinetă electrică simplă, pentru oraș",
+            "slug": "trotineta-electrica-simpla-pentru-oras",
+            "short_desc": "Trotinetă electrica simplă, pentru oraș. Trotinetă electrica simplă, pentru oraș. Trotinetă electrica simplă, pentru oraș. Trotinetă electrica simplă, pentru oraș.",
+            "price": 999.99,
+            "sale_price": 969.99,
             "related": [
                 36,
                 49,
@@ -4322,11 +4322,11 @@
             ]
         },
         {
-            "id": 41,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-41",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
-            "price": 77.99,
+            "id": 5,
+            "name": "Trotinetă RETRO Armour, super rezistentă",
+            "slug": "trotineta-retro-armour-super-rezistenta",
+            "short_desc": "Trotinetă RETRO Armour, super rezistentă. Trotinetă RETRO Armour, super rezistentă. Trotinetă RETRO Armour, super rezistentă. Trotinetă RETRO Armour, super rezistentă.",
+            "price": 1377.99,
             "sale_price": null,
             "related": [
                 31,
@@ -4430,12 +4430,12 @@
             ]
         },
         {
-            "id": 42,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-42",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
-            "price": 899,
-            "sale_price": 849,
+            "id": 78,
+            "name": "Trotinetă de oraș, FreeStyle june 2025",
+            "slug": "trotineta-de-oras-freestyle-june-2025",
+            "short_desc": "Trotinetă de oraș, FreeStyle june 2025. Trotinetă de oraș, FreeStyle june 2025. Trotinetă de oraș, FreeStyle june 2025. Trotinetă de oraș, FreeStyle june 2025.",
+            "price": 1499,
+            "sale_price": 1449,
             "related": [
                 30,
                 43,
@@ -4538,11 +4538,11 @@
             ]
         },
         {
-            "id": 43,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-43",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 40,
+            "name": "Trotinetă Super Freeze Style",
+            "slug": "trotineta-super-freeze-style",
+            "short_desc": "Trotinetă Super Freeze Style. Trotinetă Super Freeze Style. Trotinetă Super Freeze Style. Trotinetă Super Freeze Style.Trotinetă Super Freeze Style.",
+            "price": 1152.66,
             "sale_price": null,
             "related": [
                 25,
@@ -4646,11 +4646,11 @@
             ]
         },
         {
-            "id": 44,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-44",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
+            "id": 41,
+            "name": "Fast-And-Speed Troti 777",
+            "slug": "fast-and-speed-troti-777",
+            "short_desc": "Fast-And-Speed Troti 777. Fast-And-Speed Troti 777. Fast-And-Speed Troti 777. Fast-And-Speed Troti 777. Fast-And-Speed Troti 777. Fast-And-Speed Troti 777.",
+            "price": 1799.99,
             "sale_price": null,
             "related": [
                 46,
@@ -4754,11 +4754,11 @@
             ]
         },
         {
-            "id": 45,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-45",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "id": 30,
+            "name": "Sport Troti 555, putere mare și viteză",
+            "slug": "sport-troti-555-putere-mare-si-viteză",
+            "short_desc": "Sport Troti 555, putere mare și viteză. Sport Troti 555, putere mare și viteză. Sport Troti 555, putere mare și viteză. Sport Troti 555, putere mare și viteză.",
+            "price": 1134.99,
             "sale_price": null,
             "related": [
                 46,
@@ -4862,11 +4862,11 @@
             ]
         },
         {
-            "id": 46,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-46",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 81,
+            "name": "Trotinetă cu telescop Mobil, High-Fidelity",
+            "slug": "trotineta-cu-telescop-mobil-high-fidelity",
+            "short_desc": "Trotinetă cu telescop Mobil, High-Fidelity. Trotinetă cu telescop Mobil, High-Fidelity. Trotinetă cu telescop Mobil, High-Fidelity.",
+            "price": 1976.99,
             "sale_price": null,
             "related": [
                 22,
@@ -4970,12 +4970,12 @@
             ]
         },
         {
-            "id": 47,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-47",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
+            "id": 96,
+            "name": "Trotinetă pentru copii mici",
+            "slug": "trotineta-pentru-copii-mici",
+            "short_desc": "Trotinetă pentru copii mici. Trotinetă pentru copii mici. Trotinetă pentru copii mici. Trotinetă pentru copii mici. Trotinetă pentru copii mici.",
             "price": 600,
-            "sale_price": 239.99,
+            "sale_price": 539.99,
             "related": [
                 30,
                 31,
@@ -5078,11 +5078,11 @@
             ]
         },
         {
-            "id": 48,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-48",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "id": 27,
+            "name": "CloudFly Trotty 48 pe două roți",
+            "slug": "cloudfly-trotty-48-pe-doua-roti",
+            "short_desc": "CloudFly Trotty pe două roți. CloudFly Trotty pe două roți. CloudFly Trotty pe două roți. CloudFly Trotty pe două roți. On Cloudfly Trotty pe două roți.",
+            "price": 1927.99,
             "sale_price": null,
             "related": [
                 38,
@@ -5186,12 +5186,12 @@
             ]
         },
         {
-            "id": 49,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-49",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 11,
+            "name": "Trotty Lee Designs A1 MAX Super Bike",
+            "slug": "trotty-lee-designs-a1-max-super-bike",
+            "short_desc": "Trotty Lee Designs A1 MAX Super Bike. Trotty Lee Designs A1 MAX Super Bike. Trotty Lee Designs A1 MAX Super Bike. Trotty Lee Designs A1 MAX Super Bike. Trotty Lee Designs A1 MAX Super Bike.",
+            "price": 2850,
+            "sale_price": 2799,
             "related": [
                 35,
                 42,
@@ -5294,12 +5294,12 @@
             ]
         },
         {
-            "id": 50,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-50",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 499.99,
-            "sale_price": 419.99,
+            "id": 83,
+            "name": "Tricou damă cu grafică deosebită",
+            "slug": "tricou-dama-cu-grafica-deosebita",
+            "short_desc": "Tricou damă cu grafică deosebită. Tricou damă cu grafică deosebită. Tricou damă cu grafică deosebită. Tricou damă cu grafică deosebită.",
+            "price": 39.99,
+            "sale_price": 36.99,
             "related": [
                 66,
                 88,
@@ -5402,10 +5402,10 @@
             ]
         },
         {
-            "id": 51,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-51",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
+            "id": 73,
+            "name": "Tricou High-Quality, modern colors",
+            "slug": "tricou-high-quality-modern-colors",
+            "short_desc": "Tricou High-Quality, modern colors. Tricou High-Quality, modern colors. Tricou High-Quality, modern colors. Tricou High-Quality, modern colors. Tricou High-Quality, modern colors.",
             "price": 77.99,
             "sale_price": null,
             "related": [
@@ -5510,12 +5510,12 @@
             ]
         },
         {
-            "id": 52,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-52",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
-            "price": 899,
-            "sale_price": 849,
+            "id": 15,
+            "name": "Tricouri Freestyle Liberty - toate mărimile",
+            "slug": "tricouri-freestyle-liberty-toate-marimile",
+            "short_desc": "Tricouri Freestyle Liberty - toate mărimile. Tricouri Freestyle Liberty - toate mărimile. Tricouri Freestyle Liberty - toate mărimile. Tricouri Freestyle Liberty - toate mărimile.",
+            "price": 49,
+            "sale_price": 44,
             "related": [
                 70,
                 77,
@@ -5618,11 +5618,11 @@
             ]
         },
         {
-            "id": 53,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-53",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 65,
+            "name": "Tricou Ignite Limitless, matase",
+            "slug": "tricou-ignite-limitless-matase",
+            "short_desc": "Tricou Ignite Limitless, matase. Tricou Ignite Limitless, matase. Tricou Ignite Limitless, matase. Tricou Ignite Limitless, matase. Tricou Ignite Limitless, matase.",
+            "price": 92.26,
             "sale_price": null,
             "related": [
                 86,
@@ -5726,11 +5726,11 @@
             ]
         },
         {
-            "id": 54,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-54",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
+            "id": 76,
+            "name": "Tricouri cu guler albastru, imprimeu firmă",
+            "slug": "tricouri-cu-guler-albastru-imprimeu-firma",
+            "short_desc": "Tricouri cu guler albastru, imprimeu firmă. Tricouri cu guler albastru, imprimeu firmă. Tricouri cu guler albastru, imprimeu firmă. Tricouri cu guler albastru, imprimeu firmă.",
+            "price": 119.99,
             "sale_price": null,
             "related": [
                 83,
@@ -5834,11 +5834,11 @@
             ]
         },
         {
-            "id": 55,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-55",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "id": 95,
+            "name": "Tricou - Burn Your Problems",
+            "slug": "tricou-burn-your-problems",
+            "short_desc": "Tricou - Burn Your Problems. Tricou - Burn Your Problems. Tricou - Burn Your Problems. Tricou - Burn Your Problems. Tricou - Burn Your Problems.",
+            "price": 84.99,
             "sale_price": null,
             "related": [
                 88,
@@ -5942,11 +5942,11 @@
             ]
         },
         {
-            "id": 56,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-56",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 2,
+            "name": "Tricouri Simple Bărbați - toate culorile și mărimile",
+            "slug": "tricouri-simple-barbati-toate-culorile-si-marimile",
+            "short_desc": "Tricouri Simple Bărbați - toate culorile și mărimile. Tricouri Simple Bărbați - toate culorile și mărimile. Tricouri Simple Bărbați - toate culorile și mărimile. Tricouri Simple Bărbați - toate culorile și mărimile.",
+            "price": 36.99,
             "sale_price": null,
             "related": [
                 66,
@@ -6050,12 +6050,12 @@
             ]
         },
         {
-            "id": 57,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-57",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 600,
-            "sale_price": 239.99,
+            "id": 85,
+            "name": "Tricouri Simple Femei - toate culorile și mărimile",
+            "slug": "tricouri-simple-femei-toate-culorile-si-marimile",
+            "short_desc": "Tricouri Simple Femei - toate culorile și mărimile. Tricouri Simple Femei - toate culorile și mărimile. Tricouri Simple Femei - toate culorile și mărimile. Tricouri Simple Femei - toate culorile și mărimile.",
+            "price": 36.99,
+            "sale_price": 33.99,
             "related": [
                 50,
                 67,
@@ -6158,11 +6158,11 @@
             ]
         },
         {
-            "id": 58,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-58",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "id": 87,
+            "name": "Tricou damă Not Today, but Tommorow",
+            "slug": "tricou-dama-not-today-but-tommorow",
+            "short_desc": "Tricou damă Not Today, but Tommorow. Tricou damă Not Today, but Tommorow. Tricou damă Not Today, but Tommorow. Tricou damă Not Today, but Tommorow.",
+            "price": 67.99,
             "sale_price": null,
             "related": [
                 69,
@@ -6266,12 +6266,12 @@
             ]
         },
         {
-            "id": 59,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-59",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 28,
+            "name": "Tricouri simple, culori deschise, fără imprimeuri",
+            "slug": "tricouri-simple-culori-deschise-fara-imprimeuri",
+            "short_desc": "Tricouri simple, culori deschise, fără imprimeuri. Tricouri simple, culori deschise, fără imprimeuri. Tricouri simple, culori deschise, fără imprimeuri. Tricouri simple, culori deschise, fără imprimeuri.",
+            "price": 25,
+            "sale_price": 19,
             "related": [
                 73,
                 51,
@@ -6374,12 +6374,12 @@
             ]
         },
         {
-            "id": 60,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-60",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 499.99,
-            "sale_price": 419.99,
+            "id": 98,
+            "name": "Tricouri scurte pentru toate genurile",
+            "slug": "tricouri-scurte-pentru-toate-genurile",
+            "short_desc": "Tricouri scurte pentru toate genurile. Tricouri scurte pentru toate genurile. Tricouri scurte pentru toate genurile. Tricouri scurte pentru toate genurile.",
+            "price": 29.99,
+            "sale_price": 19.99,
             "related": [
                 86,
                 71,
@@ -6482,10 +6482,10 @@
             ]
         },
         {
-            "id": 61,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-61",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
+            "id": 38,
+            "name": "Tricouri cu imprimeuri personalizate",
+            "slug": "tricouri-cu-imprimeuri-personalizate",
+            "short_desc": "Tricouri cu imprimeuri personalizate. Tricouri cu imprimeuri personalizate. Tricouri cu imprimeuri personalizate. Tricouri cu imprimeuri personalizate.",
             "price": 77.99,
             "sale_price": null,
             "related": [
@@ -6590,12 +6590,12 @@
             ]
         },
         {
-            "id": 62,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-62",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
-            "price": 899,
-            "sale_price": 849,
+            "id": 84,
+            "name": "Tricou calitate superioară, super masculine",
+            "slug": "tricou-calitate-superioară-super-masculine",
+            "short_desc": "Tricou calitate superioară, super masculine. Tricou calitate superioară, super masculine. Tricou calitate superioară, super masculine. Tricou calitate superioară, super masculine.",
+            "price": 99,
+            "sale_price": 69,
             "related": [
                 54,
                 60,
@@ -6698,11 +6698,11 @@
             ]
         },
         {
-            "id": 63,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-63",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 82,
+            "name": "Tricouri „WORK HARD”, toate tipurile",
+            "slug": "tricouri-work-hard-toate-tipurile",
+            "short_desc": "Tricouri „WORK HARD”, toate tipurile. Tricouri „WORK HARD”, toate tipurile. Tricouri „WORK HARD”, toate tipurile. Tricouri „WORK HARD”, toate tipurile. Tricouri „WORK HARD”, toate tipurile.",
+            "price": 42.66,
             "sale_price": null,
             "related": [
                 83,
@@ -6806,11 +6806,11 @@
             ]
         },
         {
-            "id": 64,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-64",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
+            "id": 6,
+            "name": "Texte personalizate pe tricouri damă",
+            "slug": "texte-pe-tricouri-dama",
+            "short_desc": "Texte pe tricouri damă. Texte pe tricouri damă. Texte pe tricouri damă. Texte pe tricouri damă. Texte pe tricouri damă.",
+            "price": 49.99,
             "sale_price": null,
             "related": [
                 67,
@@ -6914,10 +6914,10 @@
             ]
         },
         {
-            "id": 65,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-65",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
+            "id": 8,
+            "name": "Tricou Alphaskin Sport 65",
+            "slug": "tricou-alphaskin-sport-65",
+            "short_desc": "Tricou Alphaskin Sport 65. Tricou Alphaskin Sport 65. Tricou Alphaskin Sport 65. Tricou Alphaskin Sport 65. Tricou Alphaskin Sport 65.",
             "price": 34.99,
             "sale_price": null,
             "related": [
@@ -7022,11 +7022,11 @@
             ]
         },
         {
-            "id": 66,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-66",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 1,
+            "name": "Tricouri culori neutre",
+            "slug": "tricouri-culori-neutre",
+            "short_desc": "Tricouri culori neutre. Tricouri culori neutre. Tricouri culori neutre. Tricouri culori neutre.",
+            "price": 16.99,
             "sale_price": null,
             "related": [
                 78,
@@ -7130,12 +7130,12 @@
             ]
         },
         {
-            "id": 67,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-67",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 600,
-            "sale_price": 239.99,
+            "id": 34,
+            "name": "Teniși tip gheată, ușori și simpli",
+            "slug": "tenisi-tip-gheată-usori-si-simpli",
+            "short_desc": "Teniși tip gheată, ușori și simpli. Teniși tip gheată, ușori și simpli. Teniși tip gheată, ușori și simpli. Teniși tip gheată, ușori și simpli.",
+            "price": 149.99,
+            "sale_price": 139.99,
             "related": [
                 60,
                 66,
@@ -7238,11 +7238,11 @@
             ]
         },
         {
-            "id": 68,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-68",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "id": 88,
+            "name": "Teniși, diverse culori",
+            "slug": "tenisi-diverse-culori",
+            "short_desc": "Teniși, diverse culori. Teniși, diverse culori. Teniși, diverse culori. Teniși, diverse culori.Teniși, diverse culori,",
+            "price": 109.99,
             "sale_price": null,
             "related": [
                 75,
@@ -7345,12 +7345,12 @@
             ]
         },
         {
-            "id": 69,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-69",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 48,
+            "name": "Teniși negri tip adidas",
+            "slug": "tenisi-negri-tip-adidas",
+            "short_desc": "Teniși negri tip adidas. Teniși negri tip adidas. Teniși negri tip adidas. Teniși negri tip adidas. Teniși negri tip adidas.",
+            "price": 155,
+            "sale_price": 149,
             "related": [
                 81,
                 80,
@@ -7453,12 +7453,12 @@
             ]
         },
         {
-            "id": 70,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-70",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
+            "id": 63,
+            "name": "Pantofi Sport Nike, albi",
+            "slug": "pantofi-sport-nike-albi",
+            "short_desc": "Pantofi Sport Nike, albi. Pantofi Sport Nike, albi. Pantofi Sport Nike, albi. Pantofi Sport Nike, albi.Pantofi Sport Nike, albi",
             "price": 499.99,
-            "sale_price": 419.99,
+            "sale_price": 429.99,
             "related": [
                 80,
                 81,
@@ -7561,11 +7561,11 @@
             ]
         },
         {
-            "id": 71,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-71",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
-            "price": 77.99,
+            "id": 45,
+            "name": "Bocanci tip pantof, culori inchise",
+            "slug": "bocanci-tip-pantof-culori-inchise",
+            "short_desc": "Bocanci tip pantof, culori inchise. Bocanci tip pantof, culori inchise. Bocanci tip pantof, culori inchise. Bocanci tip pantof, culori inchise. Bocanci tip pantof, culori inchise.",
+            "price": 377.99,
             "sale_price": null,
             "related": [
                 86,
@@ -7669,12 +7669,12 @@
             ]
         },
         {
-            "id": 72,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-72",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
-            "price": 899,
-            "sale_price": 849,
+            "id": 52,
+            "name": "Pantofi de lac, maro, pentru miri",
+            "slug": "pantofi-de-lac-maro-pentru-miri",
+            "short_desc": "Pantofi de lac, maro, pentru miri. Pantofi de lac, maro, pentru miri. Pantofi de lac, maro, pentru miri. Pantofi de lac, maro, pentru miri.",
+            "price": 699,
+            "sale_price": 699,
             "related": [
                 85,
                 87,
@@ -7777,11 +7777,11 @@
             ]
         },
         {
-            "id": 73,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-73",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 49,
+            "name": "Pantofi Sport pentru baschet",
+            "slug": "pantofi-sport-pentru-baschet",
+            "short_desc": "Pantofi Sport pentru baschet. Pantofi Sport pentru baschet. Pantofi Sport pentru baschet. Pantofi Sport pentru baschet. Pantofi Sport pentru baschet.",
+            "price": 482.66,
             "sale_price": null,
             "related": [
                 53,
@@ -7885,11 +7885,11 @@
             ]
         },
         {
-            "id": 74,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-74",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
+            "id": 17,
+            "name": "Pantofi Sport Nike, tip gheată",
+            "slug": "pantofi-sport-nike-tip-gheata",
+            "short_desc": "Pantofi Sport Nike, tip gheată. Pantofi Sport Nike, tip gheată. Pantofi Sport Nike, tip gheată. Pantofi Sport Nike, tip gheată. Pantofi Sport Nike, tip gheată.",
+            "price": 399.99,
             "sale_price": null,
             "related": [
                 81,
@@ -7993,11 +7993,11 @@
             ]
         },
         {
-            "id": 75,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-75",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "id": 70,
+            "name": "Pantofi ușori pentru oraș, impermeabili",
+            "slug": "pantofi-usori-pentru-oras-impermeabili",
+            "short_desc": "Pantofi ușori pentru oraș, impermeabili. Pantofi ușori pentru oraș, impermeabili. Pantofi ușori pentru oraș, impermeabili. Pantofi ușori pentru oraș, impermeabili.",
+            "price": 334.99,
             "sale_price": null,
             "related": [
                 55,
@@ -8101,11 +8101,11 @@
             ]
         },
         {
-            "id": 76,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-76",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 23,
+            "name": "Pantofi pentru alergare pe pista de la stadion",
+            "slug": "pantofi-pentru-alergare-pe-pista-de-la-stadion",
+            "short_desc": "Pantofi pentru alergare pe pista de la stadion. Pantofi pentru alergare pe pista de la stadion. Pantofi pentru alergare pe pista de la stadion. Pantofi pentru alergare pe pista de la stadion.",
+            "price": 476.99,
             "sale_price": null,
             "related": [
                 51,
@@ -8209,12 +8209,12 @@
             ]
         },
         {
-            "id": 77,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-77",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
+            "id": 39,
+            "name": "Pantofi pentru ginerică",
+            "slug": "pantofi-pentru-ginerica",
+            "short_desc": "Pantofi pentru ginerică. Pantofi pentru ginerică. Pantofi pentru ginerică. Pantofi pentru ginerică. Pantofi pentru ginerică. Pantofi pentru ginerică.",
             "price": 600,
-            "sale_price": 239.99,
+            "sale_price": 439.99,
             "related": [
                 87,
                 80,
@@ -8317,11 +8317,11 @@
             ]
         },
         {
-            "id": 78,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-78",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "id": 54,
+            "name": "Papuci casual, de purtat unde vrei tu",
+            "slug": "papuci-casual-de-purtat-unde-vrei-tu",
+            "short_desc": "Papuci casual, de purtat unde vrei tu. Papuci casual, de purtat unde vrei tu. Papuci casual, de purtat unde vrei tu. Papuci casual, de purtat unde vrei tu. Papuci casual, de purtat unde vrei tu.",
+            "price": 227.99,
             "sale_price": null,
             "related": [
                 84,
@@ -8425,12 +8425,12 @@
             ]
         },
         {
-            "id": 79,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-79",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 75,
+            "name": "Teniși simpli, de purtat în fața blocului",
+            "slug": "tenisi-simpli-de-purtat-in-fata-blocului",
+            "short_desc": "Teniși simpli, de purtat in fața blocului. Teniși simpli, de purtat in fața blocului. Teniși simpli, de purtat in fața blocului. Teniși simpli, de purtat in fața blocului.",
+            "price": 89,
+            "sale_price": 79,
             "related": [
                 83,
                 85,
@@ -8533,12 +8533,12 @@
             ]
         },
         {
-            "id": 80,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-80",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 499.99,
-            "sale_price": 419.99,
+            "id": 3,
+            "name": "Pantofi simpli pentru apă",
+            "slug": "pantofi-simpli-pentru-apa",
+            "short_desc": "Pantofi simpli pentru apă. Pantofi simpli pentru apă. Pantofi simpli pentru apă. Pantofi simpli pentru apă. Pantofi simpli pentru apă.",
+            "price": 99.99,
+            "sale_price": 91.99,
             "related": [
                 86,
                 74,
@@ -8641,11 +8641,11 @@
             ]
         },
         {
-            "id": 81,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-81",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
-            "price": 77.99,
+            "id": 20,
+            "name": "Ghete simple din material suțire, culori închise",
+            "slug": "ghete-simple-din-material-sutire-culori-inchise",
+            "short_desc": "Ghete simple din material suțire, culori închise. Ghete simple din material suțire, culori închise. Ghete simple din material suțire, culori închise. Ghete simple din material suțire, culori închise.",
+            "price": 198.99,
             "sale_price": null,
             "related": [
                 82,
@@ -8749,12 +8749,12 @@
             ]
         },
         {
-            "id": 82,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-82",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
-            "price": 899,
-            "sale_price": 849,
+            "id": 97,
+            "name": "Rucsac de munte Freestyle - 65L",
+            "slug": "rucsac-de-munte-freestyle-65l",
+            "short_desc": "Rucsac de munte Freestyle - 65L. Rucsac de munte Freestyle - 65L. Rucsac de munte Freestyle - 65L. Rucsac de munte Freestyle - 65L.",
+            "price": 819,
+            "sale_price": 749,
             "related": [
                 87,
                 68,
@@ -8857,11 +8857,11 @@
             ]
         },
         {
-            "id": 83,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-83",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 7,
+            "name": "Rucsac școlar pentru liceeni",
+            "slug": "rucsac-scolar-pentru-liceeni",
+            "short_desc": "Rucsac școlar pentru liceeni. Rucsac școlar pentru liceeni. Rucsac școlar pentru liceeni. Rucsac școlar pentru liceeni.",
+            "price": 152.66,
             "sale_price": null,
             "related": [
                 53,
@@ -8965,11 +8965,11 @@
             ]
         },
         {
-            "id": 84,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-84",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 299.99,
+            "id": 19,
+            "name": "Rucsac casual, stil modern, cu buzunare laterale",
+            "slug": "rucsac-casual-stil-modern-cu-buzunare-laterale",
+            "short_desc": "Rucsac casual, stil modern, cu buzunare laterale. Rucsac casual, stil modern, cu buzunare laterale. Rucsac casual, stil modern, cu buzunare laterale. Rucsac casual, stil modern, cu buzunare laterale.",
+            "price": 99.99,
             "sale_price": null,
             "related": [
                 50,
@@ -9073,11 +9073,11 @@
             ]
         },
         {
-            "id": 85,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-85",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "id": 56,
+            "name": "Rucsac de munte, capacitate medie",
+            "slug": "rucsac-de-munte-capacitate-medie",
+            "short_desc": "Rucsac de munte, capacitate medie. Rucsac de munte, capacitate medie. Rucsac de munte, capacitate medie. Rucsac de munte, capacitate medie.",
+            "price": 284.99,
             "sale_price": null,
             "related": [
                 52,
@@ -9181,11 +9181,11 @@
             ]
         },
         {
-            "id": 86,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-86",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 68,
+            "name": "Rucsac simplu pentru preșcolari",
+            "slug": "rucsac-simplu-pentru-preșcolari",
+            "short_desc": "Rucsac simplu pentru preșcolari. Rucsac simplu pentru preșcolari. Rucsac simplu pentru preșcolari. Rucsac simplu pentru preșcolari.",
+            "price": 66.99,
             "sale_price": null,
             "related": [
                 55,
@@ -9289,12 +9289,12 @@
             ]
         },
         {
-            "id": 87,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-87",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 600,
-            "sale_price": 239.99,
+            "id": 44,
+            "name": "Ghiozdan elevi clasa prigătitoare",
+            "slug": "ghiozdan-elevi-clasa-prigatitoare",
+            "short_desc": "Ghiozdan elevi clasa prigătitoare. Ghiozdan elevi clasa prigătitoare. Ghiozdan elevi clasa prigătitoare. Ghiozdan elevi clasa prigătitoare.",
+            "price": 111,
+            "sale_price": 99.99,
             "related": [
                 83,
                 57,
@@ -9397,11 +9397,11 @@
             ]
         },
         {
-            "id": 88,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-88",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "id": 71,
+            "name": "Ghiozdan pentru domnișoare de onoare",
+            "slug": "ghiozdan-pentru-domnisoare-de-onoare",
+            "short_desc": "Ghiozdan pentru domnișoare de onoare. Ghiozdan pentru domnișoare de onoare. Ghiozdan pentru domnișoare de onoare. Ghiozdan pentru domnișoare de onoare.",
+            "price": 147.99,
             "sale_price": null,
             "related": [
                 50,
@@ -9505,12 +9505,12 @@
             ]
         },
         {
-            "id": 89,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-89",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 80,
+            "name": "Lanternă mare cu rază medie",
+            "slug": "lanterna-mare-cu-raza-medie",
+            "short_desc": "Lanternă mare cu rază medie. Lanternă mare cu rază medie. Lanternă mare cu rază medie. Lanternă mare cu rază medie.",
+            "price": 190,
+            "sale_price": 169,
             "related": [
                 93,
                 26,
@@ -9609,12 +9609,12 @@
             ]
         },
         {
-            "id": 90,
-            "name": "The North Face Fanorak 2.0",
-            "slug": "the-north-face-fanorak-90",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 499.99,
-            "sale_price": 419.99,
+            "id": 14,
+            "name": "Kit lanterne cu infrared",
+            "slug": "kit-lanterne-cu-infrared",
+            "short_desc": "Kit lanterne cu infrared. Kit lanterne cu infrared. Kit lanterne cu infrared. Kit lanterne cu infrared. Kit lanterne cu infrared.",
+            "price": 599.99,
+            "sale_price": 499.99,
             "related": [
                 95,
                 31,
@@ -9713,11 +9713,11 @@
             ]
         },
         {
-            "id": 91,
-            "name": "Under Armour UA Spawn Low",
-            "slug": "under-armour-ua-spawn-low-91",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ",
-            "price": 77.99,
+            "id": 33,
+            "name": "Frontal pentru drumeții la munte",
+            "slug": "frontal-pentru-drumetii-la-munte",
+            "short_desc": "Frontal pentru drumeții la munte. Frontal pentru drumeții la munte. Frontal pentru drumeții la munte. Frontal pentru drumeții la munte.",
+            "price": 97.99,
             "sale_price": null,
             "related": [
                 89,
@@ -9817,12 +9817,12 @@
             ]
         },
         {
-            "id": 92,
-            "name": "Snowboard Freestyle Italia - 135 cm",
-            "slug": "snowboard-freestyle-italia-92",
-            "short_desc": "Produs conceput pentru snowboarding. Ideal pentru copii între 1,45 m-1,60 m (nivel începător-mediu). 2 vârfuri pentru toleranţă la manevrare greşită şi practicare uşoară. Rază curbă mică pentru manevrabilitate în viraje. ",
-            "price": 899,
-            "sale_price": 849,
+            "id": 93,
+            "name": "Lanterne tip far, pentru biciclete",
+            "slug": "lanterne-tip-far-pentru-biciclete",
+            "short_desc": "Lanterne tip far, pentru biciclete. Lanterne tip far, pentru biciclete. Lanterne tip far, pentru biciclete. Lanterne tip far, pentru biciclete.",
+            "price": 99,
+            "sale_price": 90,
             "related": [
                 93,
                 26,
@@ -9921,11 +9921,11 @@
             ]
         },
         {
-            "id": 93,
-            "name": "PUMA Ignite Limitless Leather",
-            "slug": "puma-ignite-limitless-leather-93",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 52.66,
+            "id": 66,
+            "name": "Lanternă portabilă de dimensiune mică",
+            "slug": "lanterna-portabila-de-dimensiune-mica",
+            "short_desc": "Lanternă portabilă de dimensiune mică. Lanternă portabilă de dimensiune mică. Lanternă portabilă de dimensiune mică. Lanternă portabilă de dimensiune mică.",
+            "price": 42.66,
             "sale_price": null,
             "related": [
                 91,
@@ -10025,10 +10025,10 @@
             ]
         },
         {
-            "id": 94,
-            "name": "Small Sleeping Bag",
-            "slug": "small-sleeping-bag-94",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
+            "id": 79,
+            "name": "Lanternă cu led mare și rază mare de acțiune",
+            "slug": "lanterna-cu-led-mare-si-raza-mare-de-actiune",
+            "short_desc": "Lanternă cu led mare și rază mare de acțiune. Lanternă cu led mare și rază mare de acțiune. Lanternă cu led mare și rază mare de acțiune. Lanternă cu led mare și rază mare de acțiune.",
             "price": 299.99,
             "sale_price": null,
             "related": [
@@ -10129,11 +10129,11 @@
             ]
         },
         {
-            "id": 95,
-            "name": "Alphaskin Sport Bra",
-            "slug": "alphaskin-sport-bra-95",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 34.99,
+            "id": 60,
+            "name": "Minge de fotbal, pentru gazon natural",
+            "slug": "minge-de-fotbal-pentru-gazon-natural",
+            "short_desc": "Minge de fotbal, pentru gazon natural. Minge de fotbal, pentru gazon natural. Minge de fotbal, pentru gazon natural. Minge de fotbal, pentru gazon natural. Minge de fotbal, pentru gazon natural.",
+            "price": 314.99,
             "sale_price": null,
             "related": [
                 93,
@@ -10233,11 +10233,11 @@
             ]
         },
         {
-            "id": 96,
-            "name": "Watertight Jacket",
-            "slug": "watertight-jacket-96",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 76.99,
+            "id": 58,
+            "name": "Minge bascket, dimensiune universală",
+            "slug": "minge-bascket-dimensiune-universala",
+            "short_desc": "Minge bascket, dimensiune universală. Minge bascket, dimensiune universală. Minge bascket, dimensiune universală. Minge bascket, dimensiune universală.",
+            "price": 276.99,
             "sale_price": null,
             "related": [
                 93,
@@ -10337,12 +10337,12 @@
             ]
         },
         {
-            "id": 97,
-            "name": "Adidas Y-3 Yohji Yamamoto",
-            "slug": "adidas-y-3-yohji-yamamoto-97",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 600,
-            "sale_price": 239.99,
+            "id": 9,
+            "name": "Minge fotbal pentru fete, ultra ușoară",
+            "slug": "minge-fotbal-pentru-fete-ultra-usoara",
+            "short_desc": "Minge fotbal pentru fete, ultra ușoară. Minge fotbal pentru fete, ultra ușoară. Minge fotbal pentru fete, ultra ușoară. Minge fotbal pentru fete, ultra ușoară.",
+            "price": 200,
+            "sale_price": 179.99,
             "related": [
                 90,
                 23,
@@ -10441,11 +10441,11 @@
             ]
         },
         {
-            "id": 98,
-            "name": "On Cloudflyer",
-            "slug": "on-cloudflyer-98",
-            "short_desc": "Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, ",
-            "price": 127.99,
+            "id": 53,
+            "name": "Seturi mingi tenis de câmp - diverse modele și mărci",
+            "slug": "seturi-mingi-tenis-de-camp-diverse-modele-si-marci",
+            "short_desc": "Seturi mingi tenis de câmp - diverse modele și mărci. Seturi mingi tenis de câmp - diverse modele și mărci. Seturi mingi tenis de câmp - diverse modele și mărci.",
+            "price": 37.99,
             "sale_price": null,
             "related": [
                 93,
@@ -10545,12 +10545,12 @@
             ]
         },
         {
-            "id": 99,
-            "name": "Troy Lee Designs A1 MIPS Bike Helmet",
-            "slug": "troy-lee-designs-a1-mips-bike-helmet-99",
-            "short_desc": "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus.",
-            "price": 150,
-            "sale_price": 139,
+            "id": 46,
+            "name": "Minge mare de bascket - NBA",
+            "slug": "minge-mare-de-bascket-nba",
+            "short_desc": "Minge mare de bascket - NBA. Minge mare de bascket - NBA. Minge mare de bascket - NBA. Minge mare de bascket - NBA. Minge mare de bascket - NBA. Minge mare de bascket - NBA.",
+            "price": 750,
+            "sale_price": 729,
             "related": [
                 92,
                 25,
@@ -10645,30 +10645,6 @@
                 {
                     "name": "OEM",
                     "slug": "oem"
-                },
-                {
-                    "name": "F&F",
-                    "slug": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug1": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug2": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug3": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug4": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug5": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug6": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug7": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug8": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug9": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug10": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug11": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug12": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug13": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug14": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug15": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug16": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug17": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug18": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug19": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E",
-                    "slug99": "fandf- S C H I M B   I D - u r i l e   P E N T R U   I N T E R C A L A R E"
                 }
             ]
         }

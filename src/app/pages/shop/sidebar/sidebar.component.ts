@@ -175,6 +175,8 @@ export class SidebarPageComponent implements OnInit {
 				// console.log("OUT_Products: ", totalProducts)
 				this.totalCount = totalProducts.length;
 				//
+				this.sorter(totalProducts);
+				//
 				let pageInd = 0;
 				if (params.page && params.page >= 1) pageInd = params.page - 1;
 				//
@@ -199,6 +201,26 @@ export class SidebarPageComponent implements OnInit {
 	onResize(event: Event) {
 		if (window.innerWidth > 991) this.toggle = false;
 		else this.toggle = true;
+	}
+
+	sorter(totalProducts: any) {
+		if (this.orderBy === "default") {
+			totalProducts = totalProducts.sort((a: any, b: any): any => a.id - b.id);
+		}
+		if (this.orderBy === "featured") {
+			totalProducts = totalProducts.sort((a: any, b: any): any => {
+				if (a.featured === b.featured) return 0;
+				if (a.featured) return -1;
+				if (b.featured) return 1;
+			});
+			totalProducts = totalProducts.sort((a: any, b: any): any => b.id - a.id);
+		}
+		if (this.orderBy === "price-asc") {
+			totalProducts = totalProducts.sort((a: any, b: any): any => a.price - b.price);
+		}
+		if (this.orderBy === "price-desc") {
+			totalProducts = totalProducts.sort((a: any, b: any): any => b.price - a.price);
+		}
 	}
 
 	changeOrderBy(event: any) {
