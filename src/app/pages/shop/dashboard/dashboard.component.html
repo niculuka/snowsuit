@@ -1,19 +1,19 @@
 <main class="main">
     <div class="page-header text-center" style="background-image: url('assets/images/page-header-bg.jpg')">
         <div class="container">
-            <h1 class="page-title">My Account<span>Shop</span></h1>
+            <h1 class="page-title">Acountul Meu<span>Magazin</span></h1>
         </div>
     </div>
     <nav class="breadcrumb-nav mb-3">
         <div class="container">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a routerLink="/">Home</a>
+                    <a routerLink="/">Acasă</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a routerLink="/shop/sidebar/3cols">Shop</a>
+                    <a routerLink="/shop/sidebar/4cols">Magazin</a>
                 </li>
-                <li class="breadcrumb-item active">My Account</li>
+                <li class="breadcrumb-item active">Acountul Meu</li>
             </ol>
         </div>
     </nav>
@@ -26,26 +26,27 @@
                         <ul class="nav nav-dashboard flex-column mb-3 mb-md-0" role="tablist" tabClick>
                             <li class="nav-item">
                                 <a class="nav-link active" href="javascript:;" role="tab"
-                                    (click)="nav.select('tab-1')">Dashboard</a>
+                                    (click)="nav.select('tab-1')">Panou de control</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="javascript:;" role="tab"
-                                    (click)="nav.select('tab-2')">Orders</a>
+                                    (click)="nav.select('tab-2')">Comenzile Mele</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="javascript:;" role="tab"
-                                    (click)="nav.select('tab-3')">Downloads</a>
+                                    (click)="nav.select('tab-3')">Descărcări</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="javascript:;" role="tab"
-                                    (click)="nav.select('tab-4')">Adresses</a>
+                                    (click)="nav.select('tab-4')">Adrese</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:;" role="tab" (click)="nav.select('tab-5')">Account
-                                    Details</a>
+                                <a class="nav-link" href="javascript:;" role="tab" (click)="nav.select('tab-5')">
+                                    Detalii Acount
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" routerLink="/">Sign Out</a>
+                                <a class="nav-link" routerLink="/">Ieșire</a>
                             </li>
                         </ul>
                     </aside>
@@ -55,55 +56,64 @@
                             <ul ngbNav #nav="ngbNav">
                                 <li [ngbNavItem]="'tab-1'">
                                     <ng-template ngbNavContent>
-                                        <p>Hello <span class="font-weight-normal text-dark">User</span> (not <span
-                                                class="font-weight-normal text-dark">User</span>? <a
-                                                routerLink="/">Log out</a>)
+                                        <p>Salut <span class="font-weight-normal text-dark">User </span>
+                                            (not <span class="font-weight-normal text-dark">User </span>?
+                                            <a routerLink="/">Log out</a>)
                                             <br>
-                                            From your account dashboard you can view your <a href="javascript:;"
+                                            Din acountul tău poți vedea <a href="javascript:;"
                                                 (click)="nav.select('tab-2'); viewTab( $event, 0, 1 );"
-                                                class="tab-trigger-link link-underline">recent orders</a>, manage your
+                                                class="tab-trigger-link link-underline">comenzile recente</a>
+                                            , să editezi
                                             <a href="javascript:;"
                                                 (click)="nav.select('tab-2'); viewTab( $event, 0, 3 );"
-                                                class="tab-trigger-link">shipping and billing addresses</a>, and <a
-                                                href="javascript:;"
+                                                class="tab-trigger-link">adresele de transport și facturare</a>
+                                            , și
+                                            <a href="javascript:;"
                                                 (click)="nav.select('tab-2'); viewTab( $event, 0, 4 );"
-                                                class="tab-trigger-link">edit your password and account details</a>.</p>
+                                                class="tab-trigger-link">
+                                                să schimbi parola sau să editeazi detaliile acountului,
+                                            </a>.
+                                        </p>
                                     </ng-template>
                                 </li>
 
                                 <li [ngbNavItem]="'tab-2'">
                                     <ng-template ngbNavContent>
-                                        <p>No order has been made yet.</p>
-                                        <a routerLink="/shop/sidebar/list" class="btn btn-outline-primary-2"><span>GO
-                                                SHOP</span><i class="icon-long-arrow-right"></i></a>
+                                        <p>Nicio comandă incă.</p>
+                                        <a routerLink="/shop/sidebar/list" class="btn btn-outline-primary-2">
+                                            <span>Mergi la Magazin</span><i class="icon-long-arrow-right"></i>
+                                        </a>
                                     </ng-template>
                                 </li>
 
                                 <li [ngbNavItem]="'tab-3'">
                                     <ng-template ngbNavContent>
-                                        <p>No downloads available yet.</p>
-                                        <a routerLink="/shop/sidebar/list" class="btn btn-outline-primary-2"><span>GO
-                                                SHOP</span><i class="icon-long-arrow-right"></i></a>
+                                        <p>Nicio comandă disponibilă incă.</p>
+                                        <a routerLink="/shop/sidebar/list" class="btn btn-outline-primary-2">
+                                            <span>Mergi la Magazin</span><i class="icon-long-arrow-right"></i>
+                                        </a>
                                     </ng-template>
                                 </li>
 
                                 <li [ngbNavItem]="'tab-4'">
                                     <ng-template ngbNavContent>
-                                        <p>The following addresses will be used on the checkout page by default.</p>
+                                        <p>Acestea sunt adresele dvs.</p>
 
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="card card-dashboard">
                                                     <div class="card-body">
-                                                        <h3 class="card-title">Billing Address</h3>
+                                                        <h3 class="card-title">Adresa de Facturare</h3>
 
                                                         <p>User Name<br>
                                                             User Company<br>
-                                                            John str<br>
-                                                            New York, NY 10001<br>
-                                                            1-234-987-6543<br>
-                                                            yourmail@mail.com<br>
-                                                            <a href="javascript:;">Edit <i class="icon-edit"></i></a>
+                                                            Adresa, str<br>
+                                                            București, Sector 1<br>
+                                                            +40766999777<br>
+                                                            {{email}}<br>
+                                                            <a href="javascript:;">Editează
+                                                                <i class="icon-edit"></i>
+                                                            </a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -112,10 +122,12 @@
                                             <div class="col-lg-6">
                                                 <div class="card card-dashboard">
                                                     <div class="card-body">
-                                                        <h3 class="card-title">Shipping Address</h3>
+                                                        <h3 class="card-title">Adresa de destinație</h3>
 
-                                                        <p>You have not set up this type of address yet.<br>
-                                                            <a href="javascript:;">Edit <i class="icon-edit"></i></a>
+                                                        <p>Nu ați setat această adresă incă.<br>
+                                                            <a href="javascript:;">Editează
+                                                                <i class="icon-edit"></i>
+                                                            </a>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -129,35 +141,36 @@
                                         <form action="#">
                                             <div class="row">
                                                 <div class="col-sm-6">
-                                                    <label>First Name *</label>
+                                                    <label>Prenume *</label>
                                                     <input type="text" class="form-control" required>
                                                 </div>
 
                                                 <div class="col-sm-6">
-                                                    <label>Last Name *</label>
+                                                    <label>Nume *</label>
                                                     <input type="text" class="form-control" required>
                                                 </div>
                                             </div>
 
-                                            <label>Display Name *</label>
+                                            <label>Nume afișat *</label>
                                             <input type="text" class="form-control" required>
-                                            <small class="form-text">This will be how your name will be displayed in the
-                                                account section and in reviews</small>
+                                            <small class="form-text">
+                                                Acest nume va fi folosit pe site și în secțiunea de păreri.
+                                            </small>
 
-                                            <label>Email address *</label>
+                                            <label>Email *</label>
                                             <input type="email" class="form-control" required>
 
-                                            <label>Current password (leave blank to leave unchanged)</label>
+                                            <label>Parola curentă (lasă gol sau neschimbat)</label>
                                             <input type="password" class="form-control">
 
-                                            <label>New password (leave blank to leave unchanged)</label>
+                                            <label>Parolă nouă (lasă gol sau neschimbat)</label>
                                             <input type="password" class="form-control">
 
-                                            <label>Confirm new password</label>
+                                            <label>Confirmare parolă nouă</label>
                                             <input type="password" class="form-control mb-2">
 
                                             <button type="submit" class="btn btn-outline-primary-2">
-                                                <span>SAVE CHANGES</span>
+                                                <span>SALVEAZĂ</span>
                                                 <i class="icon-long-arrow-right"></i>
                                             </button>
                                         </form>

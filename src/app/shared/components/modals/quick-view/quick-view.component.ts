@@ -70,9 +70,11 @@ export class QuickViewComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		this.apiService.getSingleProduct(this.slug, true).subscribe(result => {
-			this.product = result.product;
-
+		this.apiService.fetchProducts().subscribe(result => {
+			for (let prod of result.products) {
+				if (prod.slug == this.slug) this.product = prod;
+			}
+			
 			let min = this.minPrice;
 			let max = this.maxPrice;
 
