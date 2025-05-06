@@ -20,7 +20,7 @@
             <div class="text-center">
                 <i class="icon-heart-o wishlist-empty d-block" style="font-size: 15rem; line-height: 1"></i>
                 <span class="d-block mt-2">No products added to wishlist</span>
-                <a routerLink="/shop/sidebar/list" class="btn btn-primary mt-2">Go Shop</a>
+                <a routerLink="/shop/sidebar/list" class="btn btn-primary mt-2">Magazin</a>
             </div>
         </div>
         <ng-template #wishlistBlock>
@@ -55,23 +55,24 @@
                             <td class="price-col">
                                 <div class="product-price d-inline-block mb-0"
                                     *ngIf="!product.stock || product.stock == 0 else elseBlock">
-                                    <span class="out-price">${{ product.price.toFixed(2) }}</span>
+                                    <span class="out-price">Lei {{ product.price.toFixed(2) }}</span>
                                 </div>
 
                                 <ng-template #elseBlock>
                                     <div class="product-price d-inline-block mb-0"
                                         *ngIf="product.minPrice == product.maxPrice else elseBlock">
-                                        ${{ product.minPrice.toFixed(2) }}
+                                        Lei {{ product.minPrice.toFixed(2) }}
                                     </div>
                                     <ng-template #elseBlock>
                                         <div class="product-price d-inline-block mb-0"
                                             *ngIf="product.variants.length == 0 else elseBlock">
-                                            <span class="new-price">${{ product.minPrice.toFixed(2) }}</span>
-                                            <span class="old-price">${{ product.maxPrice.toFixed(2) }}</span>
+                                            <span class="new-price">Lei {{ product.minPrice.toFixed(2) }}</span>
+                                            <span class="old-price">Lei {{ product.maxPrice.toFixed(2) }}</span>
                                         </div>
                                         <ng-template #elseBlock>
                                             <div class="product-price d-inline-block mb-0">
-                                                ${{product.minPrice.toFixed(2)}}&ndash;${{product.maxPrice.toFixed(2)}}
+                                                Lei {{product.minPrice.toFixed(2)}}&ndash;
+                                                Lei {{product.maxPrice.toFixed(2)}}
                                             </div>
                                         </ng-template>
                                     </ng-template>
@@ -99,7 +100,7 @@
                 </table>
                 <div class="wishlist-share">
                     <div class="social-icons social-icons-sm mb-2">
-                        <label class="social-label">Share on:</label>
+                        <label class="social-label">Distribuie:</label>
                         <a href="javascript:;" class="social-icon" title="Facebook"><i class="icon-facebook-f"></i></a>
                         <a href="javascript:;" class="social-icon" title="Twitter"><i class="icon-twitter"></i></a>
                         <a href="javascript:;" class="social-icon" title="Instagram"><i class="icon-instagram"></i></a>

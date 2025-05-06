@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Product } from 'src/app/shared/classes/product';
+import { ApiService } from 'src/app/shared/services/api.service';
+import { shopData } from '../shared/data';
 
 @Component({
 	selector: 'shop-product-category-boxed',
@@ -7,8 +11,29 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ProductCategoryBoxedPageComponent implements OnInit {
+	products: Product[] = [];
+	shopData = shopData;
 
-	constructor() {
+	constructor(
+		public apiService: ApiService,
+		public router: Router
+	) {
+		this.apiService.fetchProducts().subscribe(result => {
+			this.products = result.products;
+			//
+			this.shopData = JSON.parse(JSON.stringify(shopData));
+			if (this.products.length) {
+				for (let prod of this.products) {
+					for (let p of prod.category) {
+						for (let data of this.shopData.categories) {
+							if (p.slug == data.slug) {
+								data.count += 1;
+							}
+						}
+					}
+				}
+			}
+		});
 	}
 
 	ngOnInit(): void {

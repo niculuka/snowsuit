@@ -1,5 +1,5 @@
 <div class="main">
-    <molla-page-header title="Lațime Mică" subtitle="Magazin">        
+    <molla-page-header title="Lațime Mică" subtitle="Magazin">
     </molla-page-header>
 
     <nav class="breadcrumb-nav breadcrumb-with-filter">
@@ -24,140 +24,176 @@
         <div class="categories-page">
             <div class="container">
                 <div class="row">
+
                     <div class="col-md-6">
+
                         <div class="banner banner-cat banner-badge">
-                            <a routerLink="/shop/sidebar/list" [queryParams]="{category: 'dresses'}">
+                            <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'snowboard'}">
                                 <molla-image src="assets/images/category/boxed/banner-1.jpg" width="580" height="580"
                                     alt="Banner">
                                 </molla-image>
                             </a>
 
-                            <a class="banner-link" routerLink="/shop/sidebar/list"
-                                [queryParams]="{category: 'dresses'}">
-                                <h3 class="banner-title">Dresses</h3>
-                                <h4 class="banner-subtitle">2 Products</h4>
-                                <span class="banner-link-text">Shop Now</span>
+                            <a class="banner-link" routerLink="/shop/sidebar/4cols"
+                                [queryParams]="{category: 'snowboard'}">
+                                <h3 class="banner-title">{{shopData.categories[0].name}}</h3>
+                                <h4 class="banner-subtitle">{{shopData.categories[0].count}} Produse</h4>
+                                <span class="banner-link-text">Cumpără</span>
                             </a>
                         </div>
 
                         <div class="banner banner-cat banner-badge">
-                            <a routerLink="/shop/sidebar/list" [queryParams]="{category: 'jackets'}">
+                            <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'boot'}">
                                 <molla-image src="assets/images/category/boxed/banner-2.jpg" width="580" height="280"
                                     alt="Banner">
                                 </molla-image>
                             </a>
 
-                            <a class="banner-link" routerLink="/shop/sidebar/list"
-                                [queryParams]="{category: 'jackets'}">
-                                <h3 class="banner-title">Jackets</h3>
-                                <h4 class="banner-subtitle">4 Products</h4>
-                                <span class="banner-link-text">Shop Now</span>
+                            <a class="banner-link" routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'boot'}">
+                                <h3 class="banner-title">{{shopData.categories[1].name}}</h3>
+                                <h4 class="banner-subtitle">{{shopData.categories[1].count}} Produse</h4>
+                                <span class="banner-link-text">Cumpără</span>
                             </a>
                         </div>
+
                     </div>
 
                     <div class="col-md-6">
+
                         <div class="row">
                             <div class="col-sm-6">
+
                                 <div class="banner banner-cat banner-badge">
-                                    <a routerLink="/shop/sidebar/list" [queryParams]="{category: 't-shirts'}">
+                                    <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'bike'}">
                                         <molla-image src="assets/images/category/boxed/banner-3.jpg" width="280"
                                             height="280" alt="Banner">
                                         </molla-image>
                                     </a>
 
-                                    <a class="banner-link" routerLink="/shop/sidebar/list"
-                                        [queryParams]="{category: 't-shirts'}">
-                                        <h3 class="banner-title">T-shirts</h3>
-                                        <h4 class="banner-subtitle">2 Products</h4>
-                                        <span class="banner-link-text">Shop Now</span>
+                                    <a class="banner-link" routerLink="/shop/sidebar/4cols"
+                                        [queryParams]="{category: 'bike'}">
+                                        <h3 class="banner-title">{{shopData.categories[2].name}}</h3>
+                                        <h4 class="banner-subtitle">{{shopData.categories[2].count}} Produse</h4>
+                                        <span class="banner-link-text">Cumpără</span>
                                     </a>
                                 </div>
+
                             </div>
 
                             <div class="col-sm-6">
+
                                 <div class="banner banner-cat banner-badge">
-                                    <a routerLink="/shop/sidebar/list" [queryParams]="{category: 'jeans'}">
+                                    <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'scooter'}">
                                         <molla-image src="assets/images/category/boxed/banner-4.jpg" width="280"
                                             height="280" alt="Banner">
                                         </molla-image>
                                     </a>
 
-                                    <a class="banner-link" routerLink="/shop/sidebar/list"
-                                        [queryParams]="{category: 'jeans'}">
-                                        <h3 class="banner-title">Jeans</h3>
-                                        <h4 class="banner-subtitle">5 Products</h4>
-                                        <span class="banner-link-text">Shop Now</span>
+                                    <a class="banner-link" routerLink="/shop/sidebar/4cols"
+                                        [queryParams]="{category: 'scooter'}">
+                                        <h3 class="banner-title">{{shopData.categories[3].name}}</h3>
+                                        <h4 class="banner-subtitle">{{shopData.categories[3].count}} Produse</h4>
+                                        <span class="banner-link-text">Cumpără</span>
                                     </a>
                                 </div>
+
                             </div>
                         </div>
 
                         <div class="banner banner-cat banner-badge">
-                            <a routerLink="/shop/sidebar/list" [queryParams]="{category: 'bags'}">
+                            <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 't-shirt'}">
                                 <molla-image src="assets/images/category/boxed/banner-5.jpg" width="580" height="580"
                                     alt="Banner">
                                 </molla-image>
                             </a>
 
-                            <a class="banner-link" routerLink="/shop/sidebar/list" [queryParams]="{category: 'bags'}">
-                                <h3 class="banner-title">Bags</h3>
-                                <h4 class="banner-subtitle">13 Products</h4>
-                                <span class="banner-link-text">Shop Now</span>
+                            <a class="banner-link" routerLink="/shop/sidebar/4cols"
+                                [queryParams]="{category: 't-shirt'}">
+                                <h3 class="banner-title">{{shopData.categories[4].name}}</h3>
+                                <h4 class="banner-subtitle">{{shopData.categories[4].count}} Produse</h4>
+                                <span class="banner-link-text">Cumpără</span>
                             </a>
                         </div>
+
+                    </div>
+
+
+                    <div class="col-md-12">
+
+                        <div class="banner banner-cat banner-badge">
+                            <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'shoe'}">
+                                <molla-image src="assets/images/category/boxed/banner-9.jpg" width="1160" height="580"
+                                    alt="Banner">
+                                </molla-image>
+                            </a>
+
+                            <a class="banner-link" routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'shoe'}">
+                                <h3 class="banner-title">{{shopData.categories[5].name}}</h3>
+                                <h4 class="banner-subtitle">{{shopData.categories[5].count}} Produse</h4>
+                                <span class="banner-link-text">Cumpără</span>
+                            </a>
+                        </div>
+
                     </div>
 
                     <div class="col-sm-6 col-md-3">
+
                         <div class="banner banner-cat banner-badge">
-                            <a routerLink="/shop/sidebar/list" [queryParams]="{category: 'sportwear'}">
+                            <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'backpack'}">
                                 <molla-image src="assets/images/category/boxed/banner-6.jpg" width="280" height="280"
                                     alt="Banner">
                                 </molla-image>
                             </a>
 
-                            <a class="banner-link" routerLink="/shop/sidebar/list"
-                                [queryParams]="{category: 'sportwear'}">
-                                <h3 class="banner-title">Sportwear</h3>
-                                <h4 class="banner-subtitle">8 Products</h4>
-                                <span class="banner-link-text">Shop Now</span>
+                            <a class="banner-link" routerLink="/shop/sidebar/4cols"
+                                [queryParams]="{category: 'backpack'}">
+                                <h3 class="banner-title">{{shopData.categories[6].name}}</h3>
+                                <h4 class="banner-subtitle">{{shopData.categories[6].count}} Produse</h4>
+                                <span class="banner-link-text">Cumpără</span>
                             </a>
                         </div>
+
                     </div>
 
                     <div class="col-sm-6 col-md-3 order-md-last">
+
                         <div class="banner banner-cat banner-badge">
-                            <a routerLink="/shop/sidebar/list" [queryParams]="{category: 'jumpers'}">
+                            <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'ball'}">
                                 <molla-image src="assets/images/category/boxed/banner-8.jpg" width="280" height="280"
                                     alt="Banner">
                                 </molla-image>
                             </a>
 
-                            <a class="banner-link" routerLink="/shop/sidebar/list"
-                                [queryParams]="{category: 'jumpers'}">
-                                <h3 class="banner-title">Jumpers</h3>
-                                <h4 class="banner-subtitle">9 Products</h4>
-                                <span class="banner-link-text">Shop Now</span>
+                            <a class="banner-link" routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'ball'}">
+                                <h3 class="banner-title">{{shopData.categories[8].name}}</h3>
+                                <h4 class="banner-subtitle">{{shopData.categories[8].count}} Produse</h4>
+                                <span class="banner-link-text">Cumpără</span>
                             </a>
                         </div>
+
                     </div>
 
                     <div class="col-md-6">
+
                         <div class="banner banner-cat banner-badge">
-                            <a routerLink="/shop/sidebar/list" [queryParams]="{category: 'shoes'}">
+                            <a routerLink="/shop/sidebar/4cols" [queryParams]="{category: 'flashlight'}">
                                 <molla-image src="assets/images/category/boxed/banner-7.jpg" width="580" height="280"
                                     alt="Banner">
                                 </molla-image>
                             </a>
 
-                            <a class="banner-link" routerLink="/shop/sidebar/list" [queryParams]="{category: 'shoes'}">
-                                <h3 class="banner-title">Shoes</h3>
-                                <h4 class="banner-subtitle">4 Products</h4>
-                                <span class="banner-link-text">Shop Now</span>
+                            <a class="banner-link" routerLink="/shop/sidebar/4cols"
+                                [queryParams]="{category: 'flashlight'}">
+                                <h3 class="banner-title">{{shopData.categories[7].name}}</h3>
+                                <h4 class="banner-subtitle">{{shopData.categories[7].count}} Produse</h4>
+                                <span class="banner-link-text">Cumpără</span>
                             </a>
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
         </div>
 

@@ -2,19 +2,19 @@
     <div class="row pr-2">
         <div class="col-lg-3 col-md-3 col-6">
             <figure class="product-media">
-                <span class="product-label label-new" *ngIf="product.new">New</span>
-                <span class="product-label label-sale" *ngIf="product.sale_price">Sale</span>
+                <span class="product-label label-new" *ngIf="product.new">Nou</span>
+                <span class="product-label label-sale" *ngIf="product.sale_price">Preț</span>
                 <span class="product-label label-top" *ngIf="product.top">Top</span>
-                <span class="product-label label-out" *ngIf="!product.stock || product.stock == 0">Out Of Stock</span>
+                <span class="product-label label-out" *ngIf="!product.stock || product.stock == 0">Vândut</span>
 
                 <a [routerLink]="['/product/default/'+ product.slug]">
                     <molla-image [src]="SERVER_URL + product.sm_pictures[0].url" alt="Product"
                         [width]="product.sm_pictures[0].width" [height]="product.sm_pictures[0].height"
                         class="product-image" fixedPt="100%">
                     </molla-image>
-                    <molla-image [src]="SERVER_URL + product.sm_pictures[1].url" alt="Product" class="product-image-hover"
+                    <!-- <molla-image [src]="SERVER_URL + product.sm_pictures[1].url" alt="Product" class="product-image-hover"
                         *ngIf="product.sm_pictures[1]" fixedPt="100%">
-                    </molla-image>
+                    </molla-image> -->
                 </a>
             </figure>
         </div>
@@ -24,8 +24,7 @@
                 <div class="product-cat">
                     <span *ngFor="let cat of product.category; let i =index">
                         <a [routerLink]="['/shop/sidebar/list']" [queryParams]="{category: cat.slug}">{{ cat.name }}</a>
-                        {{ i < product.category.length - 1 ? ',' : '' }}
-                    </span>
+                        {{ i < product.category.length - 1 ? ',' : '' }} </span>
                 </div>
 
                 <h3 class="product-title">
@@ -40,7 +39,7 @@
                     <div class="row no-gutters">
                         <a href="javascript:;" [style.backgroundColor]="item.color"
                             *ngFor="let item of product.variants">
-                            <span class="sr-only">Color name</span></a>
+                            <span class="sr-only">Nume Culoare</span></a>
                     </div>
                 </div>
             </div>
@@ -49,19 +48,20 @@
         <div class="col-lg-3 col-md-3 col-6 order-md-last order-lg-last">
             <div class="product-list-action">
                 <div class="product-price" *ngIf="!product.stock || product.stock == 0 else elseBlock">
-                    <span class="out-price">${{ product.price.toFixed(2) }}</span>
+                    <span class="out-price">{{ product.price.toFixed(2) }} Lei</span>
                 </div>
 
                 <ng-template #elseBlock>
-                    <div class="product-price" *ngIf="minPrice == maxPrice else elseBlock">${{ minPrice.toFixed(2) }}
+                    <div class="product-price" *ngIf="minPrice == maxPrice else elseBlock">
+                        {{ minPrice.toFixed(2) }} Lei
                     </div>
                     <ng-template #elseBlock>
                         <div class="product-price" *ngIf="product.variants.length == 0 else elseBlock">
-                            <span class="new-price">${{ minPrice.toFixed(2) }}</span>
-                            <span class="old-price">${{ maxPrice.toFixed(2) }}</span>
+                            <span class="new-price">{{ minPrice.toFixed(2) }} Lei</span>
+                            <span class="old-price">{{ maxPrice.toFixed(2) }} Lei</span>
                         </div>
                         <ng-template #elseBlock>
-                            <div class="product-price">${{minPrice.toFixed(2)}}&ndash;${{maxPrice.toFixed(2)}}</div>
+                            <div class="product-price">{{minPrice.toFixed(2)}}&ndash;{{maxPrice.toFixed(2)}} Lei</div>
                         </ng-template>
                     </ng-template>
                 </ng-template>
@@ -71,23 +71,23 @@
                         <div class="ratings-val" [style.width]="product.ratings * 20 + '%'"></div>
                         <span class="tooltip-text">{{ product.ratings.toFixed(2) }}</span>
                     </div>
-                    <span class="ratings-text">( {{ product.review }} Reviews )</span>
+                    <span class="ratings-text">( {{ product.review }} Păreri )</span>
                 </div>
 
                 <div class="product-action">
                     <a href="javascript:;" class="btn-product btn-quickview" title="Quick view"
-                        (click)="quickView($event)"><span>Quick view</span></a>
+                        (click)="quickView($event)"><span>Vizualizare</span></a>
                     <a href="javascript:;" class="btn-product btn-wishlist" [class.added-to-wishlist]="isInWishlist()"
-                        (click)="addToWishlist($event)"><span>Wishlist</span></a>
+                        (click)="addToWishlist($event)"><span>Favorite</span></a>
                 </div>
 
                 <a [routerLink]="['/product/default/'+ product.slug]" class="btn-product btn-cart btn-select"
                     *ngIf="product.variants.length > 0 else cartBlock">
-                    <span>select options</span>
+                    <span>selectează</span>
                 </a>
                 <ng-template #cartBlock>
                     <button class="btn-product btn-cart" (click)="addToCart($event)">
-                        <span>add to cart</span>
+                        <span>adaugă în coș</span>
                     </button>
                 </ng-template>
             </div>
