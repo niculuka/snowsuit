@@ -37,15 +37,16 @@
                                     <ul>
                                         <li [class.active]="current.includes('shop/category/boxed')">
                                             <a routerLink="/shop/category/boxed">
-                                                Lațime mică
+                                                Categorii
                                             </a>
                                         </li>
-                                        <li [class.active]="current.includes('shop/category/fullwidth')">
-                                            <a routerLink="/shop/category/fullwidth">
-                                                <span>
-                                                    Lațime completă
-                                                    <span class="tip tip-new">Nou</span>
-                                                </span>
+                                    </ul>
+
+                                    <div class="menu-title">DETALII PRODUS</div>
+                                    <ul>
+                                        <li [class.active]="current.includes('product/default')">
+                                            <a routerLink="/product/default/tricouri-culori-neutre">
+                                                Pagină produs
                                             </a>
                                         </li>
                                     </ul>
@@ -83,15 +84,6 @@
                 <div class="row no-gutters">
                     <div class="col-md-6">
                         <div class="menu-col">
-
-                            <div class="menu-title">DETALII PRODUS</div>
-                            <ul>
-                                <li [class.active]="current.includes('product/default')">
-                                    <a routerLink="/product/default/tricouri-culori-neutre">
-                                        Pagină produs
-                                    </a>
-                                </li>
-                            </ul>
 
                             <div class="menu-title">PAGINILE MAGAZINULUI</div>
                             <ul>

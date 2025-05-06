@@ -7,7 +7,6 @@ import { WishlistComponent } from './wishlist/wishlist.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProductCategoryBoxedPageComponent } from './product-category-boxed/product-category-boxed.component';
-import { ProductCategoryFluidPageComponent } from './product-category-fluid/product-category-fluid.component';
 
 const routes: Routes = [
 	{
@@ -43,10 +42,6 @@ const routes: Routes = [
 	{
 		path: 'category/boxed',
 		component: ProductCategoryBoxedPageComponent
-	},
-	{
-		path: 'category/fullwidth',
-		component: ProductCategoryFluidPageComponent
 	}
 ];
 

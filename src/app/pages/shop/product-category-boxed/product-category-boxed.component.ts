@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from 'src/app/shared/classes/product';
 import { ApiService } from 'src/app/shared/services/api.service';
@@ -10,7 +10,8 @@ import { shopData } from '../shared/data';
 	styleUrls: ['./product-category-boxed.component.scss']
 })
 
-export class ProductCategoryBoxedPageComponent implements OnInit {
+export class ProductCategoryBoxedPageComponent {
+
 	products: Product[] = [];
 	shopData = shopData;
 
@@ -34,9 +35,6 @@ export class ProductCategoryBoxedPageComponent implements OnInit {
 				}
 			}
 		});
-	}
-
-	ngOnInit(): void {
 	}
 
 	toggleSidebar() {

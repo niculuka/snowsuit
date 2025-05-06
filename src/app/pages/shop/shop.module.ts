@@ -14,7 +14,6 @@ import { WishlistComponent } from './wishlist/wishlist.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProductCategoryBoxedPageComponent } from './product-category-boxed/product-category-boxed.component';
-import { ProductCategoryFluidPageComponent } from './product-category-fluid/product-category-fluid.component';
 import { ShopSidebarOneComponent } from './shared/sidebar/shop-sidebar-one/shop-sidebar-one.component';
 import { ShopSidebarTwoComponent } from './shared/sidebar/shop-sidebar-two/shop-sidebar-two.component';
 import { ShopListOneComponent } from './shared/list/shop-list-one/shop-list-one.component';
@@ -27,7 +26,6 @@ import { ShopListOneComponent } from './shared/list/shop-list-one/shop-list-one.
 		CheckoutComponent,
 		DashboardComponent,
 		ProductCategoryBoxedPageComponent,
-		ProductCategoryFluidPageComponent,
 		ShopSidebarOneComponent,
 		ShopSidebarTwoComponent,
 		ShopListOneComponent,
