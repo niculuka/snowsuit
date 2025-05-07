@@ -44,14 +44,14 @@
 
                                     <div class="menu-title">PAGINILE MAGAZINULUI</div>
                                     <ul>
+                                        <li [class.active]="current.includes('shop/wishlist')">
+                                            <a routerLink="/shop/wishlist">Favorite</a>
+                                        </li>
                                         <li [class.active]="current.includes('shop/cart')">
                                             <a routerLink="/shop/cart">Coș</a>
                                         </li>
                                         <li [class.active]="current.includes('shop/checkout')">
                                             <a routerLink="/shop/checkout">Plată</a>
-                                        </li>
-                                        <li [class.active]="current.includes('shop/wishlist')">
-                                            <a routerLink="/shop/wishlist">Favorite</a>
                                         </li>
                                         <li [class.active]="current.includes('shop/dashboard')">
                                             <a routerLink="/shop/dashboard">Contul Meu</a>
