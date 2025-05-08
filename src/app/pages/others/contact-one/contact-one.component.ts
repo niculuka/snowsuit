@@ -13,13 +13,14 @@ import { map, catchError } from 'rxjs/operators';
 
 export class ContactOnePageComponent implements OnInit {
 	apiLoaded: Observable<boolean>;
+	mail: string = "info@snowsuit.ro"
   
 	constructor(httpClient: HttpClient) {
-		this.apiLoaded = httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=AIzaSyBzlLYISGjL_ovJwAehh6ydhB56fCCpPQw', 'callback')
-		.pipe(
-			map(() => true),
-			catchError(() => of(false)),
-		);
+		// this.apiLoaded = httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=AIzaSyBzlLYISGjL_ovJwAehh6ydhB56fCCpPQw', 'callback')
+		// .pipe(
+		// 	map(() => true),
+		// 	catchError(() => of(false)),
+		// );
 	}
 	
 	ngOnInit(): void {
