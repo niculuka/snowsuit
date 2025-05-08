@@ -2,37 +2,37 @@
     <span class="countdown-row countdown-show4" *ngIf="format !== 'HMS' && labelsShort">
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > days ? '0' + days : days }}</span>
-            <span class="countdown-period">Days</span>
+            <span class="countdown-period">Zile</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > hours ? '0' + hours : hours }}</span>
-            <span class="countdown-period">Hours</span>
+            <span class="countdown-period">Ore</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > minutes ? '0' + minutes : minutes }}</span>
-            <span class="countdown-period">Mins</span>
+            <span class="countdown-period">Min</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > seconds ? '0' + seconds : seconds }}</span>
-            <span class="countdown-period">Secs</span>
+            <span class="countdown-period">Sec</span>
         </span>
     </span>
     <span class="countdown-row countdown-show4" *ngIf="format !== 'HMS' && ! labelsShort && ! compact">
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > days ? '0' + days : days }}</span>
-            <span class="countdown-period">Days</span>
+            <span class="countdown-period">Zile</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > hours ? '0' + hours : hours }}</span>
-            <span class="countdown-period">Hours</span>
+            <span class="countdown-period">Ore</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > minutes ? '0' + minutes : minutes }}</span>
-            <span class="countdown-period">Minutes</span>
+            <span class="countdown-period">Minute</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > seconds ? '0' + seconds : seconds }}</span>
-            <span class="countdown-period">Seconds</span>
+            <span class="countdown-period">Secunde</span>
         </span>
     </span>
     <span class="countdown-row countdown-amount" *ngIf="format !== 'HMS' && ! labelsShort && compact">
@@ -42,30 +42,30 @@
     <span class="countdown-row countdown-show3" *ngIf="format === 'HMS' && ! labelsShort">
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > hours ? '0' + hours : hours }}</span>
-            <span class="countdown-period">Hours</span>
+            <span class="countdown-period">Ore</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > minutes ? '0' + minutes : minutes }}</span>
-            <span class="countdown-period">Minutes</span>
+            <span class="countdown-period">Minute</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > seconds ? '0' + seconds : seconds }}</span>
-            <span class="countdown-period">Seconds</span>
+            <span class="countdown-period">Secunde</span>
         </span>
     </span>
 
     <span class="countdown-row countdown-show3" *ngIf="format === 'HMS' && labelsShort">
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > hours ? '0' + hours : hours }}</span>
-            <span class="countdown-period">hrs</span>
+            <span class="countdown-period">ore</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > minutes ? '0' + minutes : minutes }}</span>
-            <span class="countdown-period">mins</span>
+            <span class="countdown-period">min</span>
         </span>
         <span class="countdown-section">
             <span class="countdown-amount">{{ 10 > seconds ? '0' + seconds : seconds }}</span>
-            <span class="countdown-period">secs</span>
+            <span class="countdown-period">sec</span>
         </span>
     </span>
 </div>

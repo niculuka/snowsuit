@@ -16,13 +16,13 @@ export const customSay: Testmonial[] = [
         photo: "assets/images/testimonials/user-1.jpg",
         comment: "“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti. ”",
         name: "Jenson Gregory",
-        type: "Customer"
+        type: "Client"
     },
     {
         photo: "assets/images/testimonials/user-2.jpg",
         comment: "“ Impedit, ratione sequi, sunt incidunt magnam et. Delectus obcaecati optio eius error libero perferendis nesciunt atque dolores magni recusandae! Doloremque quidem error eum quis similique doloribus natus qui ut ipsum.Velit quos ipsa exercitationem, vel unde obcaecati impedit eveniet non. ”",
         name: "Victoria Ventura",
-        type: "Customer"
+        type: "Client"
     }
 ]
 

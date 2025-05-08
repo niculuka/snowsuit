@@ -15,42 +15,42 @@ export const iconBoxes: IconBox[] = [
     {
         adClass: "icon-box icon-box-sm text-center",
         icon: "icon-puzzle-piece",
-        title: "Design Quality",
+        title: "Design și Calitate",
         content: "Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero <br>eu augue."
     },
     {
         adClass: "icon-box icon-box-sm text-center",
         icon: "icon-life-ring",
-        title: "Professional Support",
+        title: "Suport Profesional",
         content: "Praesent dapibus, neque id cursus faucibus, <br>tortor neque egestas augue, eu vulputate <br>magna eros eu erat. "
     },
     {
         adClass: "icon-box icon-box-sm text-center",
         icon: "icon-heart-o",
-        title: "Made With Love",
+        title: "Făcute din Dragoste",
         content: "Pellentesque a diam sit amet mi ullamcorper <br>vehicula. Nullam quis massa sit amet <br>nibh viverra malesuada."
     }
 ]
 
 export const counters: Counter[] = [
     {
-        limit: 40,
-        text: "Happy Customers",
+        limit: 4000,
+        text: "Clienți Fericiți",
         unit: "k+"
     },
     {
         limit: 20,
-        text: "Years in Business",
+        text: "Ani în business",
         unit: "+"
     },
     {
-        limit: 95,
-        text: "Return Clients",
+        limit: 5,
+        text: "Retur Clienți",
         unit: "%"
     },
     {
         limit: 15,
-        text: "Award Won"
+        text: "Câștig Garantat"
     }
 ]
 

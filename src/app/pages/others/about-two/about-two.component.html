@@ -1,15 +1,15 @@
 <div class="main">
-    <molla-page-header title="About Us 2" subtitle="Pages"></molla-page-header>
+    <molla-page-header title="Despre Noi 2" subtitle="Pagini"></molla-page-header>
     <nav class="breadcrumb-nav border-0 mb-0">
         <div class="container">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item">
-                    <a routerLink="/">Home</a>
+                    <a routerLink="/">Acasă</a>
                 </li>
                 <li class="breadcrumb-item">
-                    <a href="javascript:;">Pages</a>
+                    <a routerLink="/pages/about-1">Pagini</a>
                 </li>
-                <li class="breadcrumb-item active">About Us 2</li>
+                <li class="breadcrumb-item active">Despre Noi 2</li>
             </ol>
         </div>
     </nav>
@@ -19,15 +19,23 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="about-text text-center mt-3">
-                        <h2 class="title text-center mb-2">Who We Are</h2>
-                        <p>Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit
-                            nunc tortor eu nibh. Suspendisse potenti. Sed egestas, ante et vulputate volutpat, uctus
-                            metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id,
-                            est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. </p>
+                        <h2 class="title text-center mb-2">Cine suntem</h2>
+                        <p>Suntem o echipă de oameni pasionați, dedicați excelenței și inovației.
+                            Ne dorim să creăm soluții care inspiră și aduc valoare,
+                            punând mereu calitatea și profesionalismul pe primul loc.
+                            Cu o viziune clară și principii solide, construim relații autentice
+                            și oferim servicii care fac diferența.
+                            Credem în transparență, colaborare și angajament, fiind mereu aici
+                            pentru a oferi suport și a găsi cele mai bune soluții pentru fiecare nevoie.
+                            Indiferent de provocări, suntem gata să evoluăm și să creștem,
+                            adaptându-ne în permanență la un mediu dinamic.
+                            <br>
+                            Suntem aici pentru tine. Împreună putem construi un viitor mai bun!
+                        </p>
                         <img src="assets/images/about/about-2/signature.png" alt="signature" class="mx-auto mb-5">
 
-                        <molla-image src="assets/images/about/about-2/img-1.jpg" width="933" height="390" alt="signature"
-                            class="mx-auto w-100 mb-6"></molla-image>
+                        <molla-image src="assets/images/about/about-2/img-1.jpg" width="933" height="390"
+                            alt="signature" class="mx-auto w-100 mb-6"></molla-image>
                     </div>
                 </div>
             </div>
@@ -67,13 +75,14 @@
 
         <div class="bg-light-2 pt-6 pb-7 mb-6">
             <div class="container">
-                <h2 class="title text-center mb-4">Meet Our Team</h2>
+                <h2 class="title text-center mb-4">Echipa Noastră</h2>
 
                 <div class="row">
                     <div class="col-sm-6 col-lg-3" *ngFor="let member of members">
                         <div class="member member-2 text-center">
                             <figure class="member-media">
-                                <molla-image [src]="member.img" width="277" height="300" alt="member photo"></molla-image>
+                                <molla-image [src]="member.img" width="277" height="300"
+                                    alt="member photo"></molla-image>
 
                                 <figcaption class="member-overlay">
                                     <div class="social-icons social-icons-simple">
@@ -95,34 +104,13 @@
                 </div>
 
                 <div class="text-center mt-3">
-                    <a routerLink="/blog/classic" class="btn btn-sm btn-minwidth-lg btn-outline-primary-2">
-                        <span>LETS START WORK</span>
+                    <a routerLink="/pages/faq" class="btn btn-sm btn-minwidth-lg btn-outline-primary-2">
+                        <span>SĂ ÎNCEPEM</span>
                         <i class="icon-long-arrow-right"></i>
                     </a>
                 </div>
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="brands-text text-center mx-auto mb-6">
-                        <h2 class="title">The world's premium design brands in one destination.</h2>
-                        <p>Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus
-                            id, mattis vel, nis</p>
-                    </div>
-
-                    <div class="brands-display">
-                        <div class="row justify-content-center">
-                            <div class="col-6 col-sm-4 col-md-3" *ngFor="let brand of brands | slice: 0 : 8">
-                                <a href="javascript:;" class="brand">
-                                    <img [src]="brand.image" alt="Brand Name">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </div>

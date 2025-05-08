@@ -17,57 +17,57 @@ export interface AccordionGroup {
 }
 
 const card1: Card = {
-    title: 'How will my parcel be delivered?',
+    title: 'Cum va fi livrat coletul meu?',
     body: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis. Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi. '
 }
 
 const card2: Card = {
-    title: 'Do I pay for delivery?',
+    title: 'Cum plătesc pentru livrare?',
     body: 'Ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
 const card3: Card = {
-    title: 'Will I be charged customs fees?',
+    title: 'Voi plăti pentru garanție?',
     body: 'Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
 const card4: Card = {
-    title: 'My item has become faulty',
+    title: 'Produsul a ajuns cu daune',
     body: 'Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
 const card5: Card = {
-    title: 'Tracking my order',
+    title: 'Urmărirea comenzii',
     body: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.'
 }
 
 const card6: Card = {
-    title: 'I haven’t received my order',
+    title: 'Nu am primit comanda',
     body: 'Ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
 const card7: Card = {
-    title: 'How can I return an item?',
+    title: 'Cum pot returna un produs?',
     body: 'Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
 const card8: Card = {
-    title: 'What payment types can I use?',
+    title: 'Ce metode de plată pot folosi?',
     body: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.'
 }
 
 const card9: Card = {
-    title: 'Can I pay by Gift Card?',
+    title: 'Pot plăti cu card cadou?',
     body: 'Ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
 const card10: Card = {
-    title: "I can't make a payment",
+    title: "Nu pot efectua o plată",
     body: 'Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
 const card11: Card = {
-    title: "Has my payment gone through?",
+    title: "Am făcut plata pentru produs?",
     body: 'Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede. Donec nec justo eget felis facilisis fermentum.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. '
 }
 
@@ -97,19 +97,19 @@ const faq3: Accordion = {
 
 export const faqGroups: AccordionGroup[] = [
     {
-        title: 'Shipping Information',
+        title: 'Informații despre comandă',
         items: [
             faq1
         ]
     },
     {
-        title: 'Orders and Returns',
+        title: 'Comenzi și Retururi',
         items: [
             faq2
         ]
     },
     {
-        title: 'Payments',
+        title: 'Plăți',
         items: [
             faq3
         ]
