@@ -38,37 +38,9 @@ export class HeaderSearchComponent implements OnInit, OnDestroy {
 			if (this.timer) {
 				window.clearTimeout(this.timer);
 			}
-
 			this.timer = setTimeout(() => {
-				this.apiService.fetchHeaderSearchData(this.searchTerm).subscribe(result => {
-					this.suggestions = result.products.reduce(
-						(acc, cur) => {
-							let max = 0;
-							let min = 99999;
-							cur.variants.map(item => {
-								if (min > item.price)
-									min = item.price;
-								if (max < item.price)
-									max = item.price;
-							}, []);
-
-							if (cur.variants.length == 0) {
-								min = cur.sale_price
-									? cur.sale_price
-									: cur.price;
-								max = cur.price;
-							}
-							return [
-								...acc,
-								{
-									...cur,
-									minPrice: min,
-									maxPrice: max
-								}
-							];
-						},
-						[]
-					);
+				this.apiService.fetchProducts().subscribe(result => {
+					this.suggestions = result.products.filter((prod: any) => prod.slug.includes(this.searchTerm.toLowerCase()));
 				})
 			}, 500)
 		} else {
