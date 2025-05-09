@@ -4,6 +4,7 @@
     </a>
 
     <form action="#" method="get" (click)="showSearchForm($event)" (submit)="submitSearchForm($event)">
+        
         <div class="header-search-wrapper">
             <label for="q" class="sr-only">Caută</label>
             <input type="text" class="form-control" name="searchTerm" id="searchTerm" placeholder="Căutare produs ..."
@@ -24,10 +25,10 @@
                     <span class="search-price">
                         <div class="product-price mb-0">
                             <span class="new-price" *ngIf="product.sale_price">
-                                {{ product.sale_price.toFixed(2) }} Lei
+                                Lei {{ product.sale_price.toFixed(2) }}
                             </span>
                             <span class="old-price">
-                                {{ product.price.toFixed(2) }} Lei
+                                Lei {{ product.price.toFixed(2) }}
                             </span>
                         </div>
                     </span>

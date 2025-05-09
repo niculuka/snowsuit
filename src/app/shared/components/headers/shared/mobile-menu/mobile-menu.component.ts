@@ -56,6 +56,7 @@ export class MobileMenuComponent implements OnInit, OnDestroy {
 		document.querySelector('html').removeAttribute('style');
 	}
 
+	// ============================================================================= S U B M I T
 	submitSearchForm(e: any) {
 		e.preventDefault();
 		this.searchTerm = e.currentTarget.querySelector('.form-control').value;
