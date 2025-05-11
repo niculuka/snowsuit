@@ -2,11 +2,11 @@
     <ul ngbNav #nav="ngbNav" class="justify-content-center nav nav-pills">
         <li ngbNavItem>
             <a ngbNavLink>
-                Description
+                Descriere
             </a>
             <ng-template ngbNavContent>
                 <div class="product-desc-content">
-                    <h3>Product Information</h3>
+                    <h3>Informații Produs</h3>
                     <p class="pb-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque
                         volutpat mattis
                         eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a,
@@ -29,17 +29,17 @@
         </li>
         <li ngbNavItem>
             <a ngbNavLink>
-                Additional information
+                Informații Aditionale
             </a>
             <ng-template ngbNavContent>
                 <div class="product-desc-content">
-                    <h3>Information</h3>
+                    <h3>Informații</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis
                         eros. Nullam malesuada erat ut turpis. Suspendisse urna viverra non, semper suscipit, posuere a,
                         pede. Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci.
                     </p>
 
-                    <h3 class="pt-2">Fabric & care</h3>
+                    <h3 class="pt-2">Altele</h3>
                     <ul>
                         <li>Faux suede fabric</li>
                         <li>Gold tone metal hoop handles.</li>
@@ -49,18 +49,18 @@
                         <li> Height: 31cm; Width: 32cm; Depth: 12cm; Handle Drop: 61cm</li>
                     </ul>
 
-                    <h3>Size</h3>
+                    <h3>Mărimi</h3>
                     <p>one size</p>
                 </div>
             </ng-template>
         </li>
         <li ngbNavItem>
             <a ngbNavLink>
-                Shipping & Returns
+                Transport & Retur
             </a>
             <ng-template ngbNavContent>
                 <div class="product-desc-content">
-                    <h3>Delivery & returns</h3>
+                    <h3>Livrare & Returnare</h3>
                     <p>We deliver to over 100 countries around the world. For full details of the delivery options we
                         offer, please view our <a href="javascript:;">Delivery information</a><br>
                         We hope you’ll love every purchase, but if you ever need to return an item you can do so within
@@ -71,25 +71,25 @@
         </li>
         <li ngbNavItem>
             <a ngbNavLink>
-                Reviews (2)
+                Păreri ({{ product.review }})
             </a>
             <ng-template ngbNavContent>
                 <div class="reviews">
-                    <h3>Reviews ({{ product.review }})</h3>
+                    <h3>Păreri clienți</h3>
                     <div class="review">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <h4><a href="javascript:;">Samanta J.</a></h4>
+                                <h4><a href="javascript:;">Georgică Ion</a></h4>
                                 <div class="ratings-container">
                                     <div class="ratings">
                                         <div class="ratings-val" [style.width]="product.ratings * 20 + '%'"></div>
                                         <span class="tooltip-text">{{ product.ratings.toFixed(2) }}</span>
                                     </div>
                                 </div>
-                                <span class="review-date">6 days ago</span>
+                                <span class="review-date">6 zile în urmă</span>
                             </div>
                             <div class="col">
-                                <h4>Good, perfect size</h4>
+                                <h4>Perfect, se potrivește la fix</h4>
 
                                 <div class="review-content">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus cum dolores
@@ -99,8 +99,8 @@
                                 </div>
 
                                 <div class="review-action">
-                                    <a href="javascript:;"><i class="icon-thumbs-up"></i>Helpful (2)</a>
-                                    <a href="javascript:;"><i class="icon-thumbs-down"></i>Unhelpful (0)</a>
+                                    <a href="javascript:;"><i class="icon-thumbs-up"></i>Util (2)</a>
+                                    <a href="javascript:;"><i class="icon-thumbs-down"></i>Inutil (0)</a>
                                 </div>
                             </div>
                         </div>
@@ -109,17 +109,17 @@
                     <div class="review">
                         <div class="row no-gutters">
                             <div class="col-auto">
-                                <h4><a href="javascript:;">John Doe</a></h4>
+                                <h4><a href="javascript:;">Alexandra Dima</a></h4>
                                 <div class="ratings-container">
                                     <div class="ratings">
                                         <div class="ratings-val" [style.width]="product.ratings * 20 + '%'"></div>
                                         <span class="tooltip-text">{{ product.ratings.toFixed(2) }}</span>
                                     </div>
                                 </div>
-                                <span class="review-date">5 days ago</span>
+                                <span class="review-date">4 zile în urmă</span>
                             </div>
                             <div class="col">
-                                <h4>Very good</h4>
+                                <h4>Foarte bune, sunt încântată.</h4>
 
                                 <div class="review-content">
                                     <p>Sed, molestias, tempore? Ex dolor esse iure hic veniam laborum blanditiis
@@ -128,8 +128,8 @@
                                 </div>
 
                                 <div class="review-action">
-                                    <a href="javascript:;"><i class="icon-thumbs-up"></i>Helpful (0)</a>
-                                    <a href="javascript:;"><i class="icon-thumbs-down"></i>Unhelpful (0)</a>
+                                    <a href="javascript:;"><i class="icon-thumbs-up"></i>Util (0)</a>
+                                    <a href="javascript:;"><i class="icon-thumbs-down"></i>Inutil (1)</a>
                                 </div>
                             </div>
                         </div>
@@ -137,34 +137,35 @@
                 </div>
                 <div class="reply">
                     <div class="title-wrapper text-left">
-                        <h3 class="title title-simple text-left text-normal">Add a Review
+                        <h3 class="title title-simple text-left text-normal">Adaugă o Părere
                         </h3>
-                        <p>Your email address will not be published. Required fields are
-                            marked *</p>
+                        <p>Adresa ta de email nu va apărea în rubrică. Câmpurile obligatorii
+                            sunt marcate cu *
+                        </p>
                     </div>
                     <div class="rating-form">
-                        <label for="rating" class="text-dark">Your rating * </label>
+                        <label for="rating" class="text-dark">Ratingul tău * </label>
                         <span class="rating-stars selected">
                             <a [class]="'star-' + num " href="javascript:;" (click)="setRating($event)"
                                 *ngFor="let num of [1,2,3,4,5]">{{ num }}</a>
                         </span>
 
                         <select name="rating" id="rating" required="" style="display: 'none'">
-                            <option value="">Rate…</option>
-                            <option value="5">Perfect</option>
-                            <option value="4">Good</option>
-                            <option value="3">Average</option>
-                            <option value="2">Not that bad</option>
-                            <option value="1">Very poor</option>
+                            <option value="">Rating…</option>
+                            <option value="5">Super</option>
+                            <option value="4">Bun</option>
+                            <option value="3">Mediu</option>
+                            <option value="2">Nu e rău</option>
+                            <option value="1">Nașpa</option>
                         </select>
                     </div>
                     <form action="#">
                         <textarea id="reply-message" cols="30" rows="6" class="form-control mb-2"
-                            placeholder="Comment *" required></textarea>
+                            placeholder="Comentariu *" required></textarea>
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" class="form-control" id="reply-name" name="reply-name"
-                                    placeholder="Name *" required />
+                                    placeholder="Nume *" required />
                             </div>
                             <div class="col-md-6">
                                 <input type="email" class="form-control" id="reply-email" name="reply-email"
@@ -175,11 +176,10 @@
                             <input type="checkbox" class="custom-checkbox" id="signin-remember"
                                 name="signin-remember" />
                             <label class="form-control-label ml-3" for="signin-remember">
-                                Save my name, email, and website in this browser for the
-                                next time I comment.
+                                Salvează-mi numele și emailul, pentru comentarii ulterioare.
                             </label>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary">Aplică</button>
                     </form>
                 </div>
             </ng-template>

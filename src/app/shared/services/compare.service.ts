@@ -29,14 +29,14 @@ export class CompareService {
 	addToCompare(product: Product) {
 		if (this.compareItems.findIndex(item => item.id === product.id) === -1) {
 			this.store.dispatch(new AddToCompareAction({ product }));
-			this.toastrService.success('Product added to Compare.');
+			this.toastrService.success('Produs adăugat în Comparare.');
 		}
 	}
 
 	// Product removed from Compare
 	removeFromCompare(product: Product) {
 		this.store.dispatch(new RemoveFromCompareAction({ product }));
-		this.toastrService.error('Product removed from Compare.');
+		this.toastrService.error('Produs scos din Comparare.');
 	}
 
 	// Remove all products from Compare

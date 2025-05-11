@@ -44,22 +44,22 @@ export class CartService {
 	addToCart(product: Product, qty = 1) {
 		if (this.canAddToCart(product, qty)) {
 			this.store.dispatch(new AddToCartAction({ product, qty }));
-			this.toastrService.success('Product added to Cart.');
+			this.toastrService.success('Produs adăugat în coș.');
 		} else {
-			this.toastrService.error('Sorry, you can\'t add that amount to the cart.');
+			this.toastrService.error('Ne pare rău, nu poți adăuga suma în coș.');
 		}
 	}
 
 	// Product Removed from the Cart
 	removeFromCart(product: CartItem) {
 		this.store.dispatch(new RemoveFromCartAction({ product }));
-		this.toastrService.success('Product removed from Cart.');
+		this.toastrService.success('Produs scos din coș.');
 	}
 
 	// Cart update
 	updateCart(cartItems: CartItem[]) {
 		this.store.dispatch(new UpdateCartAction({ cartItems }));
-		this.toastrService.success('Cart Updated.');
+		this.toastrService.success('Coș actualizat.');
 	}
 
 	// Check whether product is in Cart or not

@@ -29,21 +29,21 @@ export class WishlistService {
 	addToWishList ( product ): void {
 		if ( this.wishlist.findIndex( item => item.id === product.id ) === -1 ) {
 			this.store.dispatch( new AddToWishListAction( { product } ) );
-			this.toastrService.success( 'Product added to Wishlist.' );
+			this.toastrService.success( 'Produs adăugat în Favorite.' );
 		}
 	}
 
 	// Product removed from Wishlist
 	removeFromWishList ( product ): void {
 		this.store.dispatch( new RemoveFromWishListAction( { product } ) );
-		this.toastrService.success( 'Product removed from Wishlist.' );
+		this.toastrService.success( 'Produs scos din Favorite.' );
 	}
 
 	// Product moved from Wishlist to Cart
 	moveToCart ( product ): void {
 		this.store.dispatch( new RemoveFromWishListAction( { product } ) );
 		this.store.dispatch( new AddToCartAction( { product, qty: 1 } ) );
-		this.toastrService.success( 'Product moved to Cart.' );
+		this.toastrService.success( 'Produs mutat în coș.' );
 	}
 
 	// Check whether product is in Wishlist or not

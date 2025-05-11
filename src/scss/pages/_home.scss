@@ -1,7 +1,7 @@
 /*  Index.html - Home page */
 .slider-container-ratio .intro-slider,
-.slide-image > picture,
-.slide-image > img {
+.slide-image>picture,
+.slide-image>img {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -9,7 +9,8 @@
 	width: 100%;
 }
 
-.intro-slider-container, .intro-slide .slide-image {
+.intro-slider-container,
+.intro-slide .slide-image {
 	position: relative;
 	background-color: #ccc;
 
@@ -21,11 +22,11 @@
 }
 
 .intro-content {
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    z-index: 10;
-    transform: translateY(-50%);
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	z-index: 10;
+	transform: translateY(-50%);
 }
 
 .slide-image img {
@@ -67,7 +68,7 @@ button:focus {
 .carousel-with-shadow {
 	.owl-stage-outer {
 		padding: 2rem 1rem;
-	    margin: -2rem -1rem;
+		margin: -2rem -1rem;
 	}
 
 	// &.owl-simple .owl-nav [class*='owl-'] {
@@ -101,24 +102,25 @@ button:focus {
 	}
 
 	&::-webkit-scrollbar {
-        width: 7px;
-        height: 20px;
-    }
+		width: 7px;
+		height: 20px;
+	}
 
-    &::-webkit-scrollbar-thumb {
-        background: #ebebeb;
-        border-radius: 10px;
-    }
+	&::-webkit-scrollbar-thumb {
+		background: #ebebeb;
+		border-radius: 10px;
+	}
 
-    &::-webkit-scrollbar-track {
-        background: #fff;
-        border-image: 10px;
-        margin: 8px;
-        width: 100%;
+	&::-webkit-scrollbar-track {
+		background: #fff;
+		border-image: 10px;
+		margin: 8px;
+		width: 100%;
 	}
 }
 
-molla-quick-view, .container.quickView-container {
+molla-quick-view,
+.container.quickView-container {
 	max-width: 100%;
 }
 
@@ -127,7 +129,7 @@ molla-quick-view, .container.quickView-container {
 	width: 970px;
 }
 
-.newsletter-modal .modal-dialog > .modal-content {
+.newsletter-modal .modal-dialog>.modal-content {
 	width: 990px;
 	margin: 0 auto;
 }
@@ -135,6 +137,7 @@ molla-quick-view, .container.quickView-container {
 .quickView-container,
 .fullscreen-container {
 	position: relative;
+
 	button.mfp-close {
 		font: normal normal 2.6rem/1 'molla';
 		position: absolute;
@@ -155,10 +158,12 @@ molla-quick-view, .container.quickView-container {
 		padding-left: 6rem;
 		padding-right: 6rem;
 	}
+
 	.carousel-dot {
 		padding-left: .5rem;
 		padding-right: .5rem;
 	}
+
 	.quickView-content {
 		padding: 1rem 0 4rem;
 	}
@@ -169,14 +174,17 @@ molla-quick-view, .container.quickView-container {
 	left: -1px;
 	right: -1px;
 	transform: translateY(-50%);
-	display: -ms-flexbox; display: flex;
-	-ms-flex-align: center; align-items: center;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .cross-txt:before,
 .cross-txt:after {
 	content: '';
-	-ms-flex: 1; flex: 1;
+	-ms-flex: 1;
+	flex: 1;
 	height: 1px;
 	background: #fff;
 }
@@ -237,10 +245,12 @@ molla-quick-view, .container.quickView-container {
 		margin-bottom: 1rem;
 		text-transform: uppercase;
 		line-height: 1.4em;
+
 		span {
 			color: $primary-color;
 			font-weight: 700;
 		}
+
 		light {
 			font-weight: 400;
 		}
@@ -263,7 +273,7 @@ molla-quick-view, .container.quickView-container {
 
 	.form-control {
 		background-color: #f5f5f5;
-    	border-color: #f5f5f5;
+		border-color: #f5f5f5;
 		border-radius: 0;
 		height: 4.6rem;
 		background-clip: border-box;
@@ -274,12 +284,13 @@ molla-quick-view, .container.quickView-container {
 		}
 
 		&:focus {
-    		border-color: #f5f5f5;
+			border-color: #f5f5f5;
 		}
 	}
 
 	.input-group {
 		border: none;
+
 		.btn {
 			min-width: 7rem;
 			background-color: #222;
@@ -311,7 +322,7 @@ molla-quick-view, .container.quickView-container {
 		letter-spacing: .01em;
 		padding-left: 2rem;
 		position: relative;
-		
+
 		&:before,
 		&:after {
 			left: -.5rem;
@@ -334,10 +345,12 @@ molla-quick-view, .container.quickView-container {
 		top: 1rem;
 		right: 1.5rem;
 		padding: 0;
+
 		font: {
 			family: 'molla';
 			size: 2rem;
 		}
+
 		background-color: #fff;
 		border-radius: 50%;
 		opacity: .6;
@@ -348,12 +361,14 @@ molla-quick-view, .container.quickView-container {
 		&:hover {
 			opacity: 1;
 		}
+
 		&::before {
 			position: relative;
 			content: '\f191';
 			line-height: 1;
 			color: #333;
 		}
+
 		span {
 			display: none;
 		}
@@ -361,33 +376,41 @@ molla-quick-view, .container.quickView-container {
 }
 
 .quickView-modal {
+	z-index: 1060;
+
 	molla-quick-view {
 		margin-left: auto;
 		margin-right: auto;
 	}
+
 	.modal-content {
 		overflow: unset;
-		width: calc( 100% - 20px );
+		width: calc(100% - 20px);
 		max-width: 100rem;
 	}
+
 	.quickView-container {
 		border-radius: 3px;
 		width: 100rem;
 	}
+
 	.modal-dialog-centered {
 		min-height: calc(100% - 2rem);
 		justify-content: center;
 	}
+
 	.product-image {
 		height: 100%;
 	}
+
 	.modal-dialog-centered::before {
 		content: none;
 	}
+
 	.product-gallery-carousel .owl-item img {
 		height: 100%;
 		object-fit: cover;
-		cursor: crosshair;
+		cursor: inherit;
 	}
 }
 
@@ -416,14 +439,15 @@ molla-quick-view, .container.quickView-container {
 }
 
 // body 
-@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
 	body {
 		overflow-y: scroll !important;
 	}
 }
 
 @media screen and (min-width: 1200px) {
-	.quickView-content >.row .product-fullscreen {
+	.quickView-content>.row .product-fullscreen {
 		flex: 0 0 calc(50% + 2rem);
 		max-width: calc(50% + 2rem);
 		padding-left: 0;
@@ -440,14 +464,14 @@ molla-quick-view, .container.quickView-container {
 	opacity: 1;
 }
 
-@include mq('lg','max') {
-	.newsletter-modal .modal-dialog > .modal-content {
+@include mq('lg', 'max') {
+	.newsletter-modal .modal-dialog>.modal-content {
 		width: 600px;
 	}
 }
 
 @media screen and (max-width: 900px) {
-		
+
 	.fullscreen-container {
 		margin-left: -.6rem;
 		margin-right: -.6rem;
@@ -461,21 +485,22 @@ molla-quick-view, .container.quickView-container {
 	}
 }
 
-@include mq( 'lg' ) {
+@include mq('lg') {
 	.quickView-two {
 		.product-gallery-item {
 			flex: auto;
 		}
-	
+
 		.product-gallery-item {
-			&:before, 
+
+			&:before,
 			&:after {
 				left: 0;
 				right: 0;
 			}
 		}
 	}
-	
+
 	.quickView-container {
 		&.quickView-two {
 			.product-gallery-item {
@@ -493,7 +518,7 @@ molla-quick-view, .container.quickView-container {
 			top: 0;
 			left: auto;
 		}
-	
+
 		.quickview-desc {
 			overflow-y: auto;
 			overflow-x: hidden;
@@ -502,12 +527,12 @@ molla-quick-view, .container.quickView-container {
 				width: 5px;
 				height: 20px;
 			}
-		
+
 			&::-webkit-scrollbar-thumb {
 				background: #ebebeb;
 				border-radius: 10px;
 			}
-		
+
 			&::-webkit-scrollbar-track {
 				background: #fff;
 				border-image: 10px;
@@ -516,25 +541,25 @@ molla-quick-view, .container.quickView-container {
 			}
 		}
 	}
-	
+
 	.newsletter-popup-container .lazy-load-image-background.lazy-load-image-loaded {
 		display: block !important;
 	}
 }
 
-@include mq( 'lg', 'max' ) {
+@include mq('lg', 'max') {
 	.quickView-container.quickView-two {
 		.product-sm {
 			width: auto;
 		}
 	}
-	
+
 	.quickView-modal .modal-content {
 		max-width: 60rem;
 		margin: 0 auto;
 	}
 
-	.quickView-content > .row > div {
+	.quickView-content>.row>div {
 		padding: 0;
 	}
 
@@ -543,7 +568,7 @@ molla-quick-view, .container.quickView-container {
 			margin-top: 3rem;
 		}
 	}
-	
+
 	.quickView-container {
 		height: 96vh;
 	}
@@ -556,12 +581,12 @@ molla-quick-view, .container.quickView-container {
 			width: 5px;
 			height: 20px;
 		}
-	
+
 		&::-webkit-scrollbar-thumb {
 			background: #ebebeb;
 			border-radius: 10px;
 		}
-	
+
 		&::-webkit-scrollbar-track {
 			background: #fff;
 			border-image: 10px;
@@ -571,7 +596,7 @@ molla-quick-view, .container.quickView-container {
 	}
 }
 
-@include mq( 'sm', 'max' ) {
+@include mq('sm', 'max') {
 	.quickView-content {
 		padding: 2.5rem 2rem 1rem;
 	}
@@ -580,7 +605,8 @@ molla-quick-view, .container.quickView-container {
 		padding-bottom: 0;
 	}
 
-	.quickView-container button.mfp-close, .fullscreen-container button.mfp-close {
+	.quickView-container button.mfp-close,
+	.fullscreen-container button.mfp-close {
 		top: 0;
 		right: 1rem;
 	}
@@ -593,7 +619,7 @@ molla-quick-view, .container.quickView-container {
 	}
 }
 
-@include mq( "375px", "max" ) {
+@include mq("375px", "max") {
 	.quickView-content {
 		.btn-wishlist {
 			margin: 0 auto !important;
