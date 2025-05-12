@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { ModalService } from 'src/app/shared/services/modal.service';
 import { ApiService } from 'src/app/shared/services/api.service';
@@ -12,7 +12,7 @@ import { brandSlider, instagramSlider } from '../data';
 	styleUrls: ['./index.component.scss']
 })
 
-export class IndexComponent implements OnInit {
+export class IndexComponent {
 
 	products = [];
 	loaded = false;
@@ -25,10 +25,7 @@ export class IndexComponent implements OnInit {
 		this.apiService.fetchProducts().subscribe(result => {
 			this.products = result.products;
 			this.loaded = true;
-		})
-	}
-
-	ngOnInit(): void {
+		});
 	}
 
 	showVideoModal(event: Event) {
