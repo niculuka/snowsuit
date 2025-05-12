@@ -1,10 +1,10 @@
 <div [class]="'product-gallery ' + adClass">
     <div class="row m-0">
         <figure class="product-main-image">
-            <span class="product-label label-new" *ngIf="product.new">New</span>
-            <span class="product-label label-sale" *ngIf="product.sale_price">Sale</span>
+            <span class="product-label label-new" *ngIf="product.new">Nou</span>
+            <span class="product-label label-sale" *ngIf="product.sale_price">Preț</span>
             <span class="product-label label-top" *ngIf="product.top">Top</span>
-            <span class="product-label label-out" *ngIf="!product.stock || product.stock == 0">Out Of Stock</span>
+            <span class="product-label label-out" *ngIf="!product.stock || product.stock == 0">Vândut</span>
 
             <molla-image class="d-block position-relative"
                 [src]="SERVER_URL + product.pictures[currentIndex].url"></molla-image>

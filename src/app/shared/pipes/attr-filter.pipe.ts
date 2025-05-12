@@ -23,7 +23,7 @@ export class AttrFilterPipe implements PipeTransform {
 				return true;
 			}
 
-			if ( attr === 'until' && item.until ) {
+			if ( attr === 'top' && item.top ) {
 				return true;
 			}
 

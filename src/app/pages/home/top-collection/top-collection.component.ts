@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnChanges } from '@angular/core';
 
 import { productSlider } from '../data';
 
@@ -8,7 +8,7 @@ import { productSlider } from '../data';
 	styleUrls: ['./top-collection.component.scss']
 })
 
-export class TopCollectionComponent implements OnInit {
+export class TopCollectionComponent implements OnChanges {
 
 	@Input() products = [];
 	@Input() loaded = false;
@@ -17,6 +17,9 @@ export class TopCollectionComponent implements OnInit {
 
 	constructor() { }
 
-	ngOnInit(): void {
+	ngOnChanges(): void {
+		if (this.products) {
+			this.products = this.products.sort((a: any, b: any): any => a.id - b.id);
+		}
 	}
 }
