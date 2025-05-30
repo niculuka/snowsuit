@@ -16,8 +16,8 @@
                 <div class="widget-body pt-0">
                     <div class="filter-items filter-items-count">
                         <div class="filter-item" *ngFor="let item of shopData.categories">
-                            <a [routerLink]="currentUrl" [queryParams]="{category: item.slug}"
-                                routerLinkActive="active">{{
+                            <a [routerLink]="currentUrl" [queryParams]="{category: item.slug, page: null}"
+                                queryParamsHandling="merge" routerLinkActive="active">{{
                                 item.name }}</a>
                             <span class="item-count">{{ item.count }}</span>
                         </div>
@@ -59,11 +59,10 @@
             <div class="collapse show" id="widget-3">
                 <div class="widget-body pt-0">
                     <div class="filter-colors">
-                        <a [routerLink]='currentUrl'
-                            [queryParams]="{color: getUrlForAttrs('color', item.color_name), page: 1}"
+                        <a *ngFor="let item of shopData.colors" [routerLink]='currentUrl'
+                            [queryParams]="{color: getUrlForAttrs('color', item.color_name)?getUrlForAttrs('color', item.color_name):null, page:null}"
                             queryParamsHandling="merge" [style.background-color]="item.color"
-                            [class.selected]="containsAttrInUrl('color', item.color_name)"
-                            *ngFor="let item of shopData.colors">
+                            [class.selected]="containsAttrInUrl('color', item.color_name)">
                             <span class="sr-only">Color Name</span>
                         </a>
                     </div>

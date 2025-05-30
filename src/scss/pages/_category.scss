@@ -183,7 +183,7 @@
 .sidebar-shop {
 	.widget {
 		color: $dark-text;
-		margin: 0 0 2rem;
+		margin: 0;
 		border-bottom: .1rem solid #ebebeb;
 
 		&:last-child {
@@ -312,7 +312,6 @@
 
 .filter-item {
 	position: relative;
-	margin-bottom: .3rem;
 
 	a {
 		color: $dark-text;

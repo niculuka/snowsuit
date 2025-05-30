@@ -75,17 +75,23 @@ export class ShopSidebarOneComponent implements OnInit, OnChanges {
 	}
 
 	onAttrClick(attr: string, value: string) {
-		let url = this.getUrlForAttrs(attr, value);
+		let att: any = this.getUrlForAttrs(attr, value) ? this.getUrlForAttrs(attr, value) : null;
 		this.router.navigate(
 			[this.currentUrl],
-			{ queryParams: { [attr]: this.getUrlForAttrs(attr, value), page: 1 }, queryParamsHandling: 'merge' }
+			{ queryParams: { [attr]: att, page: null }, queryParamsHandling: 'merge' }
 		);
 	}
 
 	filterPrice() {
+		let min = this.priceRange[0];
+		let max = this.priceRange[1];
+		if (min == this.options.floor && max == this.options.ceil) {
+			min = null;
+			max = null;
+		}
 		this.router.navigate(
 			[this.currentUrl],
-			{ queryParams: { minPrice: this.priceRange[0], maxPrice: this.priceRange[1], page: 1 }, queryParamsHandling: 'merge' }
+			{ queryParams: { minPrice: min, maxPrice: max, page: null }, queryParamsHandling: 'merge' }
 		);
 	}
 

@@ -23,7 +23,7 @@ export class DefaultPageComponent implements OnInit {
 		private activeRoute: ActivatedRoute,
 		public router: Router
 	) {
-		activeRoute.params.subscribe(params => {
+		this.activeRoute.params.subscribe(params => {
 			this.loaded = false;
 			this.apiService.fetchProducts().subscribe(result => {
 				let products: any = result.products;
