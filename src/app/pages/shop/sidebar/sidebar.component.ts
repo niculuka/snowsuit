@@ -1,4 +1,4 @@
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 import { ApiService } from 'src/app/shared/services/api.service';
@@ -10,7 +10,7 @@ import { UtilsService } from 'src/app/shared/services/utils.service';
 	styleUrls: ['./sidebar.component.scss'],
 })
 
-export class SidebarPageComponent implements OnInit {
+export class SidebarPageComponent implements OnInit, OnDestroy {
 	products = [];
 	allProducts = [];
 	perPage = 16;
@@ -32,8 +32,12 @@ export class SidebarPageComponent implements OnInit {
 	minPrice = null;
 	maxPrice = null;
 
+	private sub0: any;
+	private sub1: any;
+	private sub2: any;
+
 	constructor(public activeRoute: ActivatedRoute, public router: Router, public utilsService: UtilsService, public apiService: ApiService) {
-		this.activeRoute.params.subscribe(params => {
+		this.sub0 = this.activeRoute.params.subscribe(params => {
 			this.type = params['type'];
 			this.currentUrl = "/shop/sidebar/" + this.type;
 			//
@@ -48,7 +52,7 @@ export class SidebarPageComponent implements OnInit {
 			}
 		});
 
-		this.activeRoute.queryParams.subscribe(params => {
+		this.sub1 = this.activeRoute.queryParams.subscribe(params => {
 			this.loaded = false;
 			if (params['searchTerm']) {
 				this.searchTerm = params['searchTerm'];
@@ -83,7 +87,7 @@ export class SidebarPageComponent implements OnInit {
 
 			// ====================================================================================== P R O D U C T S
 			// ======================================================================================================
-			this.apiService.fetchProducts().subscribe(result => {
+			this.sub2 = this.apiService.fetchProducts().subscribe(result => {
 				this.allProducts = result.products;
 
 				// ------------------------------------------------------------------------------------ SEARCH ()
@@ -257,5 +261,11 @@ export class SidebarPageComponent implements OnInit {
 
 	hideSidebar() {
 		document.querySelector('body').classList.remove('sidebar-filter-active');
+	}
+
+	ngOnDestroy(): void {
+		this.sub0?.unsubscribe();
+		this.sub1?.unsubscribe();
+		this.sub2?.unsubscribe();
 	}
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation, ElementRef, Input, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation, ElementRef, Input, ViewChild, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import imagesLoaded from 'imagesloaded';
 
@@ -21,7 +21,7 @@ declare var $: any;
 	encapsulation: ViewEncapsulation.None
 })
 
-export class QuickViewComponent implements OnInit {
+export class QuickViewComponent implements OnInit, OnDestroy {
 
 	@Input() slug = '';
 	product: Product;
@@ -51,6 +51,7 @@ export class QuickViewComponent implements OnInit {
 	qty = 1;
 
 	SERVER_URL = environment.SERVER_URL;
+	private sub0: any;
 
 	@ViewChild('singleSlider') singleSlider: any;
 
@@ -70,11 +71,11 @@ export class QuickViewComponent implements OnInit {
 	}
 
 	ngOnInit(): void {
-		this.apiService.fetchProducts().subscribe(result => {
+		this.sub0 = this.apiService.fetchProducts().subscribe(result => {
 			for (let prod of result.products) {
 				if (prod.slug == this.slug) this.product = prod;
 			}
-			
+
 			let min = this.minPrice;
 			let max = this.maxPrice;
 
@@ -288,5 +289,9 @@ export class QuickViewComponent implements OnInit {
 		this.currentIndex = i;
 		this.singleSlider.to(i);
 		$event.preventDefault();
+	}
+
+	ngOnDestroy(): void {
+		this.sub0?.unsubscribe();
 	}
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { Router } from '@angular/router';
 import { Product } from 'src/app/shared/classes/product';
 import { ApiService } from 'src/app/shared/services/api.service';
@@ -10,19 +10,21 @@ import { shopData } from '../shared/data';
 	styleUrls: ['./product-category-boxed.component.scss']
 })
 
-export class ProductCategoryBoxedPageComponent {
+export class ProductCategoryBoxedPageComponent implements OnDestroy {
 
 	products: Product[] = [];
 	shopData = shopData;
+	private sub0: any;
+	private sub1: any;
 
 	constructor(
 		public apiService: ApiService,
 		public router: Router
 	) {
-		this.apiService.fetchProducts().subscribe(result => {
+		this.sub0 = this.apiService.fetchProducts().subscribe(result => {
 			this.products = result.products;
 			//
-			this.shopData = JSON.parse(JSON.stringify(shopData));
+			this.sub1 = this.shopData = JSON.parse(JSON.stringify(shopData));
 			if (this.products.length) {
 				for (let prod of this.products) {
 					for (let p of prod.category) {
@@ -57,5 +59,10 @@ export class ProductCategoryBoxedPageComponent {
 		document
 			.querySelector('body')
 			.classList.remove('sidebar-filter-active');
+	}
+
+	ngOnDestroy(): void {
+		this.sub0?.unsubscribe();
+		this.sub1?.unsubscribe();
 	}
 }

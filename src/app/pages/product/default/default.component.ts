@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 import { Product } from 'src/app/shared/classes/product';
@@ -10,20 +10,21 @@ import { ApiService } from 'src/app/shared/services/api.service';
 	styleUrls: ['./default.component.scss']
 })
 
-export class DefaultPageComponent implements OnInit {
+export class DefaultPageComponent implements OnDestroy {
 
 	product: Product;
 	prev: Product;
 	next: Product;
 	related = [];
 	loaded = false;
+	private sub0: any;
 
 	constructor(
 		public apiService: ApiService,
 		private activeRoute: ActivatedRoute,
 		public router: Router
 	) {
-		this.activeRoute.params.subscribe(params => {
+		this.sub0 = this.activeRoute.params.subscribe(params => {
 			this.loaded = false;
 			this.apiService.fetchProducts().subscribe(result => {
 				let products: any = result.products;
@@ -47,6 +48,8 @@ export class DefaultPageComponent implements OnInit {
 		});
 	}
 
-	ngOnInit(): void {
+	ngOnDestroy(): void {
+		this.sub0?.unsubscribe();
 	}
+
 }

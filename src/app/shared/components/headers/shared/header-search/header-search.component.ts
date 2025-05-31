@@ -20,8 +20,14 @@ export class HeaderSearchComponent implements OnInit, OnDestroy {
 	suggestions = [];
 	timer: any;
 	SERVER_URL = environment.SERVER_URL;
+	private sub0: any;
 
-	constructor(public activeRoute: ActivatedRoute, public router: Router, public utilsService: UtilsService, public apiService: ApiService) {
+	constructor(
+		public activeRoute: ActivatedRoute,
+		public router: Router,
+		public utilsService: UtilsService,
+		public apiService: ApiService
+	) {
 	}
 
 	ngOnInit(): void {
@@ -37,7 +43,7 @@ export class HeaderSearchComponent implements OnInit, OnDestroy {
 				window.clearTimeout(this.timer);
 			}
 			this.timer = setTimeout(() => {
-				this.apiService.fetchProducts().subscribe(result => {
+				this.sub0 = this.apiService.fetchProducts().subscribe(result => {
 					this.suggestions = result.products.filter((prod: any) =>
 						prod.name
 							.replace(/[\u0041\u24B6\uFF21\u00C0\u00C1\u00C2\u1EA6\u1EA4\u1EAA\u1EA8\u00C3\u0100\u0102\u1EB0\u1EAE\u1EB4\u1EB2\u0226\u01E0\u00C4\u01DE\u1EA2\u00C5\u01FA\u01CD\u0200\u0202\u1EA0\u1EAC\u1EB6\u1E00\u0104\u023A\u2C6F\u0061\u24D0\uFF41\u1E9A\u00E0\u00E1\u00E2\u1EA7\u1EA5\u1EAB\u1EA9\u00E3\u0101\u0103\u1EB1\u1EAF\u1EB5\u1EB3\u0227\u01E1\u00E4\u01DF\u1EA3\u00E5\u01FB\u01CE\u0201\u0203\u1EA1\u1EAD\u1EB7\u1E01\u0105\u2C65\u0250]/g, "a")
@@ -116,5 +122,6 @@ export class HeaderSearchComponent implements OnInit, OnDestroy {
 	//
 	ngOnDestroy(): void {
 		document.querySelector('body').removeEventListener('click', this.closeSearchForm);
+		this.sub0?.unsubscribe();
 	}
 }

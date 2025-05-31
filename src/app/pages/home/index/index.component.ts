@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 
 import { ModalService } from 'src/app/shared/services/modal.service';
 import { ApiService } from 'src/app/shared/services/api.service';
@@ -12,17 +12,18 @@ import { brandSlider, instagramSlider } from '../data';
 	styleUrls: ['./index.component.scss']
 })
 
-export class IndexComponent {
+export class IndexComponent implements OnDestroy {
 
 	products = [];
 	loaded = false;
 	brandSlider = brandSlider;
 	instagramSlider = instagramSlider;
+	private sub0: any;
 
 	constructor(public apiService: ApiService, public utilsService: UtilsService, private modalService: ModalService,) {
 		this.modalService.openNewsletter();
 
-		this.apiService.fetchProducts().subscribe(result => {
+		this.sub0 = this.apiService.fetchProducts().subscribe(result => {
 			this.products = result.products;
 			this.loaded = true;
 		});
@@ -31,5 +32,9 @@ export class IndexComponent {
 	showVideoModal(event: Event) {
 		event.preventDefault();
 		this.modalService.showVideoModal();
+	}
+
+	ngOnDestroy(): void {
+		this.sub0?.unsubscribe();
 	}
 }
